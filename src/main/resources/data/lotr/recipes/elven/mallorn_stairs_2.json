@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:mallorn_planks"
+    }
+  },
+  "result": {
+    "item": "lotr:mallorn_stairs",
+    "count": 4
+  }
+}

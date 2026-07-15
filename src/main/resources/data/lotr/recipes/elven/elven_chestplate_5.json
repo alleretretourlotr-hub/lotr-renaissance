@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:elf_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:elven_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "lotr:block/banana_log"
+    },
+    "axis=z": {
+      "model": "lotr:block/banana_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "lotr:block/banana_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

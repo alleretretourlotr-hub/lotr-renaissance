@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_torch",
+  "textures": {
+    "torch": "lotr:block/wood_elven_torch"
+  }
+}

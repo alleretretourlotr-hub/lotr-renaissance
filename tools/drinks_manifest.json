@@ -1,0 +1,326 @@
+{
+ "ale_horn": [
+  "aleHorn.png",
+  "generated",
+  "Ale Horn",
+  "Corne à bière"
+ ],
+ "ale_horn_gold": [
+  "aleHornGold.png",
+  "generated",
+  "Golden Ale Horn",
+  "Corne à bière dorée"
+ ],
+ "ceramic_mug": [
+  "ceramicMug.png",
+  "generated",
+  "Ceramic Mug",
+  "Chope en céramique"
+ ],
+ "goblet_copper": [
+  "gobletCopper.png",
+  "generated",
+  "Copper Goblet",
+  "Coupe en cuivre"
+ ],
+ "goblet_gold": [
+  "gobletGold.png",
+  "generated",
+  "Golden Goblet",
+  "Coupe en or"
+ ],
+ "goblet_silver": [
+  "gobletSilver.png",
+  "generated",
+  "Silver Goblet",
+  "Coupe en argent"
+ ],
+ "goblet_wood": [
+  "gobletWood.png",
+  "generated",
+  "Wooden Cup",
+  "Coupe en bois"
+ ],
+ "mug": [
+  "mug.png",
+  "generated",
+  "Mug",
+  "Chope"
+ ],
+ "mug_ale": [
+  "mugAle.png",
+  "precomposed",
+  "Ale",
+  "Bière"
+ ],
+ "mug_apple_juice": [
+  "mugAppleJuice.png",
+  "precomposed",
+  "Apple Juice",
+  "Jus de pomme"
+ ],
+ "mug_araq": [
+  "mugAraq.png",
+  "precomposed",
+  "Arak",
+  "Arak"
+ ],
+ "mug_athelas_brew": [
+  "mugAthelasBrew.png",
+  "precomposed",
+  "Athelas Brew",
+  "Infusion d'athelas"
+ ],
+ "mug_banana_beer": [
+  "mugBananaBeer.png",
+  "precomposed",
+  "Banana Beer",
+  "Bière de banane"
+ ],
+ "mug_blackberry_juice": [
+  "mugBlackberryJuice.png",
+  "precomposed",
+  "Blackberry Juice",
+  "Jus de mûre"
+ ],
+ "mug_blueberry_juice": [
+  "mugBlueberryJuice.png",
+  "precomposed",
+  "Blueberry Juice",
+  "Jus de myrtille"
+ ],
+ "mug_cactus_liqueur": [
+  "mugCactusLiqueur.png",
+  "precomposed",
+  "Cactus Liqueur",
+  "Liqueur de cactus"
+ ],
+ "mug_carrot_wine": [
+  "mugCarrotWine.png",
+  "precomposed",
+  "Carrot Wine",
+  "Vin de carotte"
+ ],
+ "mug_cherry_liqueur": [
+  "mugCherryLiqueur.png",
+  "precomposed",
+  "Cherry Liqueur",
+  "Liqueur de cerise"
+ ],
+ "mug_chocolate": [
+  "mugChocolate.png",
+  "precomposed",
+  "Chocolate",
+  "Chocolat au lait"
+ ],
+ "mug_cider": [
+  "mugCider.png",
+  "precomposed",
+  "Cider",
+  "Cidre"
+ ],
+ "mug_corn_liquor": [
+  "mugCornLiquor.png",
+  "precomposed",
+  "Corn Liquor",
+  "Liqueur de maïs"
+ ],
+ "mug_cranberry_juice": [
+  "mugCranberryJuice.png",
+  "precomposed",
+  "Cranberry Juice",
+  "Jus de cranberry"
+ ],
+ "mug_dwarven_ale": [
+  "mugDwarvenAle.png",
+  "precomposed",
+  "Dwarven Ale",
+  "Bière naine"
+ ],
+ "mug_dwarven_tonic": [
+  "mugDwarvenTonic.png",
+  "precomposed",
+  "Dwarven Tonic",
+  "Tonique nain"
+ ],
+ "mug_elderberry_juice": [
+  "mugElderberryJuice.png",
+  "precomposed",
+  "Elderberry Juice",
+  "Jus de sureau"
+ ],
+ "mug_lemon_liqueur": [
+  "mugLemonLiqueur.png",
+  "precomposed",
+  "Lemon Liqueur",
+  "Liqueur de citron"
+ ],
+ "mug_lemonade": [
+  "mugLemonade.png",
+  "precomposed",
+  "Lemonade",
+  "Limonade"
+ ],
+ "mug_lime_liqueur": [
+  "mugLimeLiqueur.png",
+  "precomposed",
+  "Lime Liqueur",
+  "Liqueur de citron vert"
+ ],
+ "mug_mango_juice": [
+  "mugMangoJuice.png",
+  "precomposed",
+  "Mango Juice",
+  "Jus de mangue"
+ ],
+ "mug_maple_beer": [
+  "mugMapleBeer.png",
+  "precomposed",
+  "Maple Beer",
+  "Bière d'érable"
+ ],
+ "mug_mead": [
+  "mugMead.png",
+  "precomposed",
+  "Mead",
+  "Hydromel"
+ ],
+ "mug_melon_liqueur": [
+  "mugMelonLiqueur.png",
+  "precomposed",
+  "Melon Liqueur",
+  "Liqueur de pastèque"
+ ],
+ "mug_milk": [
+  "mugMilk.png",
+  "precomposed",
+  "Milk",
+  "Lait"
+ ],
+ "mug_miruvor": [
+  "mugMiruvor.png",
+  "precomposed",
+  "Miruvor",
+  "Miruvor"
+ ],
+ "mug_orange_juice": [
+  "mugOrangeJuice.png",
+  "precomposed",
+  "Orange Juice",
+  "Jus d'orange"
+ ],
+ "mug_orc_draught": [
+  "mugOrcDraught.png",
+  "precomposed",
+  "Orc Draught",
+  "Boisson orc"
+ ],
+ "mug_perry": [
+  "mugPerry.png",
+  "precomposed",
+  "Perry",
+  "Poiré"
+ ],
+ "mug_plum_kvass": [
+  "mugPlumKvass.png",
+  "precomposed",
+  "Plum Kvass",
+  "Kvass aux prunes"
+ ],
+ "mug_pomegranate_juice": [
+  "mugPomegranateJuice.png",
+  "precomposed",
+  "Pomegranate Juice",
+  "Jus de grenade"
+ ],
+ "mug_pomegranate_wine": [
+  "mugPomegranateWine.png",
+  "precomposed",
+  "Pomegranate Wine",
+  "Vin de grenade"
+ ],
+ "mug_raspberry_juice": [
+  "mugRaspberryJuice.png",
+  "precomposed",
+  "Raspberry Juice",
+  "Jus de framboise"
+ ],
+ "mug_red_grape_juice": [
+  "mugRedGrapeJuice.png",
+  "precomposed",
+  "Red Grape Juice",
+  "Jus de raisin noir"
+ ],
+ "mug_red_wine": [
+  "mugRedWine.png",
+  "precomposed",
+  "Red Wine",
+  "Vin rouge"
+ ],
+ "mug_rum": [
+  "mugRum.png",
+  "precomposed",
+  "Rum",
+  "Rhum"
+ ],
+ "mug_sour_milk": [
+  "mugSourMilk.png",
+  "precomposed",
+  "Soured Milk",
+  "Lait fermenté"
+ ],
+ "mug_tauredain_cocoa": [
+  "mugTauredainCocoa.png",
+  "precomposed",
+  "Taurethrim Cocoa",
+  "Cacao taurethrim"
+ ],
+ "mug_torog_draught": [
+  "mugTorogDraught.png",
+  "precomposed",
+  "Torog Draught",
+  "Boisson torog"
+ ],
+ "mug_vodka": [
+  "mugVodka.png",
+  "precomposed",
+  "Vodka",
+  "Vodka"
+ ],
+ "mug_water": [
+  "mugWater.png",
+  "precomposed",
+  "Water",
+  "Eau"
+ ],
+ "mug_white_grape_juice": [
+  "mugWhiteGrapeJuice.png",
+  "precomposed",
+  "Green Grape Juice",
+  "Jus de raisin blanc"
+ ],
+ "mug_white_wine": [
+  "mugWhiteWine.png",
+  "precomposed",
+  "White Wine",
+  "Vin blanc"
+ ],
+ "skull_cup": [
+  "skullCup.png",
+  "generated",
+  "Skull Cup",
+  "Coupe crâne"
+ ],
+ "waterskin": [
+  "waterskin.png",
+  "generated",
+  "Waterskin",
+  "Outre"
+ ],
+ "wine_glass": [
+  "wineGlass.png",
+  "generated",
+  "Wine Glass",
+  "Verre à vin"
+ ]
+}

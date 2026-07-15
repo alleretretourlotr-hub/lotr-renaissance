@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:taur_gold_pillar"
+    }
+  },
+  "result": {
+    "item": "lotr:taur_gold_pillar_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "lotr:block/dorwinion_crafting_table_top",
+    "side": "lotr:block/dorwinion_crafting_table_side",
+    "bottom": "lotr:block/dorwinion_crafting_table_side"
+  }
+}

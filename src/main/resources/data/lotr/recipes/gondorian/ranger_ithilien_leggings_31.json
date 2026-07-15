@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:ranger_ithilien_leggings",
+    "count": 1
+  }
+}

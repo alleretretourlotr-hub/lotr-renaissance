@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "tauredain",
+  "ingredients": [
+    {
+      "item": "lotr:tauredain_brick"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:tauredain_mossy_brick",
+    "count": 1
+  }
+}

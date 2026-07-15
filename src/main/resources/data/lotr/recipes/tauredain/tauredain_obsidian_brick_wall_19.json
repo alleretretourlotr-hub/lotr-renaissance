@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:tauredain_obsidian_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_obsidian_brick_wall",
+    "count": 6
+  }
+}

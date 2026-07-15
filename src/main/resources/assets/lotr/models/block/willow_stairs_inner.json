@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lotr:block/planks2_willow",
+    "top": "lotr:block/planks2_willow",
+    "side": "lotr:block/planks2_willow"
+  }
+}

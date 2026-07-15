@@ -1,0 +1,8 @@
+{
+  "parent": "block/iron_bars_side",
+  "textures": {
+    "bars": "lotr:block/silver_bars",
+    "edge": "lotr:block/silver_bars",
+    "particle": "lotr:block/silver_bars"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "lotr:block/leaves3_larch_fancy"
+  }
+}

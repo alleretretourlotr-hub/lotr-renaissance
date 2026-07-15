@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_guldur",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dol_guldur_pillar"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_guldur_pillar_slab",
+    "count": 6
+  }
+}

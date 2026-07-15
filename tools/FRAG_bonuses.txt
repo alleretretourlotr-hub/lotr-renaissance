@@ -1,0 +1,4 @@
+        register(() -> fr.alleretretour.lotr.init.LOTREntities.ROHIRRIM_WARRIOR.get(), LOTRFaction.ROHAN, 2.0f);
+        register(() -> fr.alleretretour.lotr.init.LOTREntities.ROHIRRIM_ARCHER.get(), LOTRFaction.ROHAN, 1.0f);
+        register(() -> fr.alleretretour.lotr.init.LOTREntities.ROHIRRIM_MARSHAL.get(), LOTRFaction.ROHAN, 5.0f);
+        register(() -> fr.alleretretour.lotr.init.LOTREntities.ROHAN_SHIELDMAIDEN.get(), LOTRFaction.ROHAN, 1.0f);

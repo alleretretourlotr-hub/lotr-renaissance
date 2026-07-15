@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dorwinion",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:chalk_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:dorwinion_brick",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "ranger",
+  "pattern": [
+    "X X",
+    "YYY",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "Y": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "lotr:ranger_chestplate",
+    "count": 1
+  }
+}

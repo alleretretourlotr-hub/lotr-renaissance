@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dale",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dale_mossy_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:dale_mossy_brick_wall",
+    "count": 6
+  }
+}

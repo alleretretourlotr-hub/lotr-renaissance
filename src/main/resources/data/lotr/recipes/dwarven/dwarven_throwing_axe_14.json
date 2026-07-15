@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dwarven",
+  "pattern": [
+    " X ",
+    " YX",
+    "Y  "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dwarf_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:dwarven_throwing_axe",
+    "count": 1
+  }
+}

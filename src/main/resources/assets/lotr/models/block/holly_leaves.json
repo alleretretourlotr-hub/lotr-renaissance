@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "lotr:block/leaves2_holly_fancy"
+  }
+}

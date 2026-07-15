@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "XYX",
+    "XYX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_hammer",
+    "count": 1
+  }
+}

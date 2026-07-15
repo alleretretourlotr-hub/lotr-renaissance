@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "moredain",
+  "pattern": [
+    "  X",
+    " X ",
+    "X  "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gemsbok_horn"
+    }
+  },
+  "result": {
+    "item": "lotr:moredain_spear",
+    "count": 1
+  }
+}

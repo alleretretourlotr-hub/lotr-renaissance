@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "Y Y",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:lossarnach_boots",
+    "count": 1
+  }
+}

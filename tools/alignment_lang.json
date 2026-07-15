@@ -1,0 +1,14 @@
+{
+ "en": {
+  "lotr.gui.factions.title": "Factions of Middle-earth",
+  "lotr.alignment.gained": "alignment",
+  "key.lotr.factions": "Factions & Alignment",
+  "key.categories.lotr": "The Lord of the Rings"
+ },
+ "fr": {
+  "lotr.gui.factions.title": "Factions de la Terre du Milieu",
+  "lotr.alignment.gained": "alignement",
+  "key.lotr.factions": "Factions et alignement",
+  "key.categories.lotr": "Le Seigneur des Anneaux"
+ }
+}

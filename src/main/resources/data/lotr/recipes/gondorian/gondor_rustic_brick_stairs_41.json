@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gondor_rustic_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_rustic_brick_stairs",
+    "count": 4
+  }
+}

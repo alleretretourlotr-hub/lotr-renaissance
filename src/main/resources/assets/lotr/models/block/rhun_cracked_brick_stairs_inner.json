@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lotr:block/brick5_rhun_cracked",
+    "top": "lotr:block/brick5_rhun_cracked",
+    "side": "lotr:block/brick5_rhun_cracked"
+  }
+}

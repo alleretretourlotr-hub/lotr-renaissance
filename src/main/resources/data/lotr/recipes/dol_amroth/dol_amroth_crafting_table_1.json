@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_amroth",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "lotr:gondor_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_amroth_crafting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/arnor_pillar_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/arnor_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/arnor_pillar_single"
+    }
+  }
+}

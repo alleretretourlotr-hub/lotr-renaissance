@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "dol_guldur",
+  "ingredients": [
+    {
+      "item": "lotr:dol_guldur_brick"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:dol_guldur_mossy_brick",
+    "count": 1
+  }
+}

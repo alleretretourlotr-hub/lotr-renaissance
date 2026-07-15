@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "lotr:block/pressure_plate_gondor_rock"
+    },
+    "powered=true": {
+      "model": "lotr:block/pressure_plate_gondor_rock_down"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_nugget"
+    },
+    "Y": {
+      "item": "lotr:galadhrim_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:galadhrim_gold_brick",
+    "count": 1
+  }
+}

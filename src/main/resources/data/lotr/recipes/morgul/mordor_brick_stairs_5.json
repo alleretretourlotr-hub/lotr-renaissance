@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "morgul",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:mordor_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:mordor_brick_stairs",
+    "count": 4
+  }
+}

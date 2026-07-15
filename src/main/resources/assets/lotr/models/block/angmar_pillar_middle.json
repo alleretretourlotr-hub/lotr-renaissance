@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "lotr:block/pillar2_angmar_side_middle",
+    "end": "lotr:block/pillar2_angmar_face"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_gold_brick",
+    "count": 4
+  }
+}

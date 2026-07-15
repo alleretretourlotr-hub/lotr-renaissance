@@ -1,0 +1,8 @@
+        event.put(fr.alleretretour.lotr.init.LOTREntities.ROHIRRIM_WARRIOR.get(),
+                fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimWarrior.createAttributes().build());
+        event.put(fr.alleretretour.lotr.init.LOTREntities.ROHIRRIM_ARCHER.get(),
+                fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimArcher.createAttributes().build());
+        event.put(fr.alleretretour.lotr.init.LOTREntities.ROHIRRIM_MARSHAL.get(),
+                fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimMarshal.createAttributes().build());
+        event.put(fr.alleretretour.lotr.init.LOTREntities.ROHAN_SHIELDMAIDEN.get(),
+                fr.alleretretour.lotr.entity.npc.LOTREntityRohanShieldmaiden.createAttributes().build());

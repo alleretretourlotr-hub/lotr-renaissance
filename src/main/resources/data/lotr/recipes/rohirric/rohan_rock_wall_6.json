@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rohirric",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:rohan_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:rohan_rock_wall",
+    "count": 6
+  }
+}

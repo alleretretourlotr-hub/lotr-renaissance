@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "X",
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gondor_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_pillar",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dale",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "lotr:dale_brick",
+    "count": 4
+  }
+}

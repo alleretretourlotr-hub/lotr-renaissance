@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/dol_guldur_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/dol_guldur_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/dol_guldur_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/dol_guldur_pillar_top"
+    }
+  }
+}

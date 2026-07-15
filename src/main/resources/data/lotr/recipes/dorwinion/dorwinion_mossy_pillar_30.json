@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "dorwinion",
+  "ingredients": [
+    {
+      "item": "lotr:dorwinion_pillar"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:dorwinion_mossy_pillar",
+    "count": 1
+  }
+}

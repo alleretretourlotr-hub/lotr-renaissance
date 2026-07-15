@@ -1,0 +1,27 @@
+    public static final RegistryObject<EntityType<fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimWarrior>>
+            ROHIRRIM_WARRIOR = ENTITIES.register("rohirrim_warrior",
+            () -> EntityType.Builder.of(
+                    fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimWarrior::new,
+                    net.minecraft.entity.EntityClassification.CREATURE)
+                    .sized(0.6f, 1.8f).build("rohirrim_warrior"));
+
+    public static final RegistryObject<EntityType<fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimArcher>>
+            ROHIRRIM_ARCHER = ENTITIES.register("rohirrim_archer",
+            () -> EntityType.Builder.of(
+                    fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimArcher::new,
+                    net.minecraft.entity.EntityClassification.CREATURE)
+                    .sized(0.6f, 1.8f).build("rohirrim_archer"));
+
+    public static final RegistryObject<EntityType<fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimMarshal>>
+            ROHIRRIM_MARSHAL = ENTITIES.register("rohirrim_marshal",
+            () -> EntityType.Builder.of(
+                    fr.alleretretour.lotr.entity.npc.LOTREntityRohirrimMarshal::new,
+                    net.minecraft.entity.EntityClassification.CREATURE)
+                    .sized(0.6f, 1.8f).build("rohirrim_marshal"));
+
+    public static final RegistryObject<EntityType<fr.alleretretour.lotr.entity.npc.LOTREntityRohanShieldmaiden>>
+            ROHAN_SHIELDMAIDEN = ENTITIES.register("rohan_shieldmaiden",
+            () -> EntityType.Builder.of(
+                    fr.alleretretour.lotr.entity.npc.LOTREntityRohanShieldmaiden::new,
+                    net.minecraft.entity.EntityClassification.CREATURE)
+                    .sized(0.6f, 1.8f).build("rohan_shieldmaiden"));

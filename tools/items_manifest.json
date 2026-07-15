@@ -1,0 +1,2390 @@
+{
+ "ancient_harad_dagger": [
+  "daggerAncientHarad.png",
+  "handheld",
+  "Old-Haradric Sacrificial Dagger",
+  "Poignard sacrificiel du Vieux Harad"
+ ],
+ "angmar_battleaxe": [
+  "battleaxeAngmar.png",
+  "handheld",
+  "Angmar Battleaxe",
+  "Hache de bataille d'Angmar"
+ ],
+ "angmar_boots": [
+  "bootsAngmar.png",
+  "generated",
+  "Angmar Boots",
+  "Bottes d'Angmar"
+ ],
+ "angmar_chestplate": [
+  "bodyAngmar.png",
+  "generated",
+  "Angmar Chestplate",
+  "Plastron d'Angmar"
+ ],
+ "angmar_dagger": [
+  "daggerAngmar.png",
+  "handheld",
+  "Angmar Dagger",
+  "Dague d'Angmar"
+ ],
+ "angmar_hammer": [
+  "hammerAngmar.png",
+  "handheld",
+  "Angmar Warhammer",
+  "Marteau de guerre d'Angmar"
+ ],
+ "angmar_helmet": [
+  "helmetAngmar.png",
+  "generated",
+  "Angmar Helmet",
+  "Casque d'Angmar"
+ ],
+ "angmar_leggings": [
+  "legsAngmar.png",
+  "generated",
+  "Angmar Leggings",
+  "Jambières d'Angmar"
+ ],
+ "angmar_poisoned_dagger": [
+  "daggerAngmarPoisoned.png",
+  "handheld",
+  "Poisoned Angmar Dagger",
+  "Dague d'Angmar empoisonnée"
+ ],
+ "angmar_polearm": [
+  "polearmAngmar.png",
+  "handheld",
+  "Angmar Poleaxe",
+  "Hallebarde d'Angmar"
+ ],
+ "angmar_sword": [
+  "swordAngmar.png",
+  "handheld",
+  "Angmar Sword",
+  "Épée d'Angmar"
+ ],
+ "arnor_boots": [
+  "bootsArnor.png",
+  "generated",
+  "Arnorian Boots",
+  "Bottes arnoriennes"
+ ],
+ "arnor_chestplate": [
+  "bodyArnor.png",
+  "generated",
+  "Arnorian Chestplate",
+  "Plastron arnorien"
+ ],
+ "arnor_dagger": [
+  "daggerArnor.png",
+  "handheld",
+  "Arnorian Dagger",
+  "Dague d'Arnor"
+ ],
+ "arnor_helmet": [
+  "helmetArnor.png",
+  "generated",
+  "Arnorian Helmet",
+  "Casque arnorien"
+ ],
+ "arnor_leggings": [
+  "legsArnor.png",
+  "generated",
+  "Arnorian Leggings",
+  "Jambières arnoriennes"
+ ],
+ "arnor_poisoned_dagger": [
+  "daggerArnorPoisoned.png",
+  "handheld",
+  "Poisoned Arnorian Dagger",
+  "Dague d'Arnor empoisonnée"
+ ],
+ "arnor_sword": [
+  "swordArnor.png",
+  "handheld",
+  "Arnorian Sword",
+  "Épée d'Arnor"
+ ],
+ "barrow_dagger": [
+  "daggerBarrow.png",
+  "handheld",
+  "Barrow-blade",
+  "Lame des Galgals"
+ ],
+ "barrow_poisoned_dagger": [
+  "daggerBarrowPoisoned.png",
+  "handheld",
+  "Poisoned Barrow-blade",
+  "Lame des Galgals empoisonnée"
+ ],
+ "black_numenorean_boots": [
+  "bootsBlackNumenorean.png",
+  "generated",
+  "Black Númenórean Boots",
+  "Bottes númenóréenes noires"
+ ],
+ "black_numenorean_chestplate": [
+  "bodyBlackNumenorean.png",
+  "generated",
+  "Black Númenórean Chestplate",
+  "Plastron númenóréen noir"
+ ],
+ "black_numenorean_dagger": [
+  "daggerBlackNumenorean.png",
+  "handheld",
+  "Black Númenórean Dagger",
+  "Dague númenóréene noire"
+ ],
+ "black_numenorean_helmet": [
+  "helmetBlackNumenorean.png",
+  "generated",
+  "Black Númenórean Helmet",
+  "Casque númenóréen noir"
+ ],
+ "black_numenorean_leggings": [
+  "legsBlackNumenorean.png",
+  "generated",
+  "Black Númenórean Leggings",
+  "Jambières númenóréenes noires"
+ ],
+ "black_numenorean_mace": [
+  "maceBlackNumenorean.png",
+  "handheld",
+  "Black Númenórean Mace",
+  "Massue númenóréene noire"
+ ],
+ "black_numenorean_poisoned_dagger": [
+  "daggerBlackNumenoreanPoisoned.png",
+  "handheld",
+  "Poisoned Black Númenórean Dagger",
+  "Dague númenóréene noire empoisonnée"
+ ],
+ "black_numenorean_sword": [
+  "swordBlackNumenorean.png",
+  "handheld",
+  "Black Númenórean Sword",
+  "Épée númenóréene noire"
+ ],
+ "black_uruk_battleaxe": [
+  "battleaxeBlackUruk.png",
+  "handheld",
+  "Black Uruk Battleaxe",
+  "Hache de bataille uruk noire"
+ ],
+ "black_uruk_boots": [
+  "bootsBlackUruk.png",
+  "generated",
+  "Black Uruk Boots",
+  "Bottes uruk noires"
+ ],
+ "black_uruk_chestplate": [
+  "bodyBlackUruk.png",
+  "generated",
+  "Black Uruk Chestplate",
+  "Plastron uruk noir"
+ ],
+ "black_uruk_dagger": [
+  "daggerBlackUruk.png",
+  "handheld",
+  "Black Uruk Dagger",
+  "Dague uruk noire"
+ ],
+ "black_uruk_hammer": [
+  "hammerBlackUruk.png",
+  "handheld",
+  "Black Uruk Warhammer",
+  "Marteau de guerre uruk noir"
+ ],
+ "black_uruk_helmet": [
+  "helmetBlackUruk.png",
+  "generated",
+  "Black Uruk Helmet",
+  "Casque uruk noir"
+ ],
+ "black_uruk_leggings": [
+  "legsBlackUruk.png",
+  "generated",
+  "Black Uruk Leggings",
+  "Jambières uruk noires"
+ ],
+ "black_uruk_poisoned_dagger": [
+  "daggerBlackUrukPoisoned.png",
+  "handheld",
+  "Poisoned Black Uruk Dagger",
+  "Dague uruk noire empoisonnée"
+ ],
+ "black_uruk_scimitar": [
+  "scimitarBlackUruk.png",
+  "handheld",
+  "Black Uruk Cleaver",
+  "Fendoir uruk noir"
+ ],
+ "blackroot_boots": [
+  "bootsBlackroot.png",
+  "generated",
+  "Blackroot Vale Boots",
+  "Bottes de Racine noire"
+ ],
+ "blackroot_chestplate": [
+  "bodyBlackroot.png",
+  "generated",
+  "Blackroot Vale Chestplate",
+  "Plastron de Racine noire"
+ ],
+ "blackroot_helmet": [
+  "helmetBlackroot.png",
+  "generated",
+  "Blackroot Vale Helmet",
+  "Casque de Racine noire"
+ ],
+ "blackroot_leggings": [
+  "legsBlackroot.png",
+  "generated",
+  "Blackroot Vale Leggings",
+  "Jambières de Racine noire"
+ ],
+ "blade_morgul": [
+  "morgulBlade.png",
+  "handheld",
+  "Morgul Blade",
+  "Lame de Morgul"
+ ],
+ "blue_dwarven_battleaxe": [
+  "battleaxeBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Battleaxe",
+  "Hache de bataille naine bleue"
+ ],
+ "blue_dwarven_boots": [
+  "bootsBlueDwarven.png",
+  "generated",
+  "Blue Dwarven Boots",
+  "Bottes naines bleues"
+ ],
+ "blue_dwarven_chestplate": [
+  "bodyBlueDwarven.png",
+  "generated",
+  "Blue Dwarven Chestplate",
+  "Plastron nain bleu"
+ ],
+ "blue_dwarven_dagger": [
+  "daggerBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Dagger",
+  "Dague naine bleue"
+ ],
+ "blue_dwarven_hammer": [
+  "hammerBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Warhammer",
+  "Marteau de guerre nain bleu"
+ ],
+ "blue_dwarven_helmet": [
+  "helmetBlueDwarven.png",
+  "generated",
+  "Blue Dwarven Helmet",
+  "Casque nain bleu"
+ ],
+ "blue_dwarven_leggings": [
+  "legsBlueDwarven.png",
+  "generated",
+  "Blue Dwarven Leggings",
+  "Jambières naines bleues"
+ ],
+ "blue_dwarven_pike": [
+  "pikeBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Pike",
+  "Pique naine bleue"
+ ],
+ "blue_dwarven_poisoned_dagger": [
+  "daggerBlueDwarvenPoisoned.png",
+  "handheld",
+  "Poisoned Blue Dwarven Dagger",
+  "Dague naine bleue empoisonnée"
+ ],
+ "blue_dwarven_sword": [
+  "swordBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Sword",
+  "Épée naine bleue"
+ ],
+ "bone_boots": [
+  "bootsBone.png",
+  "generated",
+  "Bone Boots",
+  "Bottes d'os"
+ ],
+ "bone_chestplate": [
+  "bodyBone.png",
+  "generated",
+  "Bone Chestplate",
+  "Plastron d'os"
+ ],
+ "bone_helmet": [
+  "helmetBone.png",
+  "generated",
+  "Bone Helmet",
+  "Casque d'os"
+ ],
+ "bone_leggings": [
+  "legsBone.png",
+  "generated",
+  "Bone Leggings",
+  "Jambières d'os"
+ ],
+ "bronze_battleaxe": [
+  "battleaxeBronze.png",
+  "handheld",
+  "Bronze Battleaxe",
+  "Hache de bataille en bronze"
+ ],
+ "bronze_boots": [
+  "bootsBronze.png",
+  "generated",
+  "Bronze Boots",
+  "Bottes en bronze"
+ ],
+ "bronze_chestplate": [
+  "bodyBronze.png",
+  "generated",
+  "Bronze Chestplate",
+  "Plastron en bronze"
+ ],
+ "bronze_dagger": [
+  "daggerBronze.png",
+  "handheld",
+  "Bronze Dagger",
+  "Dague en bronze"
+ ],
+ "bronze_helmet": [
+  "helmetBronze.png",
+  "generated",
+  "Bronze Helmet",
+  "Casque en bronze"
+ ],
+ "bronze_leggings": [
+  "legsBronze.png",
+  "generated",
+  "Bronze Leggings",
+  "Jambières en bronze"
+ ],
+ "bronze_poisoned_dagger": [
+  "daggerBronzePoisoned.png",
+  "handheld",
+  "Poisoned Bronze Dagger",
+  "Dague en bronze empoisonnée"
+ ],
+ "bronze_sword": [
+  "swordBronze.png",
+  "handheld",
+  "Bronze Sword",
+  "Épée en bronze"
+ ],
+ "corsair_battleaxe": [
+  "battleaxeCorsair.png",
+  "handheld",
+  "Corsair Battleaxe",
+  "Hache de bataille corsaire"
+ ],
+ "corsair_boots": [
+  "bootsCorsair.png",
+  "generated",
+  "Corsair Boots",
+  "Bottes corsaires"
+ ],
+ "corsair_chestplate": [
+  "bodyCorsair.png",
+  "generated",
+  "Corsair Chestplate",
+  "Plastron corsaire"
+ ],
+ "corsair_dagger": [
+  "daggerCorsair.png",
+  "handheld",
+  "Corsair Dagger",
+  "Dague corsaire"
+ ],
+ "corsair_helmet": [
+  "helmetCorsair.png",
+  "generated",
+  "Corsair Helmet",
+  "Casque corsaire"
+ ],
+ "corsair_leggings": [
+  "legsCorsair.png",
+  "generated",
+  "Corsair Leggings",
+  "Jambières corsaires"
+ ],
+ "corsair_poisoned_dagger": [
+  "daggerCorsairPoisoned.png",
+  "handheld",
+  "Poisoned Corsair Dagger",
+  "Dague corsaire empoisonnée"
+ ],
+ "corsair_sword": [
+  "swordCorsair.png",
+  "handheld",
+  "Corsair Eket",
+  "Eket corsaire"
+ ],
+ "dale_battleaxe": [
+  "battleaxeDale.png",
+  "handheld",
+  "Dalish Battleaxe",
+  "Hache de bataille dalienne"
+ ],
+ "dale_boots": [
+  "bootsDale.png",
+  "generated",
+  "Dalish Boots",
+  "Bottes daliennes"
+ ],
+ "dale_chestplate": [
+  "bodyDale.png",
+  "generated",
+  "Dalish Chestplate",
+  "Plastron dalien"
+ ],
+ "dale_dagger": [
+  "daggerDale.png",
+  "handheld",
+  "Dalish Dagger",
+  "Dague dalienne"
+ ],
+ "dale_gambeson_chestplate": [
+  "bodyDaleGambeson.png",
+  "generated",
+  "Dalish Gambeson",
+  "Gambeson dalien"
+ ],
+ "dale_helmet": [
+  "helmetDale.png",
+  "generated",
+  "Dalish Helmet",
+  "Casque dalien"
+ ],
+ "dale_leggings": [
+  "legsDale.png",
+  "generated",
+  "Dalish Leggings",
+  "Jambières daliennes"
+ ],
+ "dale_pike": [
+  "pikeDale.png",
+  "handheld",
+  "Dalish Pitchfork",
+  "Fourche dalienne"
+ ],
+ "dale_poisoned_dagger": [
+  "daggerDalePoisoned.png",
+  "handheld",
+  "Poisoned Dalish Dagger",
+  "Dague dalienne empoisonnée"
+ ],
+ "dale_sword": [
+  "swordDale.png",
+  "handheld",
+  "Dalish Sword",
+  "Épée dalienne"
+ ],
+ "dol_amroth_boots": [
+  "bootsDolAmroth.png",
+  "generated",
+  "Dol Amroth Boots",
+  "Bottes de Dol Amroth"
+ ],
+ "dol_amroth_chestplate": [
+  "bodyDolAmroth.png",
+  "generated",
+  "Dol Amroth Chestplate",
+  "Plastron de Dol Amroth"
+ ],
+ "dol_amroth_dagger": [
+  "daggerDolAmroth.png",
+  "handheld",
+  "Dol Amroth Dagger",
+  "Dague de Dol Amroth"
+ ],
+ "dol_amroth_gambeson_chestplate": [
+  "bodyDolAmrothGambeson.png",
+  "generated",
+  "Dol Amroth Gambeson",
+  "Gambeson de Dol Amroth"
+ ],
+ "dol_amroth_gambeson_leggings": [
+  "legsDolAmrothGambeson.png",
+  "generated",
+  "Dol Amroth Chaps",
+  "Jambières de cuir de Dol Amroth"
+ ],
+ "dol_amroth_helmet": [
+  "helmetDolAmroth.png",
+  "generated",
+  "Dol Amroth Helmet",
+  "Casque de Dol Amroth"
+ ],
+ "dol_amroth_lance": [
+  "lanceDolAmroth.png",
+  "handheld",
+  "Dol Amroth Lance",
+  "Lance de cavalier de Dol Amroth"
+ ],
+ "dol_amroth_leggings": [
+  "legsDolAmroth.png",
+  "generated",
+  "Dol Amroth Leggings",
+  "Jambières de Dol Amroth"
+ ],
+ "dol_amroth_longspear": [
+  "longspearDolAmroth.png",
+  "handheld",
+  "Dol Amroth Longspear",
+  "Longue-lance de Dol Amroth"
+ ],
+ "dol_amroth_poisoned_dagger": [
+  "daggerDolAmrothPoisoned.png",
+  "handheld",
+  "Poisoned Dol Amroth Dagger",
+  "Dague de Dol Amroth empoisonnée"
+ ],
+ "dol_amroth_sword": [
+  "swordDolAmroth.png",
+  "handheld",
+  "Dol Amroth Sword",
+  "Épée de Dol Amroth"
+ ],
+ "dol_guldur_battleaxe": [
+  "battleaxeDolGuldur.png",
+  "handheld",
+  "Dol Guldur Battleaxe",
+  "Hache de bataille de Dol Guldur"
+ ],
+ "dol_guldur_boots": [
+  "bootsDolGuldur.png",
+  "generated",
+  "Dol Guldur Boots",
+  "Bottes de Dol Guldur"
+ ],
+ "dol_guldur_chestplate": [
+  "bodyDolGuldur.png",
+  "generated",
+  "Dol Guldur Chestplate",
+  "Plastron de Dol Guldur"
+ ],
+ "dol_guldur_dagger": [
+  "daggerDolGuldur.png",
+  "handheld",
+  "Dol Guldur Dagger",
+  "Dague de Dol Guldur"
+ ],
+ "dol_guldur_hammer": [
+  "hammerDolGuldur.png",
+  "handheld",
+  "Dol Guldur Warhammer",
+  "Marteau de guerre de Dol Guldur"
+ ],
+ "dol_guldur_helmet": [
+  "helmetDolGuldur.png",
+  "generated",
+  "Dol Guldur Helmet",
+  "Casque de Dol Guldur"
+ ],
+ "dol_guldur_leggings": [
+  "legsDolGuldur.png",
+  "generated",
+  "Dol Guldur Leggings",
+  "Jambières de Dol Guldur"
+ ],
+ "dol_guldur_pike": [
+  "pikeDolGuldur.png",
+  "handheld",
+  "Dol Guldur Spike",
+  "Pique de Dol Guldur"
+ ],
+ "dol_guldur_poisoned_dagger": [
+  "daggerDolGuldurPoisoned.png",
+  "handheld",
+  "Poisoned Dol Guldur Dagger",
+  "Dague de Dol Guldur empoisonnée"
+ ],
+ "dol_guldur_sword": [
+  "swordDolGuldur.png",
+  "handheld",
+  "Dol Guldur Sword",
+  "Épée de Dol Guldur"
+ ],
+ "dorwinion_boots": [
+  "bootsDorwinion.png",
+  "generated",
+  "Dorwinion Boots",
+  "Bottes de Dorwinion"
+ ],
+ "dorwinion_chestplate": [
+  "bodyDorwinion.png",
+  "generated",
+  "Dorwinion Chestplate",
+  "Plastron de Dorwinion"
+ ],
+ "dorwinion_elf_boots": [
+  "bootsDorwinionElf.png",
+  "generated",
+  "Dorwinion Elven Boots",
+  "Bottes elfiques de Dorwinion"
+ ],
+ "dorwinion_elf_chestplate": [
+  "bodyDorwinionElf.png",
+  "generated",
+  "Dorwinion Elven Chestplate",
+  "Plastron elfique de Dorwinion"
+ ],
+ "dorwinion_elf_dagger": [
+  "daggerDorwinionElf.png",
+  "handheld",
+  "Dorwinion Elven Dagger",
+  "Dague elfique de Dorwinion"
+ ],
+ "dorwinion_elf_helmet": [
+  "helmetDorwinionElf.png",
+  "generated",
+  "Dorwinion Elven Helmet",
+  "Casque elfique de Dorwinion"
+ ],
+ "dorwinion_elf_leggings": [
+  "legsDorwinionElf.png",
+  "generated",
+  "Dorwinion Elven Leggings",
+  "Jambières elfiques de Dorwinion"
+ ],
+ "dorwinion_elf_poisoned_dagger": [
+  "daggerDorwinionElfPoisoned.png",
+  "handheld",
+  "Poisoned Dorwinion Elven Dagger",
+  "Dague elfique de Dorwinion empoisonnée"
+ ],
+ "dorwinion_elf_sword": [
+  "swordDorwinionElf.png",
+  "handheld",
+  "Dorwinion Elven Sword",
+  "Épée elfique de Dorwinion"
+ ],
+ "dorwinion_helmet": [
+  "helmetDorwinion.png",
+  "generated",
+  "Dorwinion Helmet",
+  "Casque de Dorwinion"
+ ],
+ "dorwinion_leggings": [
+  "legsDorwinion.png",
+  "generated",
+  "Dorwinion Leggings",
+  "Jambières de Dorwinion"
+ ],
+ "dunlending_boots": [
+  "bootsDunlending.png",
+  "generated",
+  "Dunlending Boots",
+  "Bottes de Dun"
+ ],
+ "dunlending_chestplate": [
+  "bodyDunlending.png",
+  "generated",
+  "Dunlending Chestplate",
+  "Plastron de Dun"
+ ],
+ "dunlending_helmet": [
+  "helmetDunlending.png",
+  "generated",
+  "Dunlending Helmet",
+  "Casque de Dun"
+ ],
+ "dunlending_leggings": [
+  "legsDunlending.png",
+  "generated",
+  "Dunlending Leggings",
+  "Jambières de Dun"
+ ],
+ "dwarven_battleaxe": [
+  "battleaxeDwarven.png",
+  "handheld",
+  "Dwarven Battleaxe",
+  "Hache de bataille naine"
+ ],
+ "dwarven_boots": [
+  "bootsDwarven.png",
+  "generated",
+  "Dwarven Boots",
+  "Bottes naines"
+ ],
+ "dwarven_chestplate": [
+  "bodyDwarven.png",
+  "generated",
+  "Dwarven Chestplate",
+  "Plastron nain"
+ ],
+ "dwarven_dagger": [
+  "daggerDwarven.png",
+  "handheld",
+  "Dwarven Dagger",
+  "Dague naine"
+ ],
+ "dwarven_gold_boots": [
+  "bootsDwarvenGold.png",
+  "generated",
+  "Gold-trimmed Dwarven Boots",
+  "Bottes naines ornées d'or"
+ ],
+ "dwarven_gold_chestplate": [
+  "bodyDwarvenGold.png",
+  "generated",
+  "Gold-trimmed Dwarven Chestplate",
+  "Plastron nain orné d'or"
+ ],
+ "dwarven_gold_helmet": [
+  "helmetDwarvenGold.png",
+  "generated",
+  "Gold-trimmed Dwarven Helmet",
+  "Casque nain orné d'or"
+ ],
+ "dwarven_gold_leggings": [
+  "legsDwarvenGold.png",
+  "generated",
+  "Gold-trimmed Dwarven Leggings",
+  "Jambières naines ornées d'or"
+ ],
+ "dwarven_hammer": [
+  "hammerDwarven.png",
+  "handheld",
+  "Dwarven Warhammer",
+  "Marteau de guerre nain"
+ ],
+ "dwarven_helmet": [
+  "helmetDwarven.png",
+  "generated",
+  "Dwarven Helmet",
+  "Casque nain"
+ ],
+ "dwarven_leggings": [
+  "legsDwarven.png",
+  "generated",
+  "Dwarven Leggings",
+  "Jambières naines"
+ ],
+ "dwarven_mithril_boots": [
+  "bootsDwarvenMithril.png",
+  "generated",
+  "Mithril-trimmed Dwarven Boots",
+  "Bottes naines ornées de mithril"
+ ],
+ "dwarven_mithril_chestplate": [
+  "bodyDwarvenMithril.png",
+  "generated",
+  "Mithril-trimmed Dwarven Chestplate",
+  "Plastron nain orné de mithril"
+ ],
+ "dwarven_mithril_helmet": [
+  "helmetDwarvenMithril.png",
+  "generated",
+  "Mithril-trimmed Dwarven Helmet",
+  "Casque nain orné de mithril"
+ ],
+ "dwarven_mithril_leggings": [
+  "legsDwarvenMithril.png",
+  "generated",
+  "Mithril-trimmed Dwarven Leggings",
+  "Jambières naines ornées de mithril"
+ ],
+ "dwarven_pike": [
+  "pikeDwarven.png",
+  "handheld",
+  "Dwarven Pike",
+  "Pique naine"
+ ],
+ "dwarven_poisoned_dagger": [
+  "daggerDwarvenPoisoned.png",
+  "handheld",
+  "Poisoned Dwarven Dagger",
+  "Dague naine empoisonnée"
+ ],
+ "dwarven_silver_boots": [
+  "bootsDwarvenSilver.png",
+  "generated",
+  "Silver-trimmed Dwarven Boots",
+  "Bottes naines ornées d'argent"
+ ],
+ "dwarven_silver_chestplate": [
+  "bodyDwarvenSilver.png",
+  "generated",
+  "Silver-trimmed Dwarven Chestplate",
+  "Plastron nain orné d'argent"
+ ],
+ "dwarven_silver_helmet": [
+  "helmetDwarvenSilver.png",
+  "generated",
+  "Silver-trimmed Dwarven Helmet",
+  "Casque nain orné d'argent"
+ ],
+ "dwarven_silver_leggings": [
+  "legsDwarvenSilver.png",
+  "generated",
+  "Silver-trimmed Dwarven Leggings",
+  "Jambières naines ornées d'argent"
+ ],
+ "dwarven_sword": [
+  "swordDwarven.png",
+  "handheld",
+  "Dwarven Sword",
+  "Épée naine"
+ ],
+ "elven_boots": [
+  "bootsElven.png",
+  "generated",
+  "Galadhrim Boots",
+  "Bottes galadhrim"
+ ],
+ "elven_chestplate": [
+  "bodyElven.png",
+  "generated",
+  "Galadhrim Chestplate",
+  "Plastron galadhrim"
+ ],
+ "elven_dagger": [
+  "daggerElven.png",
+  "handheld",
+  "Galadhrim Dagger",
+  "Dague galadhrim"
+ ],
+ "elven_helmet": [
+  "helmetElven.png",
+  "generated",
+  "Galadhrim Helmet",
+  "Casque galadhrim"
+ ],
+ "elven_leggings": [
+  "legsElven.png",
+  "generated",
+  "Galadhrim Leggings",
+  "Jambières galadhrim"
+ ],
+ "elven_longspear": [
+  "longspearElven.png",
+  "handheld",
+  "Galadhrim Longspear",
+  "Longue-lance galadhrim"
+ ],
+ "elven_poisoned_dagger": [
+  "daggerElvenPoisoned.png",
+  "handheld",
+  "Poisoned Galadhrim Dagger",
+  "Dague galadhrim empoisonnée"
+ ],
+ "elven_polearm": [
+  "polearmElven.png",
+  "handheld",
+  "Galadhrim Battlestaff",
+  "Bâton de combat galadhrim"
+ ],
+ "elven_sword": [
+  "swordElven.png",
+  "handheld",
+  "Galadhrim Sword",
+  "Épée galadhrim"
+ ],
+ "galvorn_boots": [
+  "bootsGalvorn.png",
+  "generated",
+  "Galvorn Boots",
+  "Bottes en galvorn"
+ ],
+ "galvorn_chestplate": [
+  "bodyGalvorn.png",
+  "generated",
+  "Galvorn Chestplate",
+  "Plastron en galvorn"
+ ],
+ "galvorn_helmet": [
+  "helmetGalvorn.png",
+  "generated",
+  "Galvorn Helmet",
+  "Casque en galvorn"
+ ],
+ "galvorn_leggings": [
+  "legsGalvorn.png",
+  "generated",
+  "Galvorn Leggings",
+  "Jambières en galvorn"
+ ],
+ "gemsbok_boots": [
+  "bootsGemsbok.png",
+  "generated",
+  "Gemsbok Hide Boots",
+  "Bottes en peau de gemsbok"
+ ],
+ "gemsbok_chestplate": [
+  "bodyGemsbok.png",
+  "generated",
+  "Gemsbok Hide Chestplate",
+  "Plastron en peau de gemsbok"
+ ],
+ "gemsbok_helmet": [
+  "helmetGemsbok.png",
+  "generated",
+  "Gemsbok Hide Helmet",
+  "Casque en peau de gemsbok"
+ ],
+ "gemsbok_leggings": [
+  "legsGemsbok.png",
+  "generated",
+  "Gemsbok Hide Leggings",
+  "Pantalon en peau de gemsbok"
+ ],
+ "gondolin_boots": [
+  "bootsGondolin.png",
+  "generated",
+  "Gondolinian Boots",
+  "Bottes de Gondolin"
+ ],
+ "gondolin_chestplate": [
+  "bodyGondolin.png",
+  "generated",
+  "Gondolinian Chestplate",
+  "Plastron de Gondolin"
+ ],
+ "gondolin_helmet": [
+  "helmetGondolin.png",
+  "generated",
+  "Gondolinian Helmet",
+  "Heaume de Gondolin"
+ ],
+ "gondolin_leggings": [
+  "legsGondolin.png",
+  "generated",
+  "Gondolinian Leggings",
+  "Jambières de Gondolin"
+ ],
+ "gondolin_sword": [
+  "swordGondolin.png",
+  "handheld",
+  "Gondolinian Sword",
+  "Épée de Gondolin"
+ ],
+ "gondor_boots": [
+  "bootsGondor.png",
+  "generated",
+  "Gondorian Boots",
+  "Bottes gondoriennes"
+ ],
+ "gondor_chestplate": [
+  "bodyGondor.png",
+  "generated",
+  "Gondorian Chestplate",
+  "Plastron gondorien"
+ ],
+ "gondor_dagger": [
+  "daggerGondor.png",
+  "handheld",
+  "Gondorian Dagger",
+  "Dague gondorienne"
+ ],
+ "gondor_gambeson_chestplate": [
+  "bodyGondorGambeson.png",
+  "generated",
+  "Gondorian Gambeson",
+  "Gambeson gondorien"
+ ],
+ "gondor_hammer": [
+  "hammerGondor.png",
+  "handheld",
+  "Gondorian Warhammer",
+  "Marteau de guerre gondorien"
+ ],
+ "gondor_helmet": [
+  "helmetGondor.png",
+  "generated",
+  "Gondorian Helmet",
+  "Casque gondorien"
+ ],
+ "gondor_lance": [
+  "lanceGondor.png",
+  "handheld",
+  "Gondorian Lance",
+  "Lance de cavalier gondorienne"
+ ],
+ "gondor_leggings": [
+  "legsGondor.png",
+  "generated",
+  "Gondorian Leggings",
+  "Jambières gondoriennes"
+ ],
+ "gondor_pike": [
+  "pikeGondor.png",
+  "handheld",
+  "Gondorian Pike",
+  "Pique gondorienne"
+ ],
+ "gondor_poisoned_dagger": [
+  "daggerGondorPoisoned.png",
+  "handheld",
+  "Poisoned Gondorian Dagger",
+  "Dague gondorienne empoisonnée"
+ ],
+ "gondor_sword": [
+  "swordGondor.png",
+  "handheld",
+  "Gondorian Sword",
+  "Épée gondorienne"
+ ],
+ "gondor_winged_helmet": [
+  "helmetGondorWinged.png",
+  "generated",
+  "Winged Gondorian Helmet",
+  "Heaume gondorien ailé"
+ ],
+ "gulf_harad_boots": [
+  "bootsGulfHarad.png",
+  "generated",
+  "Gulfen Boots",
+  "Bottes du golfe"
+ ],
+ "gulf_harad_chestplate": [
+  "bodyGulfHarad.png",
+  "generated",
+  "Gulfen Chestplate",
+  "Plastron du golfe"
+ ],
+ "gulf_harad_helmet": [
+  "helmetGulfHarad.png",
+  "generated",
+  "Gulfen Helmet",
+  "Casque du golfe"
+ ],
+ "gulf_harad_leggings": [
+  "legsGulfHarad.png",
+  "generated",
+  "Gulfen Leggings",
+  "Jambières du golfe"
+ ],
+ "gulf_harad_sword": [
+  "swordGulfHarad.png",
+  "handheld",
+  "Gulfen Khopesh",
+  "Khopesh du golfe"
+ ],
+ "gundabad_uruk_battleaxe": [
+  "battleaxeGundabadUruk.png",
+  "handheld",
+  "Gundabad Uruk Waraxe",
+  "Hache de guerre uruk de Gundabad"
+ ],
+ "gundabad_uruk_boots": [
+  "bootsGundabadUruk.png",
+  "generated",
+  "Gundabad Uruk Boots",
+  "Bottes uruk de Gundabad"
+ ],
+ "gundabad_uruk_chestplate": [
+  "bodyGundabadUruk.png",
+  "generated",
+  "Gundabad Uruk Chestplate",
+  "Plastron uruk de Gundabad"
+ ],
+ "gundabad_uruk_dagger": [
+  "daggerGundabadUruk.png",
+  "handheld",
+  "Gundabad Uruk Dagger",
+  "Dague uruk de Gundabad"
+ ],
+ "gundabad_uruk_hammer": [
+  "hammerGundabadUruk.png",
+  "handheld",
+  "Gundabad Uruk Bludgeon",
+  "Gourdin uruk de Gundabad"
+ ],
+ "gundabad_uruk_helmet": [
+  "helmetGundabadUruk.png",
+  "generated",
+  "Gundabad Uruk Helmet",
+  "Casque uruk de Gundabad"
+ ],
+ "gundabad_uruk_leggings": [
+  "legsGundabadUruk.png",
+  "generated",
+  "Gundabad Uruk Leggings",
+  "Jambières uruk de Gundabad"
+ ],
+ "gundabad_uruk_pike": [
+  "pikeGundabadUruk.png",
+  "handheld",
+  "Gundabad Uruk Pike",
+  "Pique uruk de Gundabad"
+ ],
+ "gundabad_uruk_poisoned_dagger": [
+  "daggerGundabadUrukPoisoned.png",
+  "handheld",
+  "Poisoned Gundabad Uruk Dagger",
+  "Dague uruk de Gundabad empoisonnée"
+ ],
+ "gundabad_uruk_sword": [
+  "swordGundabadUruk.png",
+  "handheld",
+  "Gundabad Uruk Cleaver",
+  "Fendoir uruk de Gundabad"
+ ],
+ "half_troll_battleaxe": [
+  "battleaxeHalfTroll.png",
+  "handheld",
+  "Half-troll Battleaxe",
+  "Hache de bataille semi-troll"
+ ],
+ "half_troll_boots": [
+  "bootsHalfTroll.png",
+  "generated",
+  "Half-troll Boots",
+  "Bottes semi-troll"
+ ],
+ "half_troll_chestplate": [
+  "bodyHalfTroll.png",
+  "generated",
+  "Half-troll Chestplate",
+  "Plastron semi-troll"
+ ],
+ "half_troll_dagger": [
+  "daggerHalfTroll.png",
+  "handheld",
+  "Half-troll Dagger",
+  "Dague semi-troll"
+ ],
+ "half_troll_hammer": [
+  "hammerHalfTroll.png",
+  "handheld",
+  "Half-troll Warhammer",
+  "Marteau de guerre semi-troll"
+ ],
+ "half_troll_helmet": [
+  "helmetHalfTroll.png",
+  "generated",
+  "Half-troll Helmet",
+  "Casque semi-troll"
+ ],
+ "half_troll_leggings": [
+  "legsHalfTroll.png",
+  "generated",
+  "Half-troll Leggings",
+  "Jambières semi-troll"
+ ],
+ "half_troll_mace": [
+  "maceHalfTroll.png",
+  "handheld",
+  "Half-troll Mace",
+  "Massue semi-troll"
+ ],
+ "half_troll_pike": [
+  "pikeHalfTroll.png",
+  "handheld",
+  "Half-troll Pike",
+  "Pique semi-troll"
+ ],
+ "half_troll_poisoned_dagger": [
+  "daggerHalfTrollPoisoned.png",
+  "handheld",
+  "Poisoned Half-troll Dagger",
+  "Dague semi-troll empoisonnée"
+ ],
+ "half_troll_scimitar": [
+  "scimitarHalfTroll.png",
+  "handheld",
+  "Half-troll Scimitar",
+  "Cimeterre semi-troll"
+ ],
+ "hammer_blacksmith": [
+  "blacksmithHammer.png",
+  "handheld",
+  "Blacksmith Hammer",
+  "Marteau de forgeron"
+ ],
+ "harad_dagger": [
+  "daggerHarad.png",
+  "handheld",
+  "Haradric Dagger",
+  "Dague haradrim"
+ ],
+ "harad_pike": [
+  "pikeHarad.png",
+  "handheld",
+  "Haradric Pike",
+  "Pique haradrim"
+ ],
+ "harad_poisoned_dagger": [
+  "daggerHaradPoisoned.png",
+  "handheld",
+  "Poisoned Haradric Dagger",
+  "Dague haradrim empoisonnée"
+ ],
+ "harad_sword": [
+  "swordHarad.png",
+  "handheld",
+  "Haradric Sword",
+  "Épée haradrim"
+ ],
+ "harnedor_boots": [
+  "bootsHarnedor.png",
+  "generated",
+  "Harnennor Boots",
+  "Bottes de Harnennor"
+ ],
+ "harnedor_chestplate": [
+  "bodyHarnedor.png",
+  "generated",
+  "Harnennor Chestplate",
+  "Plastron de Harnennor"
+ ],
+ "harnedor_helmet": [
+  "helmetHarnedor.png",
+  "generated",
+  "Harnennor Helmet",
+  "Casque de Harnennor"
+ ],
+ "harnedor_leggings": [
+  "legsHarnedor.png",
+  "generated",
+  "Harnennor Leggings",
+  "Jambières de Harnennor"
+ ],
+ "high_elven_boots": [
+  "bootsHighElven.png",
+  "generated",
+  "Lindon Boots",
+  "Bottes du Lindon"
+ ],
+ "high_elven_chestplate": [
+  "bodyHighElven.png",
+  "generated",
+  "Lindon Chestplate",
+  "Plastron du Lindon"
+ ],
+ "high_elven_dagger": [
+  "daggerHighElven.png",
+  "handheld",
+  "Lindon Dagger",
+  "Dague du Lindon"
+ ],
+ "high_elven_helmet": [
+  "helmetHighElven.png",
+  "generated",
+  "Lindon Helmet",
+  "Casque du Lindon"
+ ],
+ "high_elven_leggings": [
+  "legsHighElven.png",
+  "generated",
+  "Lindon Leggings",
+  "Jambières du Lindon"
+ ],
+ "high_elven_longspear": [
+  "longspearHighElven.png",
+  "handheld",
+  "Lindon Longspear",
+  "Longue-lance du Lindon"
+ ],
+ "high_elven_poisoned_dagger": [
+  "daggerHighElvenPoisoned.png",
+  "handheld",
+  "Poisoned Lindon Dagger",
+  "Dague du Lindon empoisonnée"
+ ],
+ "high_elven_polearm": [
+  "polearmHighElven.png",
+  "handheld",
+  "Lindon Battlestaff",
+  "Bâton de combat du Lindon"
+ ],
+ "high_elven_sword": [
+  "swordHighElven.png",
+  "handheld",
+  "Lindon Sword",
+  "Épée du Lindon"
+ ],
+ "hithlain_boots": [
+  "bootsHithlain.png",
+  "generated",
+  "Galadhrim Cloak Boots",
+  "Chaussures galadhrim"
+ ],
+ "hithlain_chestplate": [
+  "bodyHithlain.png",
+  "generated",
+  "Galadhrim Cloak Tunic",
+  "Tunique galadhrim"
+ ],
+ "hithlain_helmet": [
+  "helmetHithlain.png",
+  "generated",
+  "Galadhrim Cloak Hood",
+  "Capuchon galadhrim"
+ ],
+ "hithlain_leggings": [
+  "legsHithlain.png",
+  "generated",
+  "Galadhrim Cloak Leggings",
+  "Pantalon galadhrim"
+ ],
+ "lamedon_boots": [
+  "bootsLamedon.png",
+  "generated",
+  "Lamedon Boots",
+  "Bottes du Lamedon"
+ ],
+ "lamedon_chestplate": [
+  "bodyLamedon.png",
+  "generated",
+  "Lamedon Chestplate",
+  "Plastron du Lamedon"
+ ],
+ "lamedon_helmet": [
+  "helmetLamedon.png",
+  "generated",
+  "Lamedon Helmet",
+  "Casque du Lamedon"
+ ],
+ "lamedon_jacket_chestplate": [
+  "bodyLamedonJacket.png",
+  "generated",
+  "Lamedon Jacket",
+  "Veste du Lamedon"
+ ],
+ "lamedon_leggings": [
+  "legsLamedon.png",
+  "generated",
+  "Lamedon Leggings",
+  "Jambières du Lamedon"
+ ],
+ "lebennin_gambeson_chestplate": [
+  "bodyLebenninGambeson.png",
+  "generated",
+  "Lebennin Gambeson",
+  "Gambeson du Lebennin"
+ ],
+ "lossarnach_battleaxe": [
+  "battleaxeLossarnach.png",
+  "handheld",
+  "Lossarnach Battleaxe",
+  "Hache de bataille de Lossarnach"
+ ],
+ "lossarnach_boots": [
+  "bootsLossarnach.png",
+  "generated",
+  "Lossarnach Boots",
+  "Bottes de Lossarnach"
+ ],
+ "lossarnach_chestplate": [
+  "bodyLossarnach.png",
+  "generated",
+  "Lossarnach Chestplate",
+  "Plastron de Lossarnach"
+ ],
+ "lossarnach_helmet": [
+  "helmetLossarnach.png",
+  "generated",
+  "Lossarnach Helmet",
+  "Casque de Lossarnach"
+ ],
+ "lossarnach_leggings": [
+  "legsLossarnach.png",
+  "generated",
+  "Lossarnach Leggings",
+  "Jambières de Lossarnach"
+ ],
+ "mallorn_charred_mace": [
+  "maceMallornCharred.png",
+  "handheld",
+  "Charred Mallorn Mace",
+  "Massue en mallorn calcinée"
+ ],
+ "mallorn_sword": [
+  "swordMallorn.png",
+  "handheld",
+  "Mallorn Sword",
+  "Épée en mallorn"
+ ],
+ "mithril_battleaxe": [
+  "battleaxeMithril.png",
+  "handheld",
+  "Mithril Battleaxe",
+  "Hache de bataille en mithril"
+ ],
+ "mithril_boots": [
+  "bootsMithril.png",
+  "generated",
+  "Mithril Boots",
+  "Bottes en mithril"
+ ],
+ "mithril_chestplate": [
+  "bodyMithril.png",
+  "generated",
+  "Mithril Chestplate",
+  "Plastron en mithril"
+ ],
+ "mithril_dagger": [
+  "daggerMithril.png",
+  "handheld",
+  "Mithril Dagger",
+  "Dague en mithril"
+ ],
+ "mithril_halberd": [
+  "halberdMithril.png",
+  "handheld",
+  "Mithril Halberd",
+  "Hallebarde en mithril"
+ ],
+ "mithril_hammer": [
+  "hammerMithril.png",
+  "handheld",
+  "Mithril Warhammer",
+  "Marteau de guerre en mithril"
+ ],
+ "mithril_helmet": [
+  "helmetMithril.png",
+  "generated",
+  "Mithril Helmet",
+  "Casque en mithril"
+ ],
+ "mithril_leggings": [
+  "legsMithril.png",
+  "generated",
+  "Mithril Leggings",
+  "Jambières en mithril"
+ ],
+ "mithril_poisoned_dagger": [
+  "daggerMithrilPoisoned.png",
+  "handheld",
+  "Poisoned Mithril Dagger",
+  "Dague en mithril empoisonnée"
+ ],
+ "mithril_sword": [
+  "swordMithril.png",
+  "handheld",
+  "Mithril Sword",
+  "Épée en mithril"
+ ],
+ "moredain_battleaxe": [
+  "battleaxeMoredain.png",
+  "handheld",
+  "Morwaith Battleaxe",
+  "Hache de bataille morwaith"
+ ],
+ "moredain_boots": [
+  "bootsMoredain.png",
+  "generated",
+  "Morwaith Boots",
+  "Bottes morwaith"
+ ],
+ "moredain_chestplate": [
+  "bodyMoredain.png",
+  "generated",
+  "Morwaith Chestplate",
+  "Plastron morwaith"
+ ],
+ "moredain_club": [
+  "clubMoredain.png",
+  "handheld",
+  "Morwaith Club",
+  "Massue morwaith"
+ ],
+ "moredain_dagger": [
+  "daggerMoredain.png",
+  "handheld",
+  "Morwaith Dagger",
+  "Dague morwaith"
+ ],
+ "moredain_helmet": [
+  "helmetMoredain.png",
+  "generated",
+  "Morwaith Helmet",
+  "Casque morwaith"
+ ],
+ "moredain_leggings": [
+  "legsMoredain.png",
+  "generated",
+  "Morwaith Leggings",
+  "Jambières morwaith"
+ ],
+ "moredain_lion_boots": [
+  "bootsMoredainLion.png",
+  "generated",
+  "Morwaith Chieftain Boots",
+  "Bottes de chef morwaith"
+ ],
+ "moredain_lion_chestplate": [
+  "bodyMoredainLion.png",
+  "generated",
+  "Morwaith Chieftain Chestplate",
+  "Plastron de chef morwaith"
+ ],
+ "moredain_lion_helmet": [
+  "helmetMoredainLion.png",
+  "generated",
+  "Morwaith Chieftain Helmet",
+  "Heaume de chef morwaith"
+ ],
+ "moredain_lion_leggings": [
+  "legsMoredainLion.png",
+  "generated",
+  "Morwaith Chieftain Leggings",
+  "Jambières de chef morwaith"
+ ],
+ "moredain_poisoned_dagger": [
+  "daggerMoredainPoisoned.png",
+  "handheld",
+  "Poisoned Morwaith Dagger",
+  "Dague morwaith empoisonnée"
+ ],
+ "moredain_sword": [
+  "swordMoredain.png",
+  "handheld",
+  "Morwaith Sword",
+  "Épée morwaith"
+ ],
+ "morgul_boots": [
+  "bootsMorgul.png",
+  "generated",
+  "Morgul Boots",
+  "Bottes de Morgul"
+ ],
+ "morgul_chestplate": [
+  "bodyMorgul.png",
+  "generated",
+  "Morgul Chestplate",
+  "Plastron de Morgul"
+ ],
+ "morgul_helmet": [
+  "helmetMorgul.png",
+  "generated",
+  "Morgul Helmet",
+  "Casque de Morgul"
+ ],
+ "morgul_leggings": [
+  "legsMorgul.png",
+  "generated",
+  "Morgul Leggings",
+  "Jambières de Morgul"
+ ],
+ "near_harad_boots": [
+  "bootsNearHarad.png",
+  "generated",
+  "Coast Southron Boots",
+  "Bottes suderonnes des côtes"
+ ],
+ "near_harad_chestplate": [
+  "bodyNearHarad.png",
+  "generated",
+  "Coast Southron Chestplate",
+  "Plastron suderon des côtes"
+ ],
+ "near_harad_dagger": [
+  "daggerNearHarad.png",
+  "handheld",
+  "Umbaric Dagger",
+  "Dague d'Umbar"
+ ],
+ "near_harad_helmet": [
+  "helmetNearHarad.png",
+  "generated",
+  "Coast Southron Helmet",
+  "Casque suderon des côtes"
+ ],
+ "near_harad_leggings": [
+  "legsNearHarad.png",
+  "generated",
+  "Coast Southron Leggings",
+  "Jambières suderonnes des côtes"
+ ],
+ "near_harad_mace": [
+  "maceNearHarad.png",
+  "handheld",
+  "Umbaric Mace",
+  "Massue d'Umbar"
+ ],
+ "near_harad_pike": [
+  "pikeNearHarad.png",
+  "handheld",
+  "Umbaric Pike",
+  "Pique d'Umbar"
+ ],
+ "near_harad_poisoned_dagger": [
+  "daggerNearHaradPoisoned.png",
+  "handheld",
+  "Poisoned Umbaric Dagger",
+  "Dague d'Umbar empoisonnée"
+ ],
+ "near_harad_poleaxe": [
+  "poleaxeNearHarad.png",
+  "handheld",
+  "Umbaric Poleaxe",
+  "Hallebarde d'Umbar"
+ ],
+ "near_harad_scimitar": [
+  "scimitarNearHarad.png",
+  "handheld",
+  "Umbaric Scimitar",
+  "Cimeterre d'Umbar"
+ ],
+ "near_harad_warlord_helmet": [
+  "helmetNearHaradWarlord.png",
+  "generated",
+  "Southron Champion Helmet",
+  "Heaume de champion suderon"
+ ],
+ "nomad_boots": [
+  "bootsNomad.png",
+  "generated",
+  "Nomad Shoes",
+  "Chaussures nomades"
+ ],
+ "nomad_chestplate": [
+  "bodyNomad.png",
+  "generated",
+  "Nomad Tunic",
+  "Tunique nomade"
+ ],
+ "nomad_helmet": [
+  "helmetNomad.png",
+  "generated",
+  "Nomad Cap",
+  "Capuchon nomade"
+ ],
+ "nomad_leggings": [
+  "legsNomad.png",
+  "generated",
+  "Nomad Leggings",
+  "Pantalon nomade"
+ ],
+ "orc_battleaxe": [
+  "battleaxeOrc.png",
+  "handheld",
+  "Mordor Battleaxe",
+  "Hache de bataille du Mordor"
+ ],
+ "orc_boots": [
+  "bootsOrc.png",
+  "generated",
+  "Mordor Boots",
+  "Bottes du Mordor"
+ ],
+ "orc_chestplate": [
+  "bodyOrc.png",
+  "generated",
+  "Mordor Chestplate",
+  "Plastron du Mordor"
+ ],
+ "orc_dagger": [
+  "daggerOrc.png",
+  "handheld",
+  "Mordor Dagger",
+  "Dague du Mordor"
+ ],
+ "orc_hammer": [
+  "hammerOrc.png",
+  "handheld",
+  "Mordor Warhammer",
+  "Marteau de guerre du Mordor"
+ ],
+ "orc_helmet": [
+  "helmetOrc.png",
+  "generated",
+  "Mordor Helmet",
+  "Casque du Mordor"
+ ],
+ "orc_leggings": [
+  "legsOrc.png",
+  "generated",
+  "Mordor Leggings",
+  "Jambières du Mordor"
+ ],
+ "orc_poisoned_dagger": [
+  "daggerOrcPoisoned.png",
+  "handheld",
+  "Poisoned Mordor Dagger",
+  "Dague du Mordor empoisonnée"
+ ],
+ "orc_polearm": [
+  "polearmOrc.png",
+  "handheld",
+  "Mordor Warscythe",
+  "Faux de guerre du Mordor"
+ ],
+ "orc_scimitar": [
+  "scimitarOrc.png",
+  "handheld",
+  "Mordor Scimitar",
+  "Cimeterre du Mordor"
+ ],
+ "pelargir_boots": [
+  "bootsPelargir.png",
+  "generated",
+  "Pelargir Boots",
+  "Bottes de Pelargir"
+ ],
+ "pelargir_chestplate": [
+  "bodyPelargir.png",
+  "generated",
+  "Pelargir Chestplate",
+  "Plastron de Pelargir"
+ ],
+ "pelargir_helmet": [
+  "helmetPelargir.png",
+  "generated",
+  "Pelargir Helmet",
+  "Casque de Pelargir"
+ ],
+ "pelargir_leggings": [
+  "legsPelargir.png",
+  "generated",
+  "Pelargir Leggings",
+  "Jambières de Pelargir"
+ ],
+ "pelargir_sword": [
+  "swordPelargir.png",
+  "handheld",
+  "Pelargir Eket",
+  "Eket de Pelargir"
+ ],
+ "pinnath_gelin_boots": [
+  "bootsPinnathGelin.png",
+  "generated",
+  "Pinnath Gelin Boots",
+  "Bottes du Pinnath Gelin"
+ ],
+ "pinnath_gelin_chestplate": [
+  "bodyPinnathGelin.png",
+  "generated",
+  "Pinnath Gelin Chestplate",
+  "Plastron du Pinnath Gelin"
+ ],
+ "pinnath_gelin_helmet": [
+  "helmetPinnathGelin.png",
+  "generated",
+  "Pinnath Gelin Helmet",
+  "Casque du Pinnath Gelin"
+ ],
+ "pinnath_gelin_leggings": [
+  "legsPinnathGelin.png",
+  "generated",
+  "Pinnath Gelin Leggings",
+  "Jambières du Pinnath Gelin"
+ ],
+ "ranger_boots": [
+  "bootsRanger.png",
+  "generated",
+  "Ranger Boots",
+  "Bottes de rôdeur"
+ ],
+ "ranger_chestplate": [
+  "bodyRanger.png",
+  "generated",
+  "Ranger Tunic",
+  "Tunique de rôdeur"
+ ],
+ "ranger_helmet": [
+  "helmetRanger.png",
+  "generated",
+  "Ranger Hood",
+  "Capuchon de rôdeur"
+ ],
+ "ranger_ithilien_boots": [
+  "bootsRangerIthilien.png",
+  "generated",
+  "Ithilien Ranger Boots",
+  "Bottes de rôdeur d'Ithilien"
+ ],
+ "ranger_ithilien_chestplate": [
+  "bodyRangerIthilien.png",
+  "generated",
+  "Ithilien Ranger Tunic",
+  "Tunique de rôdeur d'Ithilien"
+ ],
+ "ranger_ithilien_helmet": [
+  "helmetRangerIthilien.png",
+  "generated",
+  "Ithilien Ranger Hood",
+  "Capuchon de rôdeur d'Ithilien"
+ ],
+ "ranger_ithilien_leggings": [
+  "legsRangerIthilien.png",
+  "generated",
+  "Ithilien Ranger Leggings",
+  "Pantalon de rôdeur d'Ithilien"
+ ],
+ "ranger_leggings": [
+  "legsRanger.png",
+  "generated",
+  "Ranger Leggings",
+  "Pantalon de rôdeur"
+ ],
+ "rhun_battleaxe": [
+  "battleaxeRhun.png",
+  "handheld",
+  "Rhûnic Battleaxe",
+  "Hache de bataille de Rhûn"
+ ],
+ "rhun_boots": [
+  "bootsRhun.png",
+  "generated",
+  "Rhûnic Boots",
+  "Bottes de Rhûn"
+ ],
+ "rhun_chestplate": [
+  "bodyRhun.png",
+  "generated",
+  "Rhûnic Chestplate",
+  "Plastron de Rhûn"
+ ],
+ "rhun_dagger": [
+  "daggerRhun.png",
+  "handheld",
+  "Rhûnic Dagger",
+  "Dague de Rhûn"
+ ],
+ "rhun_gold_boots": [
+  "bootsRhunGold.png",
+  "generated",
+  "Golden Rhûnic Boots",
+  "Bottes dorées de Rhûn"
+ ],
+ "rhun_gold_chestplate": [
+  "bodyRhunGold.png",
+  "generated",
+  "Golden Rhûnic Chestplate",
+  "Plastron doré de Rhûn"
+ ],
+ "rhun_gold_helmet": [
+  "helmetRhunGold.png",
+  "generated",
+  "Golden Rhûnic Helmet",
+  "Casque doré de Rhûn"
+ ],
+ "rhun_gold_leggings": [
+  "legsRhunGold.png",
+  "generated",
+  "Golden Rhûnic Leggings",
+  "Jambières dorées de Rhûn"
+ ],
+ "rhun_helmet": [
+  "helmetRhun.png",
+  "generated",
+  "Rhûnic Helmet",
+  "Casque de Rhûn"
+ ],
+ "rhun_leggings": [
+  "legsRhun.png",
+  "generated",
+  "Rhûnic Leggings",
+  "Jambières de Rhûn"
+ ],
+ "rhun_pike": [
+  "pikeRhun.png",
+  "handheld",
+  "Rhûnic Pike",
+  "Pique de Rhûn"
+ ],
+ "rhun_poisoned_dagger": [
+  "daggerRhunPoisoned.png",
+  "handheld",
+  "Poisoned Rhûnic Dagger",
+  "Dague de Rhûn empoisonnée"
+ ],
+ "rhun_polearm": [
+  "polearmRhun.png",
+  "handheld",
+  "Rhûnic Bardiche",
+  "Bardiche de Rhûn"
+ ],
+ "rhun_sword": [
+  "swordRhun.png",
+  "handheld",
+  "Rhûnic Sword",
+  "Épée de Rhûn"
+ ],
+ "rhun_warlord_helmet": [
+  "helmetRhunWarlord.png",
+  "generated",
+  "Rhûnic Warlord Helmet",
+  "Heaume de seigneur de guerre de Rhûn"
+ ],
+ "rivendell_boots": [
+  "bootsRivendell.png",
+  "generated",
+  "Rivendell Boots",
+  "Bottes de Fondcombe"
+ ],
+ "rivendell_chestplate": [
+  "bodyRivendell.png",
+  "generated",
+  "Rivendell Chestplate",
+  "Plastron de Fondcombe"
+ ],
+ "rivendell_dagger": [
+  "daggerRivendell.png",
+  "handheld",
+  "Rivendell Dagger",
+  "Dague de Fondcombe"
+ ],
+ "rivendell_helmet": [
+  "helmetRivendell.png",
+  "generated",
+  "Rivendell Helmet",
+  "Casque de Fondcombe"
+ ],
+ "rivendell_leggings": [
+  "legsRivendell.png",
+  "generated",
+  "Rivendell Leggings",
+  "Jambières de Fondcombe"
+ ],
+ "rivendell_longspear": [
+  "longspearRivendell.png",
+  "handheld",
+  "Rivendell Longspear",
+  "Longue-lance de Fondcombe"
+ ],
+ "rivendell_poisoned_dagger": [
+  "daggerRivendellPoisoned.png",
+  "handheld",
+  "Poisoned Rivendell Dagger",
+  "Dague de Fondcombe empoisonnée"
+ ],
+ "rivendell_polearm": [
+  "polearmRivendell.png",
+  "handheld",
+  "Rivendell Battlestaff",
+  "Bâton de Combat de Fondcombe"
+ ],
+ "rivendell_sword": [
+  "swordRivendell.png",
+  "handheld",
+  "Rivendell Sword",
+  "Épée de Fondcombe"
+ ],
+ "rohan_battleaxe": [
+  "battleaxeRohan.png",
+  "handheld",
+  "Rohirric Battleaxe",
+  "Hache de bataille rohirrim"
+ ],
+ "rohan_boots": [
+  "bootsRohan.png",
+  "generated",
+  "Rohirric Boots",
+  "Bottes rohirrim"
+ ],
+ "rohan_chestplate": [
+  "bodyRohan.png",
+  "generated",
+  "Rohirric Hauberk",
+  "Haubert rohirrim"
+ ],
+ "rohan_dagger": [
+  "daggerRohan.png",
+  "handheld",
+  "Rohirric Dagger",
+  "Dague rohirrim"
+ ],
+ "rohan_helmet": [
+  "helmetRohan.png",
+  "generated",
+  "Rohirric Coif",
+  "Coiffe rohirrim"
+ ],
+ "rohan_lance": [
+  "lanceRohan.png",
+  "handheld",
+  "Rohirric Lance",
+  "Lance de cavalier rohirrim"
+ ],
+ "rohan_leggings": [
+  "legsRohan.png",
+  "generated",
+  "Rohirric Leggings",
+  "Jambières rohirrim"
+ ],
+ "rohan_marshal_boots": [
+  "bootsRohanMarshal.png",
+  "generated",
+  "Rohirric Marshal Boots",
+  "Bottes de maréchal rohirrim"
+ ],
+ "rohan_marshal_chestplate": [
+  "bodyRohanMarshal.png",
+  "generated",
+  "Rohirric Marshal Chestplate",
+  "Plastron de maréchal rohirrim"
+ ],
+ "rohan_marshal_helmet": [
+  "helmetRohanMarshal.png",
+  "generated",
+  "Rohirric Marshal Helmet",
+  "Heaume de maréchal rohirrim"
+ ],
+ "rohan_marshal_leggings": [
+  "legsRohanMarshal.png",
+  "generated",
+  "Rohirric Marshal Leggings",
+  "Jambières de maréchal rohirrim"
+ ],
+ "rohan_poisoned_dagger": [
+  "daggerRohanPoisoned.png",
+  "handheld",
+  "Poisoned Rohirric Dagger",
+  "Dague rohirrim empoisonnée"
+ ],
+ "rohan_sword": [
+  "swordRohan.png",
+  "handheld",
+  "Rohirric Sword",
+  "Épée rohirrim"
+ ],
+ "tauredain_battleaxe": [
+  "battleaxeTauredain.png",
+  "handheld",
+  "Taurethrim Battleaxe",
+  "Hache de bataille taurethrim"
+ ],
+ "tauredain_boots": [
+  "bootsTauredain.png",
+  "generated",
+  "Taurethrim Boots",
+  "Bottes taurethrim"
+ ],
+ "tauredain_chestplate": [
+  "bodyTauredain.png",
+  "generated",
+  "Taurethrim Chestplate",
+  "Plastron taurethrim"
+ ],
+ "tauredain_chieftain_helmet": [
+  "helmetTauredainChieftain.png",
+  "generated",
+  "Taurethrim Chieftain Helmet",
+  "Heaume de chef taurethrim"
+ ],
+ "tauredain_dagger": [
+  "daggerTauredain.png",
+  "handheld",
+  "Taurethrim Dagger",
+  "Dague taurethrim"
+ ],
+ "tauredain_gold_boots": [
+  "bootsTauredainGold.png",
+  "generated",
+  "Golden Taurethrim Boots",
+  "Bottes taurethrim dorées"
+ ],
+ "tauredain_gold_chestplate": [
+  "bodyTauredainGold.png",
+  "generated",
+  "Golden Taurethrim Chestplate",
+  "Plastron taurethrim doré"
+ ],
+ "tauredain_gold_helmet": [
+  "helmetTauredainGold.png",
+  "generated",
+  "Golden Taurethrim Helmet",
+  "Heaume taurethrim doré"
+ ],
+ "tauredain_gold_leggings": [
+  "legsTauredainGold.png",
+  "generated",
+  "Golden Taurethrim Leggings",
+  "Jambières taurethrim dorées"
+ ],
+ "tauredain_hammer": [
+  "hammerTauredain.png",
+  "handheld",
+  "Taurethrim Bludgeon",
+  "Gourdin taurethrim"
+ ],
+ "tauredain_helmet": [
+  "helmetTauredain.png",
+  "generated",
+  "Taurethrim Helmet",
+  "Casque taurethrim"
+ ],
+ "tauredain_leggings": [
+  "legsTauredain.png",
+  "generated",
+  "Taurethrim Leggings",
+  "Jambières taurethrim"
+ ],
+ "tauredain_pike": [
+  "pikeTauredain.png",
+  "handheld",
+  "Taurethrim Pike",
+  "Pique taurethrim"
+ ],
+ "tauredain_poisoned_dagger": [
+  "daggerTauredainPoisoned.png",
+  "handheld",
+  "Poisoned Taurethrim Dagger",
+  "Dague taurethrim empoisonnée"
+ ],
+ "tauredain_sword": [
+  "swordTauredain.png",
+  "handheld",
+  "Taurethrim Sword",
+  "Épée taurethrim"
+ ],
+ "umbar_boots": [
+  "bootsUmbar.png",
+  "generated",
+  "Umbaric Boots",
+  "Bottes d'Umbar"
+ ],
+ "umbar_chestplate": [
+  "bodyUmbar.png",
+  "generated",
+  "Umbaric Chestplate",
+  "Plastron d'Umbar"
+ ],
+ "umbar_helmet": [
+  "helmetUmbar.png",
+  "generated",
+  "Umbaric Helmet",
+  "Casque d'Umbar"
+ ],
+ "umbar_leggings": [
+  "legsUmbar.png",
+  "generated",
+  "Umbaric Leggings",
+  "Jambières d'Umbar"
+ ],
+ "uruk_battleaxe": [
+  "battleaxeUruk.png",
+  "handheld",
+  "Uruk Battleaxe",
+  "Hache de bataille uruk"
+ ],
+ "uruk_berserker_helmet": [
+  "helmetUrukBerserker.png",
+  "generated",
+  "Uruk Berserker Helmet",
+  "Heaume de berserker uruk"
+ ],
+ "uruk_berserker_scimitar": [
+  "scimitarUrukBerserker.png",
+  "handheld",
+  "Uruk Berserker Cleaver",
+  "Cimeterre de berserker uruk"
+ ],
+ "uruk_boots": [
+  "bootsUruk.png",
+  "generated",
+  "Uruk Boots",
+  "Bottes uruk"
+ ],
+ "uruk_chestplate": [
+  "bodyUruk.png",
+  "generated",
+  "Uruk Chestplate",
+  "Plastron uruk"
+ ],
+ "uruk_dagger": [
+  "daggerUruk.png",
+  "handheld",
+  "Uruk Dagger",
+  "Dague uruk"
+ ],
+ "uruk_hammer": [
+  "hammerUruk.png",
+  "handheld",
+  "Uruk Warhammer",
+  "Marteau de guerre uruk"
+ ],
+ "uruk_helmet": [
+  "helmetUruk.png",
+  "generated",
+  "Uruk Helmet",
+  "Casque uruk"
+ ],
+ "uruk_leggings": [
+  "legsUruk.png",
+  "generated",
+  "Uruk Leggings",
+  "Jambières uruk"
+ ],
+ "uruk_pike": [
+  "pikeUruk.png",
+  "handheld",
+  "Uruk Pike",
+  "Pique uruk"
+ ],
+ "uruk_poisoned_dagger": [
+  "daggerUrukPoisoned.png",
+  "handheld",
+  "Poisoned Uruk Dagger",
+  "Dague uruk empoisonnée"
+ ],
+ "uruk_scimitar": [
+  "scimitarUruk.png",
+  "handheld",
+  "Uruk Cleaver",
+  "Tranchoir uruk"
+ ],
+ "utumno_battleaxe": [
+  "battleaxeUtumno.png",
+  "handheld",
+  "Utumno Battleaxe",
+  "Hache de bataille d'Utumno"
+ ],
+ "utumno_boots": [
+  "bootsUtumno.png",
+  "generated",
+  "Utumno Boots",
+  "Bottes d'Utumno"
+ ],
+ "utumno_chestplate": [
+  "bodyUtumno.png",
+  "generated",
+  "Utumno Chestplate",
+  "Plastron d'Utumno"
+ ],
+ "utumno_dagger": [
+  "daggerUtumno.png",
+  "handheld",
+  "Utumno Dagger",
+  "Dague d'Utumno"
+ ],
+ "utumno_hammer": [
+  "hammerUtumno.png",
+  "handheld",
+  "Utumno Warhammer",
+  "Marteau de guerre d'Utumno"
+ ],
+ "utumno_helmet": [
+  "helmetUtumno.png",
+  "generated",
+  "Utumno Helmet",
+  "Casque d'Utumno"
+ ],
+ "utumno_leggings": [
+  "legsUtumno.png",
+  "generated",
+  "Utumno Leggings",
+  "Jambières d'Utumno"
+ ],
+ "utumno_poisoned_dagger": [
+  "daggerUtumnoPoisoned.png",
+  "handheld",
+  "Poisoned Utumno Dagger",
+  "Dague d'Utumno"
+ ],
+ "utumno_sword": [
+  "swordUtumno.png",
+  "handheld",
+  "Utumno Sword",
+  "Épée d'Utumno"
+ ],
+ "warg_boots": [
+  "bootsWarg.png",
+  "generated",
+  "Fur Boots",
+  "Bottes en fourrure"
+ ],
+ "warg_chestplate": [
+  "bodyWarg.png",
+  "generated",
+  "Fur Tunic",
+  "Tunique en fourrure"
+ ],
+ "warg_helmet": [
+  "helmetWarg.png",
+  "generated",
+  "Fur Hat",
+  "Chapeau en fourrure"
+ ],
+ "warg_leggings": [
+  "legsWarg.png",
+  "generated",
+  "Fur Leggings",
+  "Pantalon en fourrure"
+ ],
+ "wood_elven_boots": [
+  "bootsWoodElven.png",
+  "generated",
+  "Wood-elven Boots",
+  "Bottes des elfes sylvains"
+ ],
+ "wood_elven_chestplate": [
+  "bodyWoodElven.png",
+  "generated",
+  "Wood-elven Chestplate",
+  "Plastron des elfes sylvains"
+ ],
+ "wood_elven_dagger": [
+  "daggerWoodElven.png",
+  "handheld",
+  "Wood-elven Dagger",
+  "Dague des elfes sylvains"
+ ],
+ "wood_elven_helmet": [
+  "helmetWoodElven.png",
+  "generated",
+  "Wood-elven Helmet",
+  "Casque des elfes sylvains"
+ ],
+ "wood_elven_leggings": [
+  "legsWoodElven.png",
+  "generated",
+  "Wood-elven Leggings",
+  "Jambières des elfes sylvains"
+ ],
+ "wood_elven_longspear": [
+  "longspearWoodElven.png",
+  "handheld",
+  "Wood-elven Longspear",
+  "Longue-lance des elfes sylvains"
+ ],
+ "wood_elven_poisoned_dagger": [
+  "daggerWoodElvenPoisoned.png",
+  "handheld",
+  "Poisoned Wood-elven Dagger",
+  "Dague des elfes sylvains empoisonnée"
+ ],
+ "wood_elven_polearm": [
+  "polearmWoodElven.png",
+  "handheld",
+  "Wood-elven Battlestaff",
+  "Bâton de combat des elfes sylvains"
+ ],
+ "wood_elven_scout_boots": [
+  "bootsWoodElvenScout.png",
+  "generated",
+  "Wood-elven Scout Boots",
+  "Bottes d'éclaireur sylvain"
+ ],
+ "wood_elven_scout_chestplate": [
+  "bodyWoodElvenScout.png",
+  "generated",
+  "Wood-elven Scout Tunic",
+  "Tunique d'éclaireur sylvain"
+ ],
+ "wood_elven_scout_helmet": [
+  "helmetWoodElvenScout.png",
+  "generated",
+  "Wood-elven Scout Hood",
+  "Capuchon d'éclaireur sylvain"
+ ],
+ "wood_elven_scout_leggings": [
+  "legsWoodElvenScout.png",
+  "generated",
+  "Wood-elven Scout Leggings",
+  "Pantalon d'éclaireur sylvain"
+ ],
+ "wood_elven_sword": [
+  "swordWoodElven.png",
+  "handheld",
+  "Wood-elven Sword",
+  "Épée des elfes sylvains"
+ ]
+}

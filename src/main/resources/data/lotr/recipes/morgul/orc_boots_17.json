@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "morgul",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:orc_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:orc_boots",
+    "count": 1
+  }
+}

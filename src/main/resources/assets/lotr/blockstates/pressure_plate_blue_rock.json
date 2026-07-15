@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "lotr:block/pressure_plate_blue_rock"
+    },
+    "powered=true": {
+      "model": "lotr:block/pressure_plate_blue_rock_down"
+    }
+  }
+}

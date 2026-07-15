@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "lotr:block/brick_dwarven",
+    "top": "lotr:block/brick_dwarven",
+    "side": "lotr:block/brick_dwarven"
+  }
+}

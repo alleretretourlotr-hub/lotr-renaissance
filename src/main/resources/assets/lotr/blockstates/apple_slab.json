@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/apple_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/apple_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/apple_planks"
+    }
+  }
+}

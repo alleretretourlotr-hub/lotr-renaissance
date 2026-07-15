@@ -1,0 +1,22 @@
+{
+ "en": {
+  "entity.lotr.rohan_shieldmaiden": "Rohan Shieldmaiden",
+  "entity.lotr.rohirrim_archer": "Rohirrim Archer",
+  "entity.lotr.rohirrim_marshal": "Rohirrim Marshal",
+  "entity.lotr.rohirrim_warrior": "Rohirrim Warrior",
+  "item.lotr.rohan_shieldmaiden_spawn_egg": "Rohan Shieldmaiden Spawn Egg",
+  "item.lotr.rohirrim_archer_spawn_egg": "Rohirrim Archer Spawn Egg",
+  "item.lotr.rohirrim_marshal_spawn_egg": "Rohirrim Marshal Spawn Egg",
+  "item.lotr.rohirrim_warrior_spawn_egg": "Rohirrim Warrior Spawn Egg"
+ },
+ "fr": {
+  "entity.lotr.rohan_shieldmaiden": "Vierge au bouclier du Rohan",
+  "entity.lotr.rohirrim_archer": "Archer du Rohan",
+  "entity.lotr.rohirrim_marshal": "Maréchal du Rohan",
+  "entity.lotr.rohirrim_warrior": "Guerrier du Rohan",
+  "item.lotr.rohan_shieldmaiden_spawn_egg": "Œuf : Vierge au bouclier du Rohan",
+  "item.lotr.rohirrim_archer_spawn_egg": "Œuf : Archer du Rohan",
+  "item.lotr.rohirrim_marshal_spawn_egg": "Œuf : Maréchal du Rohan",
+  "item.lotr.rohirrim_warrior_spawn_egg": "Œuf : Guerrier du Rohan"
+ }
+}

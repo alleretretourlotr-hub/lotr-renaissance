@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "X",
+    "Y",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:obsidian_shard"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_shovel",
+    "count": 1
+  }
+}

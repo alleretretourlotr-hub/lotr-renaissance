@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_amroth",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gondor_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_amroth_brick",
+    "count": 4
+  }
+}

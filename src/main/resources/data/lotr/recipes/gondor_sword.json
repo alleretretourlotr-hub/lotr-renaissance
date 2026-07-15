@@ -1,0 +1,20 @@
+{
+  "type": "lotr:crafting_faction",
+  "faction_table": "gondorian",
+  "pattern": [
+    "i",
+    "i",
+    "s"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_sword"
+  }
+}

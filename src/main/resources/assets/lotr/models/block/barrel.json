@@ -1,0 +1,34 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "side": "lotr:block/barrel_side",
+    "top": "lotr:block/barrel_top",
+    "tap": "lotr:block/barrel_tap",
+    "particle": "lotr:block/barrel_side"
+  },
+  "elements": [
+    {
+      "from": [2, 0, 2],
+      "to": [14, 13, 14],
+      "faces": {
+        "north": { "texture": "#side", "uv": [2, 3, 14, 16] },
+        "south": { "texture": "#side", "uv": [2, 3, 14, 16] },
+        "east":  { "texture": "#side", "uv": [2, 3, 14, 16] },
+        "west":  { "texture": "#side", "uv": [2, 3, 14, 16] },
+        "up":    { "texture": "#top",  "uv": [2, 2, 14, 14] },
+        "down":  { "texture": "#top",  "uv": [2, 2, 14, 14] }
+      }
+    },
+    {
+      "from": [6.5, 3, 0.5],
+      "to": [9.5, 7, 2],
+      "faces": {
+        "north": { "texture": "#tap", "uv": [6, 6, 9, 10] },
+        "east":  { "texture": "#tap", "uv": [6, 6, 8, 10] },
+        "west":  { "texture": "#tap", "uv": [6, 6, 8, 10] },
+        "up":    { "texture": "#tap", "uv": [6, 4, 9, 6] },
+        "down":  { "texture": "#tap", "uv": [6, 4, 9, 6] }
+      }
+    }
+  ]
+}

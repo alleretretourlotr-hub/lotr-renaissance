@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dwarven",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "lotr:dwarven_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:dwarven_crafting_table",
+    "count": 1
+  }
+}

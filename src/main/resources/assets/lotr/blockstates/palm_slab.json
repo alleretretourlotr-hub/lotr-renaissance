@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/palm_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/palm_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/palm_planks"
+    }
+  }
+}

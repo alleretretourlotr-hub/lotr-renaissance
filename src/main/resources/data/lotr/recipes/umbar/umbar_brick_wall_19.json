@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "umbar",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:umbar_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:umbar_brick_wall",
+    "count": 6
+  }
+}

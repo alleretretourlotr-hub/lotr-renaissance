@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    "XX",
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:mallorn_planks"
+    }
+  },
+  "result": {
+    "item": "lotr:mallorn_door",
+    "count": 1
+  }
+}

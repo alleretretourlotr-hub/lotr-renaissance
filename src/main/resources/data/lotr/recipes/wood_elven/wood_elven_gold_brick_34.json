@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "wood_elven",
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_nugget"
+    },
+    "Y": {
+      "item": "lotr:wood_elven_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:wood_elven_gold_brick",
+    "count": 1
+  }
+}

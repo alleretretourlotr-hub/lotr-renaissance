@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lotr:block/brick_rohan",
+    "top": "lotr:block/brick_rohan",
+    "side": "lotr:block/brick_rohan"
+  }
+}

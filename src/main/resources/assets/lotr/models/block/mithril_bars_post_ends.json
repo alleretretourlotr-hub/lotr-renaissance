@@ -1,0 +1,8 @@
+{
+  "parent": "block/iron_bars_post_ends",
+  "textures": {
+    "bars": "lotr:block/mithril_bars",
+    "edge": "lotr:block/mithril_bars",
+    "particle": "lotr:block/mithril_bars"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "lotr:block/wood4_cedar_side",
+    "end": "lotr:block/wood4_cedar_top"
+  }
+}

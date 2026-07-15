@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/cypress_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/cypress_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/cypress_planks"
+    }
+  }
+}

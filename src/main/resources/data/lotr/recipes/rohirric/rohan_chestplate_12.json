@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rohirric",
+  "pattern": [
+    "X X",
+    "YYY",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:rohan_chestplate",
+    "count": 1
+  }
+}

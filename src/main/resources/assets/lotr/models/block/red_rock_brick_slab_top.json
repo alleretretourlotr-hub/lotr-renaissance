@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "lotr:block/brick2_red_rock",
+    "top": "lotr:block/brick2_red_rock",
+    "side": "lotr:block/brick2_red_rock"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dorwinion",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dorwinion_cracked_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:dorwinion_cracked_brick_wall",
+    "count": 6
+  }
+}

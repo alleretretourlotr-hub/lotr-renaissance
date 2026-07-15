@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_guldur",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dol_guldur_cracked_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_guldur_cracked_brick_wall",
+    "count": 6
+  }
+}

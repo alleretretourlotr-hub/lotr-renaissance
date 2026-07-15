@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rohirric",
+  "pattern": [
+    "Y Y",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:rohan_boots",
+    "count": 1
+  }
+}

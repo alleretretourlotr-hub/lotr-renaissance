@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "half_troll",
+  "pattern": [
+    "  X",
+    " YX",
+    "Y  "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:flint"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:half_troll_pike",
+    "count": 1
+  }
+}

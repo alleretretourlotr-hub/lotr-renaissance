@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/dwarven_cracked_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/dwarven_cracked_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/dwarven_cracked_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/dwarven_cracked_pillar_top"
+    }
+  }
+}

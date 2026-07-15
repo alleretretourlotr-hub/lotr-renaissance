@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "lotr:galadhrim_brick",
+    "count": 4
+  }
+}

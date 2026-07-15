@@ -1,0 +1,24 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:obsidian_shard"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_dart",
+    "count": 4
+  }
+}

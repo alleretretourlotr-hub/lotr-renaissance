@@ -1,0 +1,56 @@
+{
+ "copper": [
+  "copper.png",
+  "generated",
+  "Copper Ingot",
+  "Lingot de cuivre"
+ ],
+ "gulduril_crystal": [
+  "guldurilCrystal.png",
+  "generated",
+  "Gulduril",
+  "Gulduril"
+ ],
+ "mithril_nugget": [
+  "mithrilNugget.png",
+  "generated",
+  "Mithril Nugget",
+  "Pépite de mithril"
+ ],
+ "naurite_gem": [
+  "naurite.png",
+  "generated",
+  "Durnor",
+  "Durnor"
+ ],
+ "quendite_crystal": [
+  "quenditeCrystal.png",
+  "generated",
+  "Edhelvir",
+  "Edhelvir"
+ ],
+ "saltpeter": [
+  "saltpeter.png",
+  "generated",
+  "Niter",
+  "Salpêtre"
+ ],
+ "silver_nugget": [
+  "silverNugget.png",
+  "generated",
+  "Silver Nugget",
+  "Pépite d'argent"
+ ],
+ "sulfur": [
+  "sulfur.png",
+  "generated",
+  "Sulfur",
+  "Soufre"
+ ],
+ "tin": [
+  "tin.png",
+  "generated",
+  "Tin Ingot",
+  "Lingot d'étain"
+ ]
+}

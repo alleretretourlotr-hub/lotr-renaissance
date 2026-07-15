@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "half_troll",
+  "pattern": [
+    "X X",
+    "XYX",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gemsbok_hide"
+    },
+    "Y": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lotr:half_troll_chestplate",
+    "count": 1
+  }
+}

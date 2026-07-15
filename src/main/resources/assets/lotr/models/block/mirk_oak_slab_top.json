@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "lotr:block/planks_mirk_oak",
+    "top": "lotr:block/planks_mirk_oak",
+    "side": "lotr:block/planks_mirk_oak"
+  }
+}

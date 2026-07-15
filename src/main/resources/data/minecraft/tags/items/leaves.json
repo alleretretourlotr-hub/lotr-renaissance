@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:shire_pine_leaves",
+    "lotr:mallorn_leaves",
+    "lotr:mirk_oak_leaves",
+    "lotr:mirk_oak_red_leaves",
+    "lotr:lebethron_leaves",
+    "lotr:beech_leaves",
+    "lotr:holly_leaves",
+    "lotr:banana_leaves",
+    "lotr:maple_leaves",
+    "lotr:larch_leaves",
+    "lotr:date_palm_leaves",
+    "lotr:mangrove_leaves",
+    "lotr:chestnut_leaves",
+    "lotr:baobab_leaves",
+    "lotr:cedar_leaves",
+    "lotr:fir_leaves"
+  ]
+}

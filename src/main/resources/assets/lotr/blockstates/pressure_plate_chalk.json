@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "lotr:block/pressure_plate_chalk"
+    },
+    "powered=true": {
+      "model": "lotr:block/pressure_plate_chalk_down"
+    }
+  }
+}

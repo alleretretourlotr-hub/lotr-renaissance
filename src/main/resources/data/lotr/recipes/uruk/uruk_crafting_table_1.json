@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "uruk",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "lotr:uruk_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:uruk_crafting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_nugget"
+    },
+    "Y": {
+      "item": "lotr:rhun_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_gold_brick",
+    "count": 1
+  }
+}

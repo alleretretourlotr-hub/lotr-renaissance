@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "lotr:block/pillar_near_harad_red_side_top",
+    "end": "lotr:block/pillar_near_harad_red_face"
+  }
+}

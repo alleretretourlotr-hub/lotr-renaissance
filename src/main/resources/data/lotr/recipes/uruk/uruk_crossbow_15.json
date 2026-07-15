@@ -1,0 +1,24 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "uruk",
+  "pattern": [
+    "XXY",
+    "ZYX",
+    "YZX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:uruk_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lotr:uruk_crossbow",
+    "count": 1
+  }
+}

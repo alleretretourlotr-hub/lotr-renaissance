@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    "XXX",
+    "Y Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rivendell",
+  "pattern": [
+    "XX",
+    " Y",
+    " Y"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:elf_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:rivendell_hoe",
+    "count": 1
+  }
+}

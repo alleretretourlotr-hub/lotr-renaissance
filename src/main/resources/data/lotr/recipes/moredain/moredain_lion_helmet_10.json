@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "moredain",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:lion_fur"
+    }
+  },
+  "result": {
+    "item": "lotr:moredain_lion_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "lotr:block/brick2_angmar_cracked"
+  }
+}

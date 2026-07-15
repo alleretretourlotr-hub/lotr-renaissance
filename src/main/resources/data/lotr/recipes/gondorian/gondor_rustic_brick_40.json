@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "XY",
+    "YX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gondor_rock"
+    },
+    "Y": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_rustic_brick",
+    "count": 4
+  }
+}

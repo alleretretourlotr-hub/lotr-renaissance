@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_amroth",
+  "pattern": [
+    "  X",
+    " YX",
+    "Y  "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_amroth_longspear",
+    "count": 1
+  }
+}

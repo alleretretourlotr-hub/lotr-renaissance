@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "lotr:item/silver_coin" },
+  "overrides": [
+    { "predicate": { "lotr:coin_tier": 1 }, "model": "lotr:item/silver_coin_10" },
+    { "predicate": { "lotr:coin_tier": 2 }, "model": "lotr:item/silver_coin_100" }
+  ]
+}

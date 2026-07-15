@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "ranger",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "lotr:arnor_brick",
+    "count": 4
+  }
+}

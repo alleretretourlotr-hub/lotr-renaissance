@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dwarven",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_nugget"
+    },
+    "Y": {
+      "item": "lotr:dwarven_helmet"
+    }
+  },
+  "result": {
+    "item": "lotr:dwarven_gold_helmet",
+    "count": 1
+  }
+}

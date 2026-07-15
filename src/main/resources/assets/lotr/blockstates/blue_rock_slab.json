@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/blue_rock_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/blue_rock_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/blue_rock"
+    }
+  }
+}

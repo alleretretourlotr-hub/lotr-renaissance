@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "wood_elven",
+  "pattern": [
+    " XY",
+    "X Y",
+    " XY"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lotr:mirkwood_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_guldur",
+  "pattern": [
+    "  X",
+    " Y ",
+    "Y  "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:orc_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_guldur_spear",
+    "count": 1
+  }
+}

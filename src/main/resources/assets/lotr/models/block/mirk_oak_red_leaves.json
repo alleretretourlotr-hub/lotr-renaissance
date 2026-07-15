@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "lotr:block/leaves_mirk_oak_red_fancy"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "elven",
+  "ingredients": [
+    {
+      "item": "lotr:galadhrim_brick"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:galadhrim_mossy_brick",
+    "count": 1
+  }
+}

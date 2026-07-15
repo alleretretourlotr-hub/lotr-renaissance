@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "ranger",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:ranger_helmet",
+    "count": 1
+  }
+}

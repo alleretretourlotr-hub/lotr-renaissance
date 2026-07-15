@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/mirk_oak_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/mirk_oak_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/mirk_oak_planks"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/cedar_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/cedar_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/cedar_planks"
+    }
+  }
+}

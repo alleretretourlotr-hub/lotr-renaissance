@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/charred_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/charred_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/charred_planks"
+    }
+  }
+}

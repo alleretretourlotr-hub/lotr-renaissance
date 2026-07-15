@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "umbar",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:umbar_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:umbar_carved_brick",
+    "count": 1
+  }
+}

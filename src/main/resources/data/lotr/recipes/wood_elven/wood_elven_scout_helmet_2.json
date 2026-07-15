@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "wood_elven",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:wood_elven_scout_helmet",
+    "count": 1
+  }
+}

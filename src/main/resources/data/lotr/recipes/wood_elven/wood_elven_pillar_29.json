@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "wood_elven",
+  "pattern": [
+    "X",
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "lotr:wood_elven_pillar",
+    "count": 3
+  }
+}

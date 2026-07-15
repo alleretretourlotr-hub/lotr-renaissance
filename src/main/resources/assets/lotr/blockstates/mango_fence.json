@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "lotr:block/mango_fence_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "lotr:block/mango_fence_side",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "lotr:block/mango_fence_side",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "lotr:block/mango_fence_side",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "lotr:block/mango_fence_side",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/rhun_red_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/rhun_red_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/rhun_red_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/rhun_red_pillar_top"
+    }
+  }
+}

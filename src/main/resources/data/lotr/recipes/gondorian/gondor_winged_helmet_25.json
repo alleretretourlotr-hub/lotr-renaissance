@@ -1,0 +1,19 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:feather"
+    },
+    "Y": {
+      "item": "lotr:gondor_helmet"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_winged_helmet",
+    "count": 1
+  }
+}

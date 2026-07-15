@@ -1,0 +1,362 @@
+{
+ "angmar_spear": [
+  "spearAngmar.png",
+  "handheld",
+  "Angmar Spear",
+  "Lance d'Angmar"
+ ],
+ "arnor_spear": [
+  "spearArnor.png",
+  "handheld",
+  "Arnorian Spear",
+  "Lance d'Arnor"
+ ],
+ "black_numenorean_spear": [
+  "spearBlackNumenorean.png",
+  "handheld",
+  "Black Númenórean Spear",
+  "Lance númenóréene noire"
+ ],
+ "black_uruk_bow": [
+  "blackUrukBow.png",
+  "bow_static",
+  "Black Uruk Bow",
+  "Arc uruk noir"
+ ],
+ "black_uruk_spear": [
+  "spearBlackUruk.png",
+  "handheld",
+  "Black Uruk Spear",
+  "Lance uruk noire"
+ ],
+ "blackroot_bow": [
+  "blackrootBow.png",
+  "bow_static",
+  "Blackroot Bow",
+  "Arc de racine noire"
+ ],
+ "bladorthin_spear": [
+  "spearBladorthin.png",
+  "handheld",
+  "Spear of Bladorthin",
+  "Lance de Bladorthin"
+ ],
+ "blue_dwarven_spear": [
+  "spearBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Spear",
+  "Lance naine bleue"
+ ],
+ "blue_dwarven_throwing_axe": [
+  "throwingAxeBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Throwing Axe",
+  "Hache de lancer naine bleue"
+ ],
+ "bronze_crossbow": [
+  "bronzeCrossbow.png",
+  "bow",
+  "Bronze Crossbow",
+  "Arbalète en bronze"
+ ],
+ "bronze_spear": [
+  "spearBronze.png",
+  "handheld",
+  "Bronze Spear",
+  "Lance en bronze"
+ ],
+ "bronze_throwing_axe": [
+  "throwingAxeBronze.png",
+  "handheld",
+  "Bronze Throwing Axe",
+  "Hache de lancer en bronze"
+ ],
+ "corsair_spear": [
+  "spearCorsair.png",
+  "handheld",
+  "Corsair Harpoon",
+  "Harpon corsaire"
+ ],
+ "crossbow_bolt": [
+  "crossbowBolt.png",
+  "generated",
+  "Crossbow Bolt",
+  "Carreau d'arbalète"
+ ],
+ "crossbow_bolt_poisoned": [
+  "crossbowBoltPoisoned.png",
+  "generated",
+  "Poisoned Crossbow Bolt",
+  "Carreau d'arbalète empoisonné"
+ ],
+ "dale_bow": [
+  "daleBow.png",
+  "bow_static",
+  "Dalish Longbow",
+  "Long-arc dalien"
+ ],
+ "dale_spear": [
+  "spearDale.png",
+  "handheld",
+  "Dalish Spear",
+  "Lance de cavalier dalienne"
+ ],
+ "dol_guldur_spear": [
+  "spearDolGuldur.png",
+  "handheld",
+  "Dol Guldur Spear",
+  "Lance de Dol Guldur"
+ ],
+ "dorwinion_elf_bow": [
+  "dorwinionElfBow.png",
+  "bow_static",
+  "Dorwinion Elven Bow",
+  "Arc elfique de Dorwinion"
+ ],
+ "dwarven_spear": [
+  "spearDwarven.png",
+  "handheld",
+  "Dwarven Spear",
+  "Lance naine"
+ ],
+ "dwarven_throwing_axe": [
+  "throwingAxeDwarven.png",
+  "handheld",
+  "Dwarven Throwing Axe",
+  "Hache de lancer naine"
+ ],
+ "elven_bow": [
+  "elvenBow.png",
+  "bow_static",
+  "Galadhrim Bow",
+  "Arc galadhrim"
+ ],
+ "elven_spear": [
+  "spearElven.png",
+  "handheld",
+  "Galadhrim Spear",
+  "Lance galadhrim"
+ ],
+ "gondor_bow": [
+  "gondorBow.png",
+  "bow_static",
+  "Gondorian Bow",
+  "Arc gondorien"
+ ],
+ "gondor_spear": [
+  "spearGondor.png",
+  "handheld",
+  "Gondorian Spear",
+  "Lance gondorienne"
+ ],
+ "gundabad_uruk_bow": [
+  "gundabadUrukBow.png",
+  "bow_static",
+  "Gundabad Uruk Bow",
+  "Arc uruk de Gundabad"
+ ],
+ "gundabad_uruk_spear": [
+  "spearGundabadUruk.png",
+  "handheld",
+  "Gundabad Uruk Spear",
+  "Lance uruk de Gundabad"
+ ],
+ "harad_spear": [
+  "spearHarad.png",
+  "handheld",
+  "Haradric Spear",
+  "Lance haradrim"
+ ],
+ "high_elven_bow": [
+  "highElvenBow.png",
+  "bow_static",
+  "Lindon Bow",
+  "Arc du Lindon"
+ ],
+ "high_elven_spear": [
+  "spearHighElven.png",
+  "handheld",
+  "Lindon Spear",
+  "Lance du Lindon"
+ ],
+ "iron_crossbow": [
+  "ironCrossbow.png",
+  "bow",
+  "Iron Crossbow",
+  "Arbalète en fer"
+ ],
+ "iron_spear": [
+  "spearIron.png",
+  "handheld",
+  "Iron Spear",
+  "Lance en fer"
+ ],
+ "iron_throwing_axe": [
+  "throwingAxeIron.png",
+  "handheld",
+  "Iron Throwing Axe",
+  "Hache de lancer en fer"
+ ],
+ "lossarnach_throwing_axe": [
+  "throwingAxeLossarnach.png",
+  "handheld",
+  "Lossarnach Throwing Axe",
+  "Hache de Lancer de Lossarnach"
+ ],
+ "mallorn_bow": [
+  "mallornBow.png",
+  "bow_static",
+  "Mallorn Bow",
+  "Arc en mallorn"
+ ],
+ "mirkwood_bow": [
+  "mirkwoodBow.png",
+  "bow_static",
+  "Bow of Mirkwood",
+  "Arc de la Forêt noire"
+ ],
+ "mithril_crossbow": [
+  "mithrilCrossbow.png",
+  "bow",
+  "Mithril Crossbow",
+  "Arbalète en mithril"
+ ],
+ "mithril_spear": [
+  "spearMithril.png",
+  "handheld",
+  "Mithril Spear",
+  "Lance en mithril"
+ ],
+ "moredain_spear": [
+  "spearMoredain.png",
+  "handheld",
+  "Morwaith Spear",
+  "Lance morwaith"
+ ],
+ "near_harad_bow": [
+  "nearHaradBow.png",
+  "bow_static",
+  "Bow of Harad",
+  "Arc du Harad"
+ ],
+ "near_harad_spear": [
+  "spearNearHarad.png",
+  "handheld",
+  "Umbaric Spear",
+  "Lance d'Umbar"
+ ],
+ "orc_bow": [
+  "orcBow.png",
+  "bow_static",
+  "Orc Bow",
+  "Arc orc"
+ ],
+ "orc_spear": [
+  "spearOrc.png",
+  "handheld",
+  "Mordor Spear",
+  "Lance du Mordor"
+ ],
+ "ranger_bow": [
+  "rangerBow.png",
+  "bow_static",
+  "Ranger Bow",
+  "Arc de rôdeur"
+ ],
+ "rhun_bow": [
+  "rhunBow.png",
+  "bow_static",
+  "Rhûnic Bow",
+  "Arc de Rhûn"
+ ],
+ "rhun_spear": [
+  "spearRhun.png",
+  "handheld",
+  "Rhûnic Spear",
+  "Lance de Rhûn"
+ ],
+ "rivendell_bow": [
+  "rivendellBow.png",
+  "bow_static",
+  "Rivendell Bow",
+  "Arc de Fondcombe"
+ ],
+ "rivendell_spear": [
+  "spearRivendell.png",
+  "handheld",
+  "Rivendell Spear",
+  "Lance de Fondcombe"
+ ],
+ "rohan_bow": [
+  "rohanBow.png",
+  "bow_static",
+  "Rohirric Bow",
+  "Arc rohirrim"
+ ],
+ "rohan_spear": [
+  "spearRohan.png",
+  "handheld",
+  "Rohirric Spear",
+  "Lance rohirrim"
+ ],
+ "stone_spear": [
+  "spearStone.png",
+  "handheld",
+  "Stone Spear",
+  "Lance en pierre"
+ ],
+ "tauredain_blowgun": [
+  "tauredainBlowgun.png",
+  "handheld",
+  "Taurethrim Blowgun",
+  "Sarbacane taurethrim"
+ ],
+ "tauredain_dart": [
+  "tauredainDart.png",
+  "generated",
+  "Taurethrim Dart",
+  "Fléchette taurethrim"
+ ],
+ "tauredain_dart_poisoned": [
+  "tauredainDartPoisoned.png",
+  "generated",
+  "Poisoned Taurethrim Dart",
+  "Fléchette taurethrim empoisonnée"
+ ],
+ "tauredain_spear": [
+  "spearTauredain.png",
+  "handheld",
+  "Taurethrim Spear",
+  "Lance taurethrim"
+ ],
+ "uruk_crossbow": [
+  "urukCrossbow.png",
+  "bow",
+  "Uruk Crossbow",
+  "Arbalète uruk"
+ ],
+ "uruk_spear": [
+  "spearUruk.png",
+  "handheld",
+  "Uruk Spear",
+  "Lance uruk"
+ ],
+ "utumno_bow": [
+  "utumnoBow.png",
+  "bow_static",
+  "Utumno Bow",
+  "Arc d'Utumno"
+ ],
+ "utumno_spear": [
+  "spearUtumno.png",
+  "handheld",
+  "Utumno Spear",
+  "Lance d'Utumno"
+ ],
+ "wood_elven_spear": [
+  "spearWoodElven.png",
+  "handheld",
+  "Wood-elven Spear",
+  "Lance des elfes sylvains"
+ ]
+}

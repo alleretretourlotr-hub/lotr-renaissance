@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dunlending",
+  "pattern": [
+    "X X",
+    "YYY",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "lotr:dunlending_chestplate",
+    "count": 1
+  }
+}

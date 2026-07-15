@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dol_guldur",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:orc_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:dol_guldur_helmet",
+    "count": 1
+  }
+}

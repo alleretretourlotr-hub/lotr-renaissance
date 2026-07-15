@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "lotr:block/brick_mordor_cracked",
+    "top": "lotr:block/brick_mordor_cracked",
+    "side": "lotr:block/brick_mordor_cracked"
+  }
+}

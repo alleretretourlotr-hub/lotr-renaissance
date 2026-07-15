@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:mallorn_planks"
+    }
+  },
+  "result": {
+    "item": "lotr:elven_crafting_table",
+    "count": 1
+  }
+}

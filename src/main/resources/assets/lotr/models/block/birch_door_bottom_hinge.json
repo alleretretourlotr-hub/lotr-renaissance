@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "lotr:block/door_birch_lower",
+    "top": "lotr:block/door_birch_upper"
+  }
+}

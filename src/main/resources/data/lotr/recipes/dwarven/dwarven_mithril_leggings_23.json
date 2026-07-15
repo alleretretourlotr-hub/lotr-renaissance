@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dwarven",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:mithril_nugget"
+    },
+    "Y": {
+      "item": "lotr:dwarven_leggings"
+    }
+  },
+  "result": {
+    "item": "lotr:dwarven_mithril_leggings",
+    "count": 1
+  }
+}

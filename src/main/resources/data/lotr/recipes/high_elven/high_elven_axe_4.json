@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "high_elven",
+  "pattern": [
+    "XX",
+    "XY",
+    " Y"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:elf_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:high_elven_axe",
+    "count": 1
+  }
+}

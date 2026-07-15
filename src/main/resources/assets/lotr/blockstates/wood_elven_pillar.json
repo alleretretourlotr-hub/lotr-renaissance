@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/wood_elven_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/wood_elven_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/wood_elven_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/wood_elven_pillar_top"
+    }
+  }
+}

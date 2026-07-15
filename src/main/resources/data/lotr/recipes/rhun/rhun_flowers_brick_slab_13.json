@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:rhun_flowers_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_flowers_brick_slab",
+    "count": 6
+  }
+}

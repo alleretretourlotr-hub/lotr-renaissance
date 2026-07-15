@@ -1,0 +1,14 @@
+{
+ "en": {
+  "item.lotr.silver_coin": "Silver Coin",
+  "entity.lotr.gondor_blacksmith": "Gondor Blacksmith",
+  "item.lotr.gondor_blacksmith_spawn_egg": "Gondor Blacksmith Spawn Egg",
+  "lotr.gui.trade.buy": "Buy", "lotr.gui.trade.sell": "Sell", "lotr.gui.trade.purse": "Purse:"
+ },
+ "fr": {
+  "item.lotr.silver_coin": "Pièce d'argent",
+  "entity.lotr.gondor_blacksmith": "Forgeron du Gondor",
+  "item.lotr.gondor_blacksmith_spawn_egg": "Œuf d'apparition : Forgeron du Gondor",
+  "lotr.gui.trade.buy": "Acheter", "lotr.gui.trade.sell": "Vendre", "lotr.gui.trade.purse": "Bourse :"
+ }
+}

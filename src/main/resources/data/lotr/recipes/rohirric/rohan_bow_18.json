@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rohirric",
+  "pattern": [
+    " XY",
+    "X Y",
+    " XY"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lotr:rohan_bow",
+    "count": 1
+  }
+}

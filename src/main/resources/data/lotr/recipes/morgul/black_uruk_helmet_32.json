@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "morgul",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:black_uruk_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:black_uruk_helmet",
+    "count": 1
+  }
+}

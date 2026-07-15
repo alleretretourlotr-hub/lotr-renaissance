@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "moredain",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:moredain_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:moredain_brick_wall",
+    "count": 6
+  }
+}

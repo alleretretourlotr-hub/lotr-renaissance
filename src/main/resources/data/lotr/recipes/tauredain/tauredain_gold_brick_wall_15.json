@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:tauredain_gold_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_gold_brick_wall",
+    "count": 6
+  }
+}

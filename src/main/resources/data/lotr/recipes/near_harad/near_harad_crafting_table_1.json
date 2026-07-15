@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "near_harad",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "lotr:near_harad_crafting_table",
+    "count": 1
+  }
+}

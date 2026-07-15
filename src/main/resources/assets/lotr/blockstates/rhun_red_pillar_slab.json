@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/rhun_red_pillar_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/rhun_red_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/rhun_red_pillar_single"
+    }
+  }
+}

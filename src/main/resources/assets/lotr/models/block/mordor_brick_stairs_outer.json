@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lotr:block/brick_mordor",
+    "top": "lotr:block/brick_mordor",
+    "side": "lotr:block/brick_mordor"
+  }
+}

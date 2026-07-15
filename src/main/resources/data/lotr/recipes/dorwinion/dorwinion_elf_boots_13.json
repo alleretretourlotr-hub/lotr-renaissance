@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dorwinion",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:elf_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:dorwinion_elf_boots",
+    "count": 1
+  }
+}

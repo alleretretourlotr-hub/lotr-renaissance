@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dorwinion",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dorwinion_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:dorwinion_carved_brick",
+    "count": 1
+  }
+}

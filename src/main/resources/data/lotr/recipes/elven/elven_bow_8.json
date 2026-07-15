@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    " XY",
+    "X Y",
+    " XY"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:elf_steel"
+    },
+    "Y": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lotr:elven_bow",
+    "count": 1
+  }
+}

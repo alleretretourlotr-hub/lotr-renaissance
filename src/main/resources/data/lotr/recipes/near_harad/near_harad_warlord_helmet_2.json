@@ -1,0 +1,23 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "near_harad",
+  "pattern": [
+    "XYX",
+    " Z "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:leather"
+    },
+    "Z": {
+      "item": "lotr:near_harad_helmet"
+    }
+  },
+  "result": {
+    "item": "lotr:near_harad_warlord_helmet",
+    "count": 1
+  }
+}

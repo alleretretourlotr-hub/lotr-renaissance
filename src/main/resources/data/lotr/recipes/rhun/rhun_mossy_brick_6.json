@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "rhun",
+  "ingredients": [
+    {
+      "item": "lotr:rhun_brick"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:rhun_mossy_brick",
+    "count": 1
+  }
+}

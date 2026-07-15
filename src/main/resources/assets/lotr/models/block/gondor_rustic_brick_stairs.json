@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "lotr:block/brick5_gondor_rustic",
+    "top": "lotr:block/brick5_gondor_rustic",
+    "side": "lotr:block/brick5_gondor_rustic"
+  }
+}

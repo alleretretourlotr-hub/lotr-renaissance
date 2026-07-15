@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lotr:block/planks_mango",
+    "top": "lotr:block/planks_mango",
+    "side": "lotr:block/planks_mango"
+  }
+}

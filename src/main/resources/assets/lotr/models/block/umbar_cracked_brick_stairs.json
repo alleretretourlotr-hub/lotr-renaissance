@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "lotr:block/brick6_umbar_cracked",
+    "top": "lotr:block/brick6_umbar_cracked",
+    "side": "lotr:block/brick6_umbar_cracked"
+  }
+}

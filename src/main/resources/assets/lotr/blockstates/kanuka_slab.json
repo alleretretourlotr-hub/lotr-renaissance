@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/kanuka_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/kanuka_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/kanuka_planks"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "en": {
+  "entity.lotr.mordor_orc_archer": "Mordor Orc Archer",
+  "item.lotr.mordor_orc_archer_spawn_egg": "Mordor Orc Archer Spawn Egg",
+  "entity.lotr.uruk_hai": "Uruk-hai",
+  "item.lotr.uruk_hai_spawn_egg": "Uruk-hai Spawn Egg"
+ },
+ "fr": {
+  "entity.lotr.mordor_orc_archer": "Archer orque du Mordor",
+  "item.lotr.mordor_orc_archer_spawn_egg": "Œuf d'apparition : Archer orque",
+  "entity.lotr.uruk_hai": "Uruk-hai",
+  "item.lotr.uruk_hai_spawn_egg": "Œuf d'apparition : Uruk-hai"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "en": {
+  "entity.lotr.gondor_archer": "Gondor Archer",
+  "entity.lotr.gondor_levyman": "Gondor Levyman",
+  "entity.lotr.gondor_tower_guard": "Gondor Tower Guard",
+  "entity.lotr.gondorian_captain": "Gondorian Captain",
+  "item.lotr.gondor_archer_spawn_egg": "Gondor Archer Spawn Egg",
+  "item.lotr.gondor_levyman_spawn_egg": "Gondor Levyman Spawn Egg",
+  "item.lotr.gondor_tower_guard_spawn_egg": "Gondor Tower Guard Spawn Egg",
+  "item.lotr.gondorian_captain_spawn_egg": "Gondorian Captain Spawn Egg"
+ },
+ "fr": {
+  "entity.lotr.gondor_archer": "Archer du Gondor",
+  "entity.lotr.gondor_levyman": "Milicien du Gondor",
+  "entity.lotr.gondor_tower_guard": "Garde de la Tour du Gondor",
+  "entity.lotr.gondorian_captain": "Capitaine gondorien",
+  "item.lotr.gondor_archer_spawn_egg": "Œuf d'apparition : Archer du Gondor",
+  "item.lotr.gondor_levyman_spawn_egg": "Œuf d'apparition : Milicien du Gondor",
+  "item.lotr.gondor_tower_guard_spawn_egg": "Œuf d'apparition : Garde de la Tour du Gondor",
+  "item.lotr.gondorian_captain_spawn_egg": "Œuf d'apparition : Capitaine gondorien"
+ }
+}

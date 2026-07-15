@@ -1,0 +1,16 @@
+{
+  "type": "lotr:crafting_faction",
+  "faction_table": "gondorian",
+  "pattern": [
+    "iii",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_helmet"
+  }
+}

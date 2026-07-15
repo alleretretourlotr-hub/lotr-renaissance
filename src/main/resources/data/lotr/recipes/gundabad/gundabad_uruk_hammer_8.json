@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gundabad",
+  "pattern": [
+    "XYX",
+    "XYX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:uruk_steel"
+    },
+    "Y": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "lotr:gundabad_uruk_hammer",
+    "count": 1
+  }
+}

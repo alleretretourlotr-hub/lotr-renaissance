@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dorwinion",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "lotr:chalk_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:dorwinion_crafting_table",
+    "count": 1
+  }
+}

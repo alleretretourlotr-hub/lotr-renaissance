@@ -1,0 +1,16 @@
+{
+ "en": {
+  "lotr.gui.pledge.button": "Pledge allegiance",
+  "lotr.gui.pledge.break": "Break pledge",
+  "lotr.pledge.made": "You have pledged your allegiance to %s!",
+  "lotr.pledge.broken": "You have broken your pledge to %s.",
+  "lotr.pledge.autobroken": "Your alignment has fallen: your pledge is broken!"
+ },
+ "fr": {
+  "lotr.gui.pledge.button": "Prêter serment",
+  "lotr.gui.pledge.break": "Rompre le serment",
+  "lotr.pledge.made": "Vous avez prêté serment à %s !",
+  "lotr.pledge.broken": "Vous avez rompu votre serment envers %s.",
+  "lotr.pledge.autobroken": "Votre alignement a chuté : votre serment est rompu !"
+ }
+}

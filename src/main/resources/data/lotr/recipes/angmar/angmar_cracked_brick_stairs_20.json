@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "angmar",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:angmar_cracked_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:angmar_cracked_brick_stairs",
+    "count": 4
+  }
+}

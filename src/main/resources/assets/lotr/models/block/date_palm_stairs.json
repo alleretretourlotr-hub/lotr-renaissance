@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "lotr:block/planks_date_palm",
+    "top": "lotr:block/planks_date_palm",
+    "side": "lotr:block/planks_date_palm"
+  }
+}

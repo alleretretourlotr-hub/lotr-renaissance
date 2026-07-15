@@ -1,0 +1,14 @@
+{
+ "en": {
+  "lotr.gui.titles.title": "Choose your Title",
+  "lotr.gui.titles.button": "Titles",
+  "lotr.gui.titles.none": "No title",
+  "lotr.gui.titles.empty": "Earn faction ranks to unlock titles!"
+ },
+ "fr": {
+  "lotr.gui.titles.title": "Choisissez votre titre",
+  "lotr.gui.titles.button": "Titres",
+  "lotr.gui.titles.none": "Aucun titre",
+  "lotr.gui.titles.empty": "Gagnez des rangs de faction pour débloquer des titres !"
+ }
+}

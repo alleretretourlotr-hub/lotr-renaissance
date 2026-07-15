@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "elven",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:hithlain"
+    }
+  },
+  "result": {
+    "item": "lotr:hithlain_boots",
+    "count": 1
+  }
+}

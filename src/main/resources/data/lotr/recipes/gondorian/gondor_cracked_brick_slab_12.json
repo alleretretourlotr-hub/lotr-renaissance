@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gondorian",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gondor_cracked_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:gondor_cracked_brick_slab",
+    "count": 6
+  }
+}

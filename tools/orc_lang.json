@@ -1,0 +1,10 @@
+{
+ "en": {
+  "entity.lotr.mordor_orc": "Mordor Orc",
+  "item.lotr.mordor_orc_spawn_egg": "Mordor Orc Spawn Egg"
+ },
+ "fr": {
+  "entity.lotr.mordor_orc": "Orque du Mordor",
+  "item.lotr.mordor_orc_spawn_egg": "Œuf d'apparition : Orque du Mordor"
+ }
+}

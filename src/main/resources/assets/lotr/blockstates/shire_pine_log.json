@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "lotr:block/shire_pine_log"
+    },
+    "axis=z": {
+      "model": "lotr:block/shire_pine_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "lotr:block/shire_pine_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

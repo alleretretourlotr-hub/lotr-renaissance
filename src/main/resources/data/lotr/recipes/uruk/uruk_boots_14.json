@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "uruk",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:uruk_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:uruk_boots",
+    "count": 1
+  }
+}

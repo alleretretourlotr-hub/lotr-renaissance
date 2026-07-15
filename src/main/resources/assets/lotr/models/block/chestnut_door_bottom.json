@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "lotr:block/door_chestnut_lower",
+    "top": "lotr:block/door_chestnut_upper"
+  }
+}

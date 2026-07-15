@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "moredain",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gemsbok_hide"
+    }
+  },
+  "result": {
+    "item": "lotr:moredain_boots",
+    "count": 1
+  }
+}

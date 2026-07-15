@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/redwood_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/redwood_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/redwood_planks"
+    }
+  }
+}

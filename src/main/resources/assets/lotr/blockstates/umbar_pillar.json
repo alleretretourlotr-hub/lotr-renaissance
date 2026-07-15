@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/umbar_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/umbar_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/umbar_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/umbar_pillar_top"
+    }
+  }
+}

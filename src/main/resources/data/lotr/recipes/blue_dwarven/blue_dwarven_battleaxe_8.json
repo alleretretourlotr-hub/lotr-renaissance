@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "blue_dwarven",
+  "pattern": [
+    "XXX",
+    "XYX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:blue_dwarf_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:blue_dwarven_battleaxe",
+    "count": 1
+  }
+}

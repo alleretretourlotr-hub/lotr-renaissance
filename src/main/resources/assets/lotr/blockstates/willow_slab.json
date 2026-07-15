@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/willow_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/willow_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/willow_planks"
+    }
+  }
+}

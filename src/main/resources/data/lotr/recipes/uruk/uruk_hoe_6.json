@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "uruk",
+  "pattern": [
+    "XX",
+    " Y",
+    " Y"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:uruk_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:uruk_hoe",
+    "count": 1
+  }
+}

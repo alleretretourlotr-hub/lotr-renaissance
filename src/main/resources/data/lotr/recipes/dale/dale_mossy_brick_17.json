@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "dale",
+  "ingredients": [
+    {
+      "item": "lotr:dale_brick"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:dale_mossy_brick",
+    "count": 1
+  }
+}

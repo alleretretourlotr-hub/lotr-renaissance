@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lotr:block/planks3_dragon",
+    "top": "lotr:block/planks3_dragon",
+    "side": "lotr:block/planks3_dragon"
+  }
+}

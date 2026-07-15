@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dwarven",
+  "pattern": [
+    "XXX",
+    "XY ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dwarf_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:dwarven_mattock",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lotr:block/brick2_angmar",
+    "top": "lotr:block/brick2_angmar",
+    "side": "lotr:block/brick2_angmar"
+  }
+}

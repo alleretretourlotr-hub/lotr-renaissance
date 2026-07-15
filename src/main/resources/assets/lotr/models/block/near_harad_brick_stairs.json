@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "lotr:block/brick_near_harad",
+    "top": "lotr:block/brick_near_harad",
+    "side": "lotr:block/brick_near_harad"
+  }
+}

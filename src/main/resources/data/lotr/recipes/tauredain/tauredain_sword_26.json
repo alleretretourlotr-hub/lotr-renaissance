@@ -1,0 +1,24 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XZX",
+    "XZX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:obsidian_shard"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "X",
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:obsidian_shard"
+    }
+  },
+  "result": {
+    "item": "lotr:taur_obsidian_pillar",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "bree",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "lotr:bree_crafting_table",
+    "count": 1
+  }
+}

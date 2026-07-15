@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/mordor_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/mordor_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/mordor_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/mordor_pillar_top"
+    }
+  }
+}

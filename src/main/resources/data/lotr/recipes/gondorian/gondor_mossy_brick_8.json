@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "gondorian",
+  "ingredients": [
+    {
+      "item": "lotr:gondor_brick"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "lotr:gondor_mossy_brick",
+    "count": 1
+  }
+}

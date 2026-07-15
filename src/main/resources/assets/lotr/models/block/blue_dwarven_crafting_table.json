@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "lotr:block/blue_dwarven_crafting_table_top",
+    "side": "lotr:block/blue_dwarven_crafting_table_side0",
+    "bottom": "lotr:block/blue_dwarven_crafting_table_side0"
+  }
+}

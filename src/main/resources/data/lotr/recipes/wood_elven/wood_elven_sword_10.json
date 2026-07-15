@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "wood_elven",
+  "pattern": [
+    "X",
+    "X",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:elf_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:wood_elven_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "en": {
+  "itemGroup.lotr_blocks": "LOTR Blocks", "itemGroup.lotr_decorations": "LOTR Decorations",
+  "itemGroup.lotr_util": "LOTR Utility", "itemGroup.lotr_food": "LOTR Food & Drink",
+  "itemGroup.lotr_materials": "LOTR Materials", "itemGroup.lotr_misc": "LOTR Miscellaneous",
+  "itemGroup.lotr_tools": "LOTR Tools", "itemGroup.lotr_combat": "LOTR Combat"
+ },
+ "fr": {
+  "itemGroup.lotr_blocks": "SDA Blocs", "itemGroup.lotr_decorations": "SDA Décorations",
+  "itemGroup.lotr_util": "SDA Utilitaires", "itemGroup.lotr_food": "SDA Nourriture et boissons",
+  "itemGroup.lotr_materials": "SDA Matériaux", "itemGroup.lotr_misc": "SDA Divers",
+  "itemGroup.lotr_tools": "SDA Outils", "itemGroup.lotr_combat": "SDA Combat"
+ }
+}

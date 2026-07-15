@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lotr:block/planks2_green_oak",
+    "top": "lotr:block/planks2_green_oak",
+    "side": "lotr:block/planks2_green_oak"
+  }
+}

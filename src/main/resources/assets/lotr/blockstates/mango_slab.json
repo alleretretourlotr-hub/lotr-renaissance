@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/mango_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/mango_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/mango_planks"
+    }
+  }
+}

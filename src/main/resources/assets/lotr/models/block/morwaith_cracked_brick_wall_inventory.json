@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "lotr:block/brick6_morwaith_cracked"
+  }
+}

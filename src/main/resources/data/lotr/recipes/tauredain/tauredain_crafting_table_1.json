@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "lotr:tauredain_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_crafting_table",
+    "count": 1
+  }
+}

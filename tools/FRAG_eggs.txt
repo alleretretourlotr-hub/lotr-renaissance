@@ -1,0 +1,15 @@
+    public static final RegistryObject<Item> ROHIRRIM_WARRIOR_EGG =
+            LOTRItems.ITEMS.register("rohirrim_warrior_spawn_egg",
+                    () -> new LOTRSpawnEgg(LOTREntities.ROHIRRIM_WARRIOR, 0x888888, 0x333333));
+
+    public static final RegistryObject<Item> ROHIRRIM_ARCHER_EGG =
+            LOTRItems.ITEMS.register("rohirrim_archer_spawn_egg",
+                    () -> new LOTRSpawnEgg(LOTREntities.ROHIRRIM_ARCHER, 0x888888, 0x333333));
+
+    public static final RegistryObject<Item> ROHIRRIM_MARSHAL_EGG =
+            LOTRItems.ITEMS.register("rohirrim_marshal_spawn_egg",
+                    () -> new LOTRSpawnEgg(LOTREntities.ROHIRRIM_MARSHAL, 0x888888, 0x333333));
+
+    public static final RegistryObject<Item> ROHAN_SHIELDMAIDEN_EGG =
+            LOTRItems.ITEMS.register("rohan_shieldmaiden_spawn_egg",
+                    () -> new LOTRSpawnEgg(LOTREntities.ROHAN_SHIELDMAIDEN, 0x888888, 0x333333));

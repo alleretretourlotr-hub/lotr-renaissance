@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:shire_pine_log",
+    "lotr:mallorn_log",
+    "lotr:mirk_oak_log",
+    "lotr:charred_log",
+    "lotr:lebethron_log",
+    "lotr:beech_log",
+    "lotr:holly_log",
+    "lotr:banana_log",
+    "lotr:maple_log",
+    "lotr:larch_log",
+    "lotr:date_palm_log",
+    "lotr:mangrove_log",
+    "lotr:chestnut_log",
+    "lotr:baobab_log",
+    "lotr:cedar_log",
+    "lotr:fir_log"
+  ]
+}

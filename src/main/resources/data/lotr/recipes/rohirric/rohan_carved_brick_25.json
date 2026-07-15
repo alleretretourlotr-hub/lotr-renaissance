@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rohirric",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:rohan_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:rohan_carved_brick",
+    "count": 1
+  }
+}

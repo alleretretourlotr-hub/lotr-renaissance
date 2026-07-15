@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "segment=single": {
+      "model": "lotr:block/dale_pillar_single"
+    },
+    "segment=bottom": {
+      "model": "lotr:block/dale_pillar_bottom"
+    },
+    "segment=middle": {
+      "model": "lotr:block/dale_pillar_middle"
+    },
+    "segment=top": {
+      "model": "lotr:block/dale_pillar_top"
+    }
+  }
+}

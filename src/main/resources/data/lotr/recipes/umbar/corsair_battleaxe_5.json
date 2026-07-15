@@ -1,0 +1,24 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "umbar",
+  "pattern": [
+    "XXX",
+    "XYX",
+    " YA"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lotr:corsair_battleaxe",
+    "count": 1
+  }
+}

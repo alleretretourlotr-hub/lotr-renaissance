@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "lotr:block/planks3_redwood",
+    "top": "lotr:block/planks3_redwood",
+    "side": "lotr:block/planks3_redwood"
+  }
+}

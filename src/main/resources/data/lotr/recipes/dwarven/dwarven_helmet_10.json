@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "dwarven",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:dwarf_steel"
+    }
+  },
+  "result": {
+    "item": "lotr:dwarven_helmet",
+    "count": 1
+  }
+}

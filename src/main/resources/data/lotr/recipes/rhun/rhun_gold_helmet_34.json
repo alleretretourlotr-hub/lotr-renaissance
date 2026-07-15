@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:gilded_iron"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_gold_helmet",
+    "count": 1
+  }
+}

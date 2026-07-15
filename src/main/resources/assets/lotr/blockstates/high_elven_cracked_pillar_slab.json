@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotr:block/high_elven_cracked_pillar_slab"
+    },
+    "type=top": {
+      "model": "lotr:block/high_elven_cracked_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "lotr:block/high_elven_cracked_pillar_single"
+    }
+  }
+}

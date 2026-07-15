@@ -1,0 +1,22 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "half_troll",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "lotr:torog_stew",
+    "count": 1
+  }
+}

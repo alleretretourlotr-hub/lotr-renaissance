@@ -1,0 +1,710 @@
+{
+ "almond": [
+  "almond.png",
+  "generated",
+  "Almond",
+  "Amande"
+ ],
+ "angmar_axe": [
+  "axeAngmar.png",
+  "handheld",
+  "Angmar Axe",
+  "Hache d'Angmar"
+ ],
+ "angmar_hoe": [
+  "hoeAngmar.png",
+  "handheld",
+  "Angmar Hoe",
+  "Houe d'Angmar"
+ ],
+ "angmar_pickaxe": [
+  "pickaxeAngmar.png",
+  "handheld",
+  "Angmar Pickaxe",
+  "Pioche d'Angmar"
+ ],
+ "angmar_shovel": [
+  "shovelAngmar.png",
+  "handheld",
+  "Angmar Shovel",
+  "Pelle d'Angmar"
+ ],
+ "apple_green": [
+  "appleGreen.png",
+  "generated",
+  "Apple",
+  "Pomme"
+ ],
+ "banana_bread": [
+  "bananaBread.png",
+  "generated",
+  "Banana Bread",
+  "Pain à la banane"
+ ],
+ "blackberry": [
+  "blackberry.png",
+  "generated",
+  "Blackberries",
+  "Mûres"
+ ],
+ "blue_dwarven_axe": [
+  "axeBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Axe",
+  "Hache naine bleue"
+ ],
+ "blue_dwarven_hoe": [
+  "hoeBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Hoe",
+  "Houe naine bleue"
+ ],
+ "blue_dwarven_mattock": [
+  "mattockBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Mattock",
+  "Piochon nain bleu"
+ ],
+ "blue_dwarven_pickaxe": [
+  "pickaxeBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Pickaxe",
+  "Pioche naine bleue"
+ ],
+ "blue_dwarven_shovel": [
+  "shovelBlueDwarven.png",
+  "handheld",
+  "Blue Dwarven Shovel",
+  "Pelle naine bleue"
+ ],
+ "blueberry": [
+  "blueberry.png",
+  "generated",
+  "Blueberries",
+  "Myrtilles"
+ ],
+ "bronze_axe": [
+  "axeBronze.png",
+  "handheld",
+  "Bronze Axe",
+  "Hache en bronze"
+ ],
+ "bronze_hoe": [
+  "hoeBronze.png",
+  "handheld",
+  "Bronze Hoe",
+  "Houe en bronze"
+ ],
+ "bronze_pickaxe": [
+  "pickaxeBronze.png",
+  "handheld",
+  "Bronze Pickaxe",
+  "Pioche en bronze"
+ ],
+ "bronze_shovel": [
+  "shovelBronze.png",
+  "handheld",
+  "Bronze Shovel",
+  "Pelle en bronze"
+ ],
+ "camel_cooked": [
+  "camelCooked.png",
+  "generated",
+  "Cooked Camel",
+  "Chameau cuit"
+ ],
+ "camel_raw": [
+  "camelRaw.png",
+  "generated",
+  "Raw Camel",
+  "Chameau cru"
+ ],
+ "cherry": [
+  "cherry.png",
+  "generated",
+  "Cherries",
+  "Cerises"
+ ],
+ "chestnut_roast": [
+  "chestnutRoast.png",
+  "generated",
+  "Roast Chestnut",
+  "Châtaigne grillée"
+ ],
+ "corn": [
+  "corn.png",
+  "generated",
+  "Corn",
+  "Maïs"
+ ],
+ "corn_bread": [
+  "cornBread.png",
+  "generated",
+  "Corn Bread",
+  "Pain de maïs"
+ ],
+ "corn_cooked": [
+  "cornCooked.png",
+  "generated",
+  "Cooked Corn",
+  "Maïs cuit"
+ ],
+ "cram": [
+  "cram.png",
+  "generated",
+  "Cram",
+  "Cram"
+ ],
+ "cranberry": [
+  "cranberry.png",
+  "generated",
+  "Cranberries",
+  "Cranberries"
+ ],
+ "deer_cooked": [
+  "deerCooked.png",
+  "generated",
+  "Cooked Venison",
+  "Gibier cuit"
+ ],
+ "deer_raw": [
+  "deerRaw.png",
+  "generated",
+  "Raw Venison",
+  "Gibier cru"
+ ],
+ "dol_guldur_axe": [
+  "axeDolGuldur.png",
+  "handheld",
+  "Dol Guldur Axe",
+  "Hache de Dol Guldur"
+ ],
+ "dol_guldur_hoe": [
+  "hoeDolGuldur.png",
+  "handheld",
+  "Dol Guldur Hoe",
+  "Houe de Dol Guldur"
+ ],
+ "dol_guldur_pickaxe": [
+  "pickaxeDolGuldur.png",
+  "handheld",
+  "Dol Guldur Pickaxe",
+  "Pioche de Dol Guldur"
+ ],
+ "dol_guldur_shovel": [
+  "shovelDolGuldur.png",
+  "handheld",
+  "Dol Guldur Shovel",
+  "Pelle de Dol Guldur"
+ ],
+ "dwarven_axe": [
+  "axeDwarven.png",
+  "handheld",
+  "Dwarven Axe",
+  "Hache naine"
+ ],
+ "dwarven_hoe": [
+  "hoeDwarven.png",
+  "handheld",
+  "Dwarven Hoe",
+  "Houe naine"
+ ],
+ "dwarven_mattock": [
+  "mattockDwarven.png",
+  "handheld",
+  "Dwarven Mattock",
+  "Piochon nain"
+ ],
+ "dwarven_pickaxe": [
+  "pickaxeDwarven.png",
+  "handheld",
+  "Dwarven Pickaxe",
+  "Pioche naine"
+ ],
+ "dwarven_shovel": [
+  "shovelDwarven.png",
+  "handheld",
+  "Dwarven Shovel",
+  "Pelle naine"
+ ],
+ "elderberry": [
+  "elderberry.png",
+  "generated",
+  "Elderberries",
+  "Baies de sureau"
+ ],
+ "elven_axe": [
+  "axeElven.png",
+  "handheld",
+  "Galadhrim Axe",
+  "Hache galadhrim"
+ ],
+ "elven_hoe": [
+  "hoeElven.png",
+  "handheld",
+  "Galadhrim Hoe",
+  "Houe galadhrim"
+ ],
+ "elven_pickaxe": [
+  "pickaxeElven.png",
+  "handheld",
+  "Galadhrim Pickaxe",
+  "Pioche galadhrim"
+ ],
+ "elven_shovel": [
+  "shovelElven.png",
+  "handheld",
+  "Galadhrim Shovel",
+  "Pelle galadhrim"
+ ],
+ "gammon": [
+  "gammon.png",
+  "generated",
+  "Gammon",
+  "Jambon fumé"
+ ],
+ "grape_red": [
+  "grapeRed.png",
+  "generated",
+  "Red Grapes",
+  "Raisin noir"
+ ],
+ "grape_white": [
+  "grapeWhite.png",
+  "generated",
+  "Green Grapes",
+  "Raisin blanc"
+ ],
+ "high_elven_axe": [
+  "axeHighElven.png",
+  "handheld",
+  "Lindon Axe",
+  "Hache du Lindon"
+ ],
+ "high_elven_hoe": [
+  "hoeHighElven.png",
+  "handheld",
+  "Lindon Hoe",
+  "Houe du Lindon"
+ ],
+ "high_elven_pickaxe": [
+  "pickaxeHighElven.png",
+  "handheld",
+  "Lindon Pickaxe",
+  "Pioche du Lindon"
+ ],
+ "high_elven_shovel": [
+  "shovelHighElven.png",
+  "handheld",
+  "Lindon Shovel",
+  "Pelle du Lindon"
+ ],
+ "hobbit_pancake": [
+  "hobbitPancake.png",
+  "generated",
+  "Hobbit Pancake",
+  "Crêpe hobbit"
+ ],
+ "hobbit_pancake_maple_syrup": [
+  "hobbitPancakeMapleSyrup.png",
+  "generated",
+  "Hobbit Pancake with Maple Syrup",
+  "Crêpe hobbit avec sirop d'érable"
+ ],
+ "leek_soup": [
+  "leekSoup.png",
+  "generated",
+  "Leek Soup",
+  "Soupe de poireau"
+ ],
+ "lembas": [
+  "lembas.png",
+  "generated",
+  "Lembas",
+  "Lembas"
+ ],
+ "lemon": [
+  "lemon.png",
+  "generated",
+  "Lemon",
+  "Citron"
+ ],
+ "lime": [
+  "lime.png",
+  "generated",
+  "Lime",
+  "Citron vert"
+ ],
+ "lion_cooked": [
+  "lionCooked.png",
+  "generated",
+  "Cooked Lion",
+  "Lion cuit"
+ ],
+ "lion_raw": [
+  "lionRaw.png",
+  "generated",
+  "Raw Lion",
+  "Lion cru"
+ ],
+ "maggoty_bread": [
+  "maggotyBread.png",
+  "generated",
+  "Maggoty Bread",
+  "Pain véreux"
+ ],
+ "mallorn_axe": [
+  "axeMallorn.png",
+  "handheld",
+  "Mallorn Axe",
+  "Hache en mallorn"
+ ],
+ "mallorn_hoe": [
+  "hoeMallorn.png",
+  "handheld",
+  "Mallorn Hoe",
+  "Houe en mallorn"
+ ],
+ "mallorn_nut": [
+  "mallornNut.png",
+  "generated",
+  "Mallorn Nut",
+  "Noix de mallorn"
+ ],
+ "mallorn_pickaxe": [
+  "pickaxeMallorn.png",
+  "handheld",
+  "Mallorn Pickaxe",
+  "Pioche en mallorn"
+ ],
+ "mallorn_shovel": [
+  "shovelMallorn.png",
+  "handheld",
+  "Mallorn Shovel",
+  "Pelle en mallorn"
+ ],
+ "mango": [
+  "mango.png",
+  "generated",
+  "Mango",
+  "Mangue"
+ ],
+ "maple_syrup": [
+  "mapleSyrup.png",
+  "generated",
+  "Maple Syrup",
+  "Sirop d'érable"
+ ],
+ "marzipan": [
+  "marzipan.png",
+  "generated",
+  "Marchpane",
+  "Pâte d'amandes"
+ ],
+ "marzipan_chocolate": [
+  "marzipanChocolate.png",
+  "generated",
+  "Chocolate Marchpane",
+  "Pâte d'amandes au chocolat"
+ ],
+ "melon_soup": [
+  "melonSoup.png",
+  "generated",
+  "Melon Soup",
+  "Soupe de pastèque"
+ ],
+ "mithril_axe": [
+  "axeMithril.png",
+  "handheld",
+  "Mithril Axe",
+  "Hache en mithril"
+ ],
+ "mithril_hoe": [
+  "hoeMithril.png",
+  "handheld",
+  "Mithril Hoe",
+  "Houe en mithril"
+ ],
+ "mithril_mattock": [
+  "mattockMithril.png",
+  "handheld",
+  "Mithril Mattock",
+  "Piochon en mithril"
+ ],
+ "mithril_pickaxe": [
+  "pickaxeMithril.png",
+  "handheld",
+  "Mithril Pickaxe",
+  "Pioche en mithril"
+ ],
+ "mithril_shovel": [
+  "shovelMithril.png",
+  "handheld",
+  "Mithril Shovel",
+  "Pelle en mithril"
+ ],
+ "mushroom_pie": [
+  "mushroomPie.png",
+  "generated",
+  "Mushroom Pie",
+  "Tarte aux champignons"
+ ],
+ "mutton_cooked": [
+  "muttonCooked.png",
+  "generated",
+  "Cooked Mutton",
+  "Mouton cuit"
+ ],
+ "mutton_raw": [
+  "muttonRaw.png",
+  "generated",
+  "Raw Mutton",
+  "Mouton cru"
+ ],
+ "olive": [
+  "olive.png",
+  "generated",
+  "Olives",
+  "Olives"
+ ],
+ "olive_bread": [
+  "oliveBread.png",
+  "generated",
+  "Olive Bread",
+  "Pain aux olives"
+ ],
+ "orange": [
+  "orange.png",
+  "generated",
+  "Orange",
+  "Orange"
+ ],
+ "orc_axe": [
+  "axeOrc.png",
+  "handheld",
+  "Mordor Axe",
+  "Hache du Mordor"
+ ],
+ "orc_hoe": [
+  "hoeOrc.png",
+  "handheld",
+  "Mordor Hoe",
+  "Houe du Mordor"
+ ],
+ "orc_pickaxe": [
+  "pickaxeOrc.png",
+  "handheld",
+  "Mordor Pickaxe",
+  "Pioche du Mordor"
+ ],
+ "orc_shovel": [
+  "shovelOrc.png",
+  "handheld",
+  "Mordor Shovel",
+  "Pelle du Mordor"
+ ],
+ "pear": [
+  "pear.png",
+  "generated",
+  "Pear",
+  "Poire"
+ ],
+ "plum": [
+  "plum.png",
+  "generated",
+  "Plum",
+  "Prune"
+ ],
+ "pomegranate": [
+  "pomegranate.png",
+  "generated",
+  "Pomegranate",
+  "Grenade"
+ ],
+ "rabbit_cooked": [
+  "rabbitCooked.png",
+  "generated",
+  "Cooked Rabbit",
+  "Lapin cuit"
+ ],
+ "rabbit_raw": [
+  "rabbitRaw.png",
+  "generated",
+  "Raw Rabbit",
+  "Lapin cru"
+ ],
+ "rabbit_stew": [
+  "rabbitStew.png",
+  "generated",
+  "Rabbit Stew",
+  "Ragoût de lapin"
+ ],
+ "raisins": [
+  "raisins.png",
+  "generated",
+  "Raisins",
+  "Raisins secs"
+ ],
+ "raspberry": [
+  "raspberry.png",
+  "generated",
+  "Raspberries",
+  "Framboises"
+ ],
+ "rhino_cooked": [
+  "rhinoCooked.png",
+  "generated",
+  "Cooked Rhino",
+  "Rhinocéros cuit"
+ ],
+ "rhino_raw": [
+  "rhinoRaw.png",
+  "generated",
+  "Raw Rhino",
+  "Rhinocéros cru"
+ ],
+ "rivendell_axe": [
+  "axeRivendell.png",
+  "handheld",
+  "Rivendell Axe",
+  "Hache de Fondcombe"
+ ],
+ "rivendell_hoe": [
+  "hoeRivendell.png",
+  "handheld",
+  "Rivendell Hoe",
+  "Houe de Fondcombe"
+ ],
+ "rivendell_pickaxe": [
+  "pickaxeRivendell.png",
+  "handheld",
+  "Rivendell Pickaxe",
+  "Pioche de Fondcombe"
+ ],
+ "rivendell_shovel": [
+  "shovelRivendell.png",
+  "handheld",
+  "Rivendell Shovel",
+  "Pelle de Fondcombe"
+ ],
+ "salted_flesh": [
+  "saltedFlesh.png",
+  "generated",
+  "Suspicious Meat",
+  "Viande douteuse"
+ ],
+ "tauredain_axe": [
+  "axeTauredain.png",
+  "handheld",
+  "Taurethrim Axe",
+  "Hache taurethrim"
+ ],
+ "tauredain_hoe": [
+  "hoeTauredain.png",
+  "handheld",
+  "Taurethrim Hoe",
+  "Houe taurethrim"
+ ],
+ "tauredain_pickaxe": [
+  "pickaxeTauredain.png",
+  "handheld",
+  "Taurethrim Pickaxe",
+  "Pioche taurethrim"
+ ],
+ "tauredain_shovel": [
+  "shovelTauredain.png",
+  "handheld",
+  "Taurethrim Shovel",
+  "Pelle taurethrim"
+ ],
+ "torog_stew": [
+  "torogStew.png",
+  "generated",
+  "Torog Stew",
+  "Ragoût torog"
+ ],
+ "turnip_cooked": [
+  "turnipCooked.png",
+  "generated",
+  "Roast Turnip",
+  "Navet rôti"
+ ],
+ "uruk_axe": [
+  "axeUruk.png",
+  "handheld",
+  "Uruk Axe",
+  "Hache uruk"
+ ],
+ "uruk_hoe": [
+  "hoeUruk.png",
+  "handheld",
+  "Uruk Hoe",
+  "Houe uruk"
+ ],
+ "uruk_pickaxe": [
+  "pickaxeUruk.png",
+  "handheld",
+  "Uruk Pickaxe",
+  "Pioche uruk"
+ ],
+ "uruk_shovel": [
+  "shovelUruk.png",
+  "handheld",
+  "Uruk Shovel",
+  "Pelle uruk"
+ ],
+ "utumno_pickaxe": [
+  "utumnoPickaxe.png",
+  "handheld",
+  "Pickaxe of the Underworld",
+  "Pioche du monde infernal"
+ ],
+ "wildberry": [
+  "wildberry.png",
+  "generated",
+  "Wildberries",
+  "Baies sauvages"
+ ],
+ "wood_elven_axe": [
+  "axeWoodElven.png",
+  "handheld",
+  "Wood-elven Axe",
+  "Hache des elfes sylvains"
+ ],
+ "wood_elven_hoe": [
+  "hoeWoodElven.png",
+  "handheld",
+  "Wood-elven Hoe",
+  "Houe des elfes sylvains"
+ ],
+ "wood_elven_pickaxe": [
+  "pickaxeWoodElven.png",
+  "handheld",
+  "Wood-elven Pickaxe",
+  "Pioche des elfes sylvains"
+ ],
+ "wood_elven_shovel": [
+  "shovelWoodElven.png",
+  "handheld",
+  "Wood-elven Shovel",
+  "Pelle des elfes sylvains"
+ ],
+ "yam_roast": [
+  "yamRoast.png",
+  "generated",
+  "Roast Yam",
+  "Igname rôti"
+ ],
+ "zebra_cooked": [
+  "zebraCooked.png",
+  "generated",
+  "Cooked Zebra",
+  "Zèbre cuit"
+ ],
+ "zebra_raw": [
+  "zebraRaw.png",
+  "generated",
+  "Raw Zebra",
+  "Zèbre cru"
+ ]
+}

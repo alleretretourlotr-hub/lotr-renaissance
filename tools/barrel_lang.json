@@ -1,0 +1,26 @@
+{
+ "en": {
+  "block.lotr.barrel": "Barrel",
+  "lotr.drink.weak": "Weak",
+  "lotr.drink.light": "Light",
+  "lotr.drink.moderate": "Moderate",
+  "lotr.drink.strong": "Strong",
+  "lotr.drink.potent": "Potent",
+  "lotr.gui.barrel.brew": "Start Brewing",
+  "lotr.gui.barrel.empty": "Empty",
+  "lotr.gui.barrel.brewing": "Brewing...",
+  "lotr.drink.alcoholicity": "Alcohol content"
+ },
+ "fr": {
+  "block.lotr.barrel": "Tonneau",
+  "lotr.drink.weak": "Léger",
+  "lotr.drink.light": "Doux",
+  "lotr.drink.moderate": "Modéré",
+  "lotr.drink.strong": "Fort",
+  "lotr.drink.potent": "Puissant",
+  "lotr.gui.barrel.brew": "Brasser",
+  "lotr.gui.barrel.empty": "Vide",
+  "lotr.gui.barrel.brewing": "Brassage...",
+  "lotr.drink.alcoholicity": "Teneur en alcool"
+ }
+}

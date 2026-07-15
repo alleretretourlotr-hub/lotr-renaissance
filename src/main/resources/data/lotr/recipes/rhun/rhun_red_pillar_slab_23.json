@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:rhun_red_pillar"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_red_pillar_slab",
+    "count": 6
+  }
+}

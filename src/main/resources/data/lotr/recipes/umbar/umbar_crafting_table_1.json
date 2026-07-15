@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "umbar",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "lotr:umbar_crafting_table",
+    "count": 1
+  }
+}

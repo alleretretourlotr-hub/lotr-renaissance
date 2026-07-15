@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "lotr:rhun_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_crafting_table",
+    "count": 1
+  }
+}

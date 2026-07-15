@@ -1,0 +1,13 @@
+{
+  "type": "lotr:faction_shapeless",
+  "faction": "elven",
+  "ingredients": [
+    {
+      "item": "lotr:mallorn_log"
+    }
+  ],
+  "result": {
+    "item": "lotr:mallorn_planks",
+    "count": 4
+  }
+}

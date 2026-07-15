@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "angmar",
+  "pattern": [
+    " XX",
+    " YX",
+    "Y  "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:orc_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:angmar_polearm",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rivendell",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "lotr:rivendell_crafting_table",
+    "count": 1
+  }
+}

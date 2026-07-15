@@ -1,0 +1,20 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "gundabad",
+  "pattern": [
+    "XX",
+    "YY"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "lotr:gundabad_crafting_table",
+    "count": 1
+  }
+}

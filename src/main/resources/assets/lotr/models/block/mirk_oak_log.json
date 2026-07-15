@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "lotr:block/wood_mirk_oak_side",
+    "end": "lotr:block/wood_mirk_oak_top"
+  }
+}

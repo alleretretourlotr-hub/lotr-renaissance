@@ -1,0 +1,17 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "rhun",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:red_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:rhun_red_brick",
+    "count": 4
+  }
+}

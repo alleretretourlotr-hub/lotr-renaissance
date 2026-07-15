@@ -1,0 +1,16 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "tauredain",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:tauredain_mossy_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:tauredain_mossy_brick_slab",
+    "count": 6
+  }
+}

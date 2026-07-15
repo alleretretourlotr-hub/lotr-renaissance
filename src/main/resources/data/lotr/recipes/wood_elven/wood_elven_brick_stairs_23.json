@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "wood_elven",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:wood_elven_brick"
+    }
+  },
+  "result": {
+    "item": "lotr:wood_elven_brick_stairs",
+    "count": 4
+  }
+}

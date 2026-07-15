@@ -1,0 +1,18 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "morgul",
+  "pattern": [
+    "X",
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:mordor_rock"
+    }
+  },
+  "result": {
+    "item": "lotr:mordor_pillar",
+    "count": 3
+  }
+}

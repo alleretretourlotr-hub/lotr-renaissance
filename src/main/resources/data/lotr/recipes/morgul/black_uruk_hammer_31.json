@@ -1,0 +1,21 @@
+{
+  "type": "lotr:faction_shaped",
+  "faction": "morgul",
+  "pattern": [
+    "XYX",
+    "XYX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "lotr:black_uruk_steel"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lotr:black_uruk_hammer",
+    "count": 1
+  }
+}
