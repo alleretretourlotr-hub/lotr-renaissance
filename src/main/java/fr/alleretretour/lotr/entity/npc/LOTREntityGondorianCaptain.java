@@ -34,28 +34,69 @@ public class LOTREntityGondorianCaptain extends LOTREntityNPC {
         return LOTRFaction.GONDOR;
     }
 
+    @Override
+    protected net.minecraft.util.ActionResultType mobInteract(
+            net.minecraft.entity.player.PlayerEntity player, net.minecraft.util.Hand hand) {
+        // clic simple = embauche si alignement >= base Legacy ; sinon discours
+        if (hand == net.minecraft.util.Hand.MAIN_HAND && !player.isShiftKeyDown()) {
+            float alignment = fr.alleretretour.lotr.fac.LOTRPlayerDataProvider
+                    .get(player).getAlignment(getFaction());
+            if (alignment < fr.alleretretour.lotr.hire.LOTRHireRosters.GONDOR_CAPTAIN_BASE) {
+                return super.mobInteract(player, hand); // discours contextuel
+            }
+            if (!level.isClientSide
+                    && player instanceof net.minecraft.entity.player.ServerPlayerEntity) {
+                final LOTREntityGondorianCaptain self = this;
+                player.openMenu(new net.minecraft.inventory.container.INamedContainerProvider() {
+                    @Override
+                    public net.minecraft.util.text.ITextComponent getDisplayName() {
+                        return getName();
+                    }
+
+                    @Override
+                    public net.minecraft.inventory.container.Container createMenu(
+                            int id, net.minecraft.entity.player.PlayerInventory inv,
+                            net.minecraft.entity.player.PlayerEntity p) {
+                        return new fr.alleretretour.lotr.inventory.LOTRContainerHire(id, inv,
+                                fr.alleretretour.lotr.hire.LOTRHireRosters.gondorCaptain(), self);
+                    }
+                });
+            }
+            return net.minecraft.util.ActionResultType.CONSUME;
+        }
+        return super.mobInteract(player, hand);
+    }
+
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return createNPCAttributes()
-                .add(Attributes.MAX_HEALTH, 25)
-                .add(Attributes.ATTACK_DAMAGE, 4.5);
+                .add(Attributes.MAX_HEALTH, 25.0)
+                .add(Attributes.ATTACK_DAMAGE, 2.0);
     }
 
-    private static Item itemOf(String id) {
-        return net.minecraftforge.registries.ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("lotr", id));
+    private static net.minecraft.item.ItemStack stackOf(String id) {
+        net.minecraft.item.Item item = net.minecraftforge.registries.ForgeRegistries.ITEMS
+                .getValue(new net.minecraft.util.ResourceLocation(id));
+        return item == null ? net.minecraft.item.ItemStack.EMPTY
+                : new net.minecraft.item.ItemStack(item);
     }
 
-    @Nullable
+    /** PORT de onSpawnWithEgg (Legacy LOTREntityGondorianCaptain) : pool d'armes + armure exacts. */
+    @javax.annotation.Nullable
     @Override
-    public ILivingEntityData finalizeSpawn(IServerWorld world, DifficultyInstance difficulty,
-                                           SpawnReason reason, @Nullable ILivingEntityData data,
-                                           @Nullable CompoundNBT nbt) {
-        setItemSlot(EquipmentSlotType.MAINHAND, new ItemStack(itemOf("gondor_sword")));
-        setItemSlot(EquipmentSlotType.HEAD, new ItemStack(itemOf("gondor_winged_helmet")));
-        setItemSlot(EquipmentSlotType.CHEST, new ItemStack(itemOf("gondor_chestplate")));
-        setItemSlot(EquipmentSlotType.LEGS, new ItemStack(itemOf("gondor_leggings")));
-        setItemSlot(EquipmentSlotType.FEET, new ItemStack(itemOf("gondor_boots")));
-        for (EquipmentSlotType slot : EquipmentSlotType.values()) {
+    public net.minecraft.entity.ILivingEntityData finalizeSpawn(
+            net.minecraft.world.IServerWorld world, net.minecraft.world.DifficultyInstance difficulty,
+            net.minecraft.entity.SpawnReason reason,
+            @javax.annotation.Nullable net.minecraft.entity.ILivingEntityData data,
+            @javax.annotation.Nullable net.minecraft.nbt.CompoundNBT nbt) {
+        String[] pool = {"lotr:gondor_sword"};
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.MAINHAND,
+                stackOf(pool[getRandom().nextInt(pool.length)]));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.HEAD, stackOf("lotr:gondor_helmet"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.CHEST, stackOf("lotr:gondor_chestplate"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.LEGS, stackOf("lotr:gondor_leggings"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.FEET, stackOf("lotr:gondor_boots"));
+        for (net.minecraft.inventory.EquipmentSlotType slot
+                : net.minecraft.inventory.EquipmentSlotType.values()) {
             setDropChance(slot, 0.05f);
         }
         return super.finalizeSpawn(world, difficulty, reason, data, nbt);

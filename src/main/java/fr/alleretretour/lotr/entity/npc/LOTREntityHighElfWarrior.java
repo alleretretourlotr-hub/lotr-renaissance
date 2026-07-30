@@ -36,27 +36,33 @@ public class LOTREntityHighElfWarrior extends LOTREntityNPC {
 
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return createNPCAttributes()
-                .add(Attributes.MAX_HEALTH, 20.0)
+                .add(Attributes.MAX_HEALTH, 30.0)
                 .add(Attributes.MOVEMENT_SPEED, 0.25)
-                .add(Attributes.ATTACK_DAMAGE, 2.5);
+                .add(Attributes.ATTACK_DAMAGE, 2.0);
     }
 
-    private static Item itemOf(String id) {
-        return net.minecraftforge.registries.ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("lotr", id));
+    private static net.minecraft.item.ItemStack stackOf(String id) {
+        net.minecraft.item.Item item = net.minecraftforge.registries.ForgeRegistries.ITEMS
+                .getValue(new net.minecraft.util.ResourceLocation(id));
+        return item == null ? net.minecraft.item.ItemStack.EMPTY
+                : new net.minecraft.item.ItemStack(item);
     }
 
-    @Nullable
+    /** PORT de onSpawnWithEgg (Legacy LOTREntityHighElfWarrior) : pool d'armes + armure exacts. */
+    @javax.annotation.Nullable
     @Override
-    public ILivingEntityData finalizeSpawn(IServerWorld world, DifficultyInstance difficulty,
-                                           SpawnReason reason, @Nullable ILivingEntityData data,
-                                           @Nullable CompoundNBT nbt) {
-        setItemSlot(EquipmentSlotType.FEET, new ItemStack(itemOf("high_elven_boots")));
-        setItemSlot(EquipmentSlotType.LEGS, new ItemStack(itemOf("high_elven_leggings")));
-        setItemSlot(EquipmentSlotType.CHEST, new ItemStack(itemOf("high_elven_chestplate")));
-        setItemSlot(EquipmentSlotType.HEAD, new ItemStack(itemOf("high_elven_helmet")));
-        setItemSlot(EquipmentSlotType.MAINHAND, new ItemStack(itemOf("high_elven_bow")));
-        for (EquipmentSlotType slot : EquipmentSlotType.values()) {
+    public net.minecraft.entity.ILivingEntityData finalizeSpawn(
+            net.minecraft.world.IServerWorld world, net.minecraft.world.DifficultyInstance difficulty,
+            net.minecraft.entity.SpawnReason reason,
+            @javax.annotation.Nullable net.minecraft.entity.ILivingEntityData data,
+            @javax.annotation.Nullable net.minecraft.nbt.CompoundNBT nbt) {
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.MAINHAND, stackOf("lotr:high_elven_bow"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.HEAD, stackOf("lotr:high_elven_helmet"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.CHEST, stackOf("lotr:high_elven_chestplate"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.LEGS, stackOf("lotr:high_elven_leggings"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.FEET, stackOf("lotr:high_elven_boots"));
+        for (net.minecraft.inventory.EquipmentSlotType slot
+                : net.minecraft.inventory.EquipmentSlotType.values()) {
             setDropChance(slot, 0.05f);
         }
         return super.finalizeSpawn(world, difficulty, reason, data, nbt);

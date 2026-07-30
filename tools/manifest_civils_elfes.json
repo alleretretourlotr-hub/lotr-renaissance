@@ -1,0 +1,11 @@
+{
+  "lot": "lot civils elfes",
+  "npcs": [
+    {"legacy": "GaladhrimElf", "reg": "galadhrim_elf", "faction": "LOTHLORIEN",
+     "skin_src": "elf/galadhrim_male", "skin_dest": "galadhrim_male", "speech": "galadhrim/elf"},
+    {"legacy": "HighElf", "reg": "high_elf", "faction": "HIGH_ELF",
+     "skin_src": "elf/highElf_male", "skin_dest": "high_elf_male", "speech": "rivendell/elf"},
+    {"legacy": "RivendellElf", "reg": "rivendell_elf", "faction": "HIGH_ELF",
+     "skin_src": "elf/highElf_male", "skin_dest": "high_elf_male", "speech": "rivendell/elf"}
+  ]
+}

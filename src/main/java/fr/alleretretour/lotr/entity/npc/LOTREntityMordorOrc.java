@@ -44,23 +44,34 @@ public class LOTREntityMordorOrc extends LOTREntityNPC {
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return createNPCAttributes()
                 .add(Attributes.MAX_HEALTH, 20.0)
-                .add(Attributes.ATTACK_DAMAGE, 2.5)
+                .add(Attributes.ATTACK_DAMAGE, 2.0)
                 .add(Attributes.MOVEMENT_SPEED, 0.28);
     }
 
-    private static Item itemOf(String id) {
-        return net.minecraftforge.registries.ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("lotr", id));
+    private static net.minecraft.item.ItemStack stackOf(String id) {
+        net.minecraft.item.Item item = net.minecraftforge.registries.ForgeRegistries.ITEMS
+                .getValue(new net.minecraft.util.ResourceLocation(id));
+        return item == null ? net.minecraft.item.ItemStack.EMPTY
+                : new net.minecraft.item.ItemStack(item);
     }
 
-    @Nullable
+    /** PORT de onSpawnWithEgg (Legacy LOTREntityMordorOrc) : pool d'armes + armure exacts. */
+    @javax.annotation.Nullable
     @Override
-    public ILivingEntityData finalizeSpawn(IServerWorld world, DifficultyInstance difficulty,
-                                           SpawnReason reason, @Nullable ILivingEntityData data,
-                                           @Nullable CompoundNBT nbt) {
-        setItemSlot(EquipmentSlotType.MAINHAND,
-                new ItemStack(itemOf(WEAPONS[random.nextInt(WEAPONS.length)])));
-        for (EquipmentSlotType slot : EquipmentSlotType.values()) {
+    public net.minecraft.entity.ILivingEntityData finalizeSpawn(
+            net.minecraft.world.IServerWorld world, net.minecraft.world.DifficultyInstance difficulty,
+            net.minecraft.entity.SpawnReason reason,
+            @javax.annotation.Nullable net.minecraft.entity.ILivingEntityData data,
+            @javax.annotation.Nullable net.minecraft.nbt.CompoundNBT nbt) {
+        String[] pool = {"lotr:orc_battleaxe", "lotr:orc_dagger", "lotr:orc_poisoned_dagger", "lotr:orc_scimitar", "lotr:orc_hammer", "lotr:orc_pickaxe", "lotr:orc_axe", "lotr:orc_polearm", "lotr:orc_spear"};
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.MAINHAND,
+                stackOf(pool[getRandom().nextInt(pool.length)]));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.HEAD, stackOf("lotr:orc_helmet"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.CHEST, stackOf("lotr:orc_chestplate"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.LEGS, stackOf("lotr:orc_leggings"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.FEET, stackOf("lotr:orc_boots"));
+        for (net.minecraft.inventory.EquipmentSlotType slot
+                : net.minecraft.inventory.EquipmentSlotType.values()) {
             setDropChance(slot, 0.05f);
         }
         return super.finalizeSpawn(world, difficulty, reason, data, nbt);

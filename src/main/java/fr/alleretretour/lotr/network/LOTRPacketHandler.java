@@ -37,6 +37,12 @@ public class LOTRPacketHandler {
         CHANNEL.registerMessage(id++, LOTRPacketSelectTitle.class,
                 LOTRPacketSelectTitle::encode, LOTRPacketSelectTitle::decode,
                 LOTRPacketSelectTitle::handle);
+        CHANNEL.registerMessage(id++, LOTRPacketHiredCommand.class,
+                LOTRPacketHiredCommand::encode, LOTRPacketHiredCommand::decode,
+                LOTRPacketHiredCommand::handle);
+        CHANNEL.registerMessage(id++, LOTRPacketBannerEdit.class,
+                LOTRPacketBannerEdit::encode, LOTRPacketBannerEdit::decode,
+                LOTRPacketBannerEdit::handle);
     }
 
     /** Envoie tous les alignements non nuls du joueur a son client. */

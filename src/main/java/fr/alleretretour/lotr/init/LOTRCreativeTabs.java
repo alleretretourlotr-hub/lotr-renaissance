@@ -21,6 +21,9 @@ public class LOTRCreativeTabs {
     public static final ItemGroup TAB_MATERIALS = make("lotr_materials", () -> itemRO("bronze"));
     public static final ItemGroup TAB_MISC = make("lotr_misc", () -> itemRO("naurite_gem"));
     public static final ItemGroup TAB_TOOLS = make("lotr_tools", () -> itemRO("dwarven_mattock"));
+    public static final ItemGroup TAB_SPAWN = make("lotr_spawning",
+            () -> LOTRSpawnEggs.GONDOR_SOLDIER_EGG);
+
     public static final ItemGroup TAB_COMBAT = make("lotr_combat", () -> itemRO("gondor_sword"));
 
     private static Supplier<net.minecraft.item.Item> itemRO(String id) {

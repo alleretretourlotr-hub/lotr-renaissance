@@ -9,18 +9,18 @@ import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.util.ResourceLocation;
 
-/** Renderer des orques : modele a nez/oreilles + peaux a variantes + stature reduite. */
+/**
+ * Renderer des orques : modele a nez/oreilles + peaux a variantes + stature reduite.
+ * BLINDAGE : chemins de peaux construits via LOTRRenderNPC.buildTextures
+ * (jamais d'exception au constructeur, repli loggue).
+ */
 public class LOTRRenderOrc<T extends LOTREntityNPC> extends BipedRenderer<T, LOTRModelOrc<T>> {
 
     private final ResourceLocation[] textures;
 
     public LOTRRenderOrc(EntityRendererManager manager, String skinFolder, int variants) {
         super(manager, new LOTRModelOrc<>(0.0f), 0.5f);
-        this.textures = new ResourceLocation[variants];
-        for (int i = 0; i < variants; i++) {
-            textures[i] = new ResourceLocation("lotr",
-                    "textures/entity/" + skinFolder + "/" + i + ".png");
-        }
+        this.textures = LOTRRenderNPC.buildTextures(skinFolder, variants);
         addLayer(new BipedArmorLayer<>(this,
                 new BipedModel<>(0.5f), new BipedModel<>(1.0f)));
     }

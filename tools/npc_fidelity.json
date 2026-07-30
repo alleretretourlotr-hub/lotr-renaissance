@@ -1,0 +1,1070 @@
+{
+ "gondor_soldier": {
+  "legacy": "GondorSoldier",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:gondor_hammer",
+   "lotr:gondor_sword",
+   "lotr:gondor_pike",
+   "lotr:gondor_lance",
+   "lotr:gondor_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:gondor_boots",
+   "LEGS": "lotr:gondor_leggings",
+   "CHEST": "lotr:gondor_chestplate",
+   "HEAD": "lotr:gondor_helmet"
+  }
+ },
+ "gondor_archer": {
+  "legacy": "GondorArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:gondor_hammer",
+   "lotr:gondor_sword",
+   "lotr:gondor_pike",
+   "lotr:gondor_lance",
+   "lotr:gondor_spear"
+  ],
+  "ranged": [
+   "lotr:gondor_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:gondor_boots",
+   "LEGS": "lotr:gondor_leggings",
+   "CHEST": "lotr:gondor_chestplate",
+   "HEAD": "lotr:gondor_helmet"
+  }
+ },
+ "gondor_tower_guard": {
+  "legacy": "GondorTowerGuard",
+  "hp": 24.0,
+  "weapons": [
+   "lotr:gondor_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "HEAD": "lotr:gondor_winged_helmet",
+   "FEET": "lotr:gondor_boots",
+   "LEGS": "lotr:gondor_leggings",
+   "CHEST": "lotr:gondor_chestplate"
+  }
+ },
+ "gondorian_captain": {
+  "legacy": "GondorianCaptain",
+  "hp": 25.0,
+  "weapons": [
+   "lotr:gondor_sword"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:gondor_boots",
+   "LEGS": "lotr:gondor_leggings",
+   "CHEST": "lotr:gondor_chestplate",
+   "HEAD": "lotr:gondor_helmet"
+  }
+ },
+ "gondor_levyman": {
+  "legacy": "GondorLevyman",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {
+   "FEET": "minecraft:leather_boots",
+   "LEGS": "minecraft:leather_leggings",
+   "CHEST": "lotr:gondor_gambeson_chestplate",
+   "HEAD": "lotr:gondor_helmet"
+  }
+ },
+ "gondor_blacksmith": {
+  "legacy": "GondorBlacksmith",
+  "hp": 25.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "mordor_orc": {
+  "legacy": "MordorOrc",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:orc_battleaxe",
+   "lotr:orc_dagger",
+   "lotr:orc_poisoned_dagger",
+   "lotr:orc_scimitar",
+   "lotr:orc_hammer",
+   "lotr:orc_pickaxe",
+   "lotr:orc_axe",
+   "lotr:orc_polearm",
+   "lotr:orc_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:orc_boots",
+   "LEGS": "lotr:orc_leggings",
+   "CHEST": "lotr:orc_chestplate",
+   "HEAD": "lotr:orc_helmet"
+  }
+ },
+ "mordor_orc_archer": {
+  "legacy": "MordorOrcArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:orc_battleaxe",
+   "lotr:orc_dagger",
+   "lotr:orc_poisoned_dagger",
+   "lotr:orc_scimitar",
+   "lotr:orc_hammer",
+   "lotr:orc_pickaxe",
+   "lotr:orc_axe",
+   "lotr:orc_polearm",
+   "lotr:orc_spear"
+  ],
+  "ranged": [
+   "lotr:orc_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:orc_boots",
+   "LEGS": "lotr:orc_leggings",
+   "CHEST": "lotr:orc_chestplate",
+   "HEAD": "lotr:orc_helmet"
+  }
+ },
+ "uruk_hai": {
+  "legacy": "UrukHai",
+  "hp": 26.0,
+  "weapons": [
+   "lotr:uruk_scimitar",
+   "lotr:uruk_pike",
+   "lotr:uruk_battleaxe",
+   "lotr:uruk_dagger",
+   "lotr:uruk_poisoned_dagger",
+   "lotr:uruk_hammer",
+   "lotr:uruk_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:uruk_boots",
+   "LEGS": "lotr:uruk_leggings",
+   "CHEST": "lotr:uruk_chestplate",
+   "HEAD": "lotr:uruk_helmet"
+  }
+ },
+ "rohirrim_warrior": {
+  "legacy": "RohirrimWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:rohan_battleaxe",
+   "lotr:rohan_sword",
+   "lotr:rohan_lance",
+   "lotr:rohan_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:rohan_boots",
+   "LEGS": "lotr:rohan_leggings",
+   "CHEST": "lotr:rohan_chestplate",
+   "HEAD": "lotr:rohan_helmet"
+  }
+ },
+ "rohirrim_archer": {
+  "legacy": "RohirrimArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:rohan_battleaxe",
+   "lotr:rohan_sword",
+   "lotr:rohan_lance",
+   "lotr:rohan_spear"
+  ],
+  "ranged": [
+   "lotr:rohan_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:rohan_boots",
+   "LEGS": "lotr:rohan_leggings",
+   "CHEST": "lotr:rohan_chestplate",
+   "HEAD": "lotr:rohan_helmet"
+  }
+ },
+ "rohirrim_marshal": {
+  "legacy": "RohirrimMarshal",
+  "hp": 25.0,
+  "weapons": [
+   "lotr:rohan_sword"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:rohan_marshal_boots",
+   "LEGS": "lotr:rohan_marshal_leggings",
+   "CHEST": "lotr:rohan_marshal_chestplate",
+   "HEAD": "lotr:rohan_marshal_helmet"
+  }
+ },
+ "rohan_shieldmaiden": {
+  "legacy": "RohanShieldmaiden",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:rohan_battleaxe",
+   "lotr:rohan_sword",
+   "lotr:rohan_lance",
+   "lotr:rohan_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "HEAD": "lotr:rohan_helmet",
+   "FEET": "lotr:rohan_boots",
+   "LEGS": "lotr:rohan_leggings",
+   "CHEST": "lotr:rohan_chestplate"
+  }
+ },
+ "galadhrim_warrior": {
+  "legacy": "GaladhrimWarrior",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:elven_polearm",
+   "lotr:elven_longspear",
+   "lotr:elven_sword",
+   "lotr:elven_spear"
+  ],
+  "ranged": [
+   "lotr:elven_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:elven_boots",
+   "LEGS": "lotr:elven_leggings",
+   "CHEST": "lotr:elven_chestplate",
+   "HEAD": "lotr:elven_helmet"
+  }
+ },
+ "galadhrim_warden": {
+  "legacy": "GaladhrimWarden",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:elven_dagger"
+  ],
+  "ranged": [
+   "lotr:mallorn_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:hithlain_boots",
+   "LEGS": "lotr:hithlain_leggings",
+   "CHEST": "lotr:hithlain_chestplate",
+   "HEAD": "lotr:hithlain_helmet"
+  }
+ },
+ "galadhrim_lord": {
+  "legacy": "GaladhrimLord",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:elven_sword"
+  ],
+  "ranged": [
+   "lotr:elven_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:elven_boots",
+   "LEGS": "lotr:elven_leggings",
+   "CHEST": "lotr:elven_chestplate",
+   "HEAD": "lotr:elven_helmet"
+  }
+ },
+ "high_elf_warrior": {
+  "legacy": "HighElfWarrior",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:high_elven_polearm",
+   "lotr:high_elven_longspear",
+   "lotr:high_elven_sword",
+   "lotr:high_elven_spear"
+  ],
+  "ranged": [
+   "lotr:high_elven_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:high_elven_boots",
+   "LEGS": "lotr:high_elven_leggings",
+   "CHEST": "lotr:high_elven_chestplate",
+   "HEAD": "lotr:high_elven_helmet"
+  }
+ },
+ "high_elf_lord": {
+  "legacy": "HighElfLord",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:high_elven_sword"
+  ],
+  "ranged": [
+   "lotr:high_elven_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:high_elven_boots",
+   "LEGS": "lotr:high_elven_leggings",
+   "CHEST": "lotr:high_elven_chestplate",
+   "HEAD": "lotr:high_elven_helmet"
+  }
+ },
+ "wood_elf_warrior": {
+  "legacy": "WoodElfWarrior",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:wood_elven_polearm",
+   "lotr:wood_elven_longspear",
+   "lotr:wood_elven_sword",
+   "lotr:wood_elven_spear"
+  ],
+  "ranged": [
+   "lotr:mirkwood_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:wood_elven_boots",
+   "LEGS": "lotr:wood_elven_leggings",
+   "CHEST": "lotr:wood_elven_chestplate",
+   "HEAD": "lotr:wood_elven_helmet"
+  }
+ },
+ "wood_elf_scout": {
+  "legacy": "WoodElfScout",
+  "hp": 30.0,
+  "weapons": [],
+  "ranged": [
+   "lotr:mirkwood_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:wood_elven_scout_boots",
+   "LEGS": "lotr:wood_elven_scout_leggings",
+   "CHEST": "lotr:wood_elven_scout_chestplate",
+   "HEAD": "lotr:wood_elven_scout_helmet"
+  }
+ },
+ "wood_elf_captain": {
+  "legacy": "WoodElfCaptain",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:wood_elven_sword"
+  ],
+  "ranged": [
+   "lotr:mirkwood_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:wood_elven_boots",
+   "LEGS": "lotr:wood_elven_leggings",
+   "CHEST": "lotr:wood_elven_chestplate",
+   "HEAD": "lotr:wood_elven_helmet"
+  }
+ },
+ "rivendell_warrior": {
+  "legacy": "RivendellWarrior",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:rivendell_polearm",
+   "lotr:rivendell_longspear",
+   "lotr:rivendell_sword",
+   "lotr:rivendell_spear"
+  ],
+  "ranged": [
+   "lotr:rivendell_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:rivendell_boots",
+   "LEGS": "lotr:rivendell_leggings",
+   "CHEST": "lotr:rivendell_chestplate",
+   "HEAD": "lotr:rivendell_helmet"
+  }
+ },
+ "rivendell_lord": {
+  "legacy": "RivendellLord",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:rivendell_sword"
+  ],
+  "ranged": [
+   "lotr:rivendell_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:rivendell_boots",
+   "LEGS": "lotr:rivendell_leggings",
+   "CHEST": "lotr:rivendell_chestplate",
+   "HEAD": "lotr:rivendell_helmet"
+  }
+ },
+ "dwarf": {
+  "legacy": "Dwarf",
+  "hp": 26.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "dwarf_warrior": {
+  "legacy": "DwarfWarrior",
+  "hp": 26.0,
+  "weapons": [
+   "lotr:dwarven_sword",
+   "lotr:dwarven_battleaxe",
+   "lotr:dwarven_hammer",
+   "lotr:dwarven_pike",
+   "lotr:dwarven_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dwarven_boots",
+   "LEGS": "lotr:dwarven_leggings",
+   "CHEST": "lotr:dwarven_chestplate",
+   "HEAD": "lotr:dwarven_helmet"
+  }
+ },
+ "dwarf_commander": {
+  "legacy": "DwarfCommander",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:dwarven_hammer"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dwarven_gold_boots",
+   "LEGS": "lotr:dwarven_gold_leggings",
+   "CHEST": "lotr:dwarven_gold_chestplate",
+   "HEAD": "lotr:dwarven_helmet"
+  }
+ },
+ "dwarf_axe_thrower": {
+  "legacy": "DwarfAxeThrower",
+  "hp": 26.0,
+  "weapons": [
+   "lotr:dwarven_throwing_axe"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dwarven_boots",
+   "LEGS": "lotr:dwarven_leggings",
+   "CHEST": "lotr:dwarven_chestplate",
+   "HEAD": "lotr:dwarven_helmet"
+  }
+ },
+ "blue_dwarf_warrior": {
+  "legacy": "BlueDwarfWarrior",
+  "hp": 26.0,
+  "weapons": [
+   "lotr:blue_dwarven_sword",
+   "lotr:blue_dwarven_battleaxe",
+   "lotr:blue_dwarven_hammer",
+   "lotr:blue_dwarven_pike",
+   "lotr:blue_dwarven_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:blue_dwarven_boots",
+   "LEGS": "lotr:blue_dwarven_leggings",
+   "CHEST": "lotr:blue_dwarven_chestplate",
+   "HEAD": "lotr:blue_dwarven_helmet"
+  }
+ },
+ "blue_dwarf_axe_thrower": {
+  "legacy": "BlueDwarfAxeThrower",
+  "hp": 26.0,
+  "weapons": [
+   "lotr:blue_dwarven_throwing_axe"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:blue_dwarven_boots",
+   "LEGS": "lotr:blue_dwarven_leggings",
+   "CHEST": "lotr:blue_dwarven_chestplate",
+   "HEAD": "lotr:blue_dwarven_helmet"
+  }
+ },
+ "hobbit": {
+  "legacy": "Hobbit",
+  "hp": 16.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "hobbit_bounder": {
+  "legacy": "HobbitBounder",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:bronze_dagger"
+  ],
+  "ranged": [],
+  "armor": {}
+ },
+ "bree_man": {
+  "legacy": "BreeMan",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "bree_guard": {
+  "legacy": "BreeGuard",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {
+   "FEET": "minecraft:chainmail_boots",
+   "LEGS": "minecraft:chainmail_leggings",
+   "CHEST": "minecraft:chainmail_chestplate",
+   "HEAD": "minecraft:iron_helmet"
+  }
+ },
+ "ranger_north": {
+  "legacy": "RangerNorth",
+  "hp": 25.0,
+  "weapons": [
+   "lotr:bronze_dagger",
+   "lotr:barrow_dagger",
+   "minecraft:bow"
+  ],
+  "ranged": [
+   "lotr:ranger_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:ranger_boots",
+   "LEGS": "lotr:ranger_leggings",
+   "CHEST": "lotr:ranger_chestplate",
+   "HEAD": "lotr:ranger_helmet"
+  }
+ },
+ "ranger_north_captain": {
+  "legacy": "RangerNorthCaptain",
+  "hp": 25.0,
+  "weapons": [
+   "minecraft:iron_sword"
+  ],
+  "ranged": [
+   "lotr:ranger_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:ranger_boots",
+   "LEGS": "lotr:ranger_leggings",
+   "CHEST": "lotr:ranger_chestplate",
+   "HEAD": "lotr:ranger_helmet"
+  }
+ },
+ "dale_soldier": {
+  "legacy": "DaleSoldier",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:dale_sword",
+   "lotr:dale_battleaxe",
+   "lotr:dale_pike",
+   "lotr:dale_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dale_boots",
+   "LEGS": "lotr:dale_leggings",
+   "CHEST": "lotr:dale_chestplate",
+   "HEAD": "lotr:dale_helmet"
+  }
+ },
+ "dale_archer": {
+  "legacy": "DaleArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:dale_sword",
+   "lotr:dale_battleaxe",
+   "lotr:dale_pike",
+   "lotr:dale_spear"
+  ],
+  "ranged": [
+   "lotr:dale_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:dale_boots",
+   "LEGS": "lotr:dale_leggings",
+   "CHEST": "lotr:dale_chestplate",
+   "HEAD": "lotr:dale_helmet"
+  }
+ },
+ "dale_levyman": {
+  "legacy": "DaleLevyman",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {
+   "FEET": "minecraft:leather_boots",
+   "LEGS": "minecraft:leather_leggings",
+   "CHEST": "lotr:dale_gambeson_chestplate",
+   "HEAD": "lotr:dale_helmet"
+  }
+ },
+ "dorwinion_guard": {
+  "legacy": "DorwinionGuard",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "dorwinion_elf_warrior": {
+  "legacy": "DorwinionElfWarrior",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:dorwinion_elf_sword",
+   "lotr:bladorthin_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dorwinion_elf_boots",
+   "LEGS": "lotr:dorwinion_elf_leggings",
+   "CHEST": "lotr:dorwinion_elf_chestplate",
+   "HEAD": "lotr:dorwinion_elf_helmet"
+  }
+ },
+ "dorwinion_elf_archer": {
+  "legacy": "DorwinionElfArcher",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:dorwinion_elf_sword",
+   "lotr:bladorthin_spear"
+  ],
+  "ranged": [
+   "lotr:dorwinion_elf_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:dorwinion_elf_boots",
+   "LEGS": "lotr:dorwinion_elf_leggings",
+   "CHEST": "lotr:dorwinion_elf_chestplate",
+   "HEAD": "lotr:dorwinion_elf_helmet"
+  }
+ },
+ "dorwinion_crossbower": {
+  "legacy": "DorwinionCrossbower",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [
+   "lotr:iron_crossbow"
+  ],
+  "armor": {}
+ },
+ "angmar_orc": {
+  "legacy": "AngmarOrc",
+  "hp": 18.0,
+  "weapons": [
+   "lotr:angmar_sword",
+   "lotr:angmar_battleaxe",
+   "lotr:angmar_dagger",
+   "lotr:angmar_poisoned_dagger",
+   "lotr:angmar_hammer",
+   "lotr:angmar_pickaxe",
+   "lotr:angmar_axe",
+   "lotr:angmar_polearm",
+   "lotr:angmar_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:angmar_boots",
+   "LEGS": "lotr:angmar_leggings",
+   "CHEST": "lotr:angmar_chestplate",
+   "HEAD": "lotr:angmar_helmet"
+  }
+ },
+ "angmar_orc_archer": {
+  "legacy": "AngmarOrcArcher",
+  "hp": 18.0,
+  "weapons": [
+   "lotr:angmar_sword",
+   "lotr:angmar_battleaxe",
+   "lotr:angmar_dagger",
+   "lotr:angmar_poisoned_dagger",
+   "lotr:angmar_hammer",
+   "lotr:angmar_pickaxe",
+   "lotr:angmar_axe",
+   "lotr:angmar_polearm",
+   "lotr:angmar_spear"
+  ],
+  "ranged": [
+   "lotr:orc_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:angmar_boots",
+   "LEGS": "lotr:angmar_leggings",
+   "CHEST": "lotr:angmar_chestplate",
+   "HEAD": "lotr:angmar_helmet"
+  }
+ },
+ "angmar_hillman_warrior": {
+  "legacy": "AngmarHillmanWarrior",
+  "hp": 20.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "gundabad_orc": {
+  "legacy": "GundabadOrc",
+  "hp": 18.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "gundabad_orc_archer": {
+  "legacy": "GundabadOrcArcher",
+  "hp": 18.0,
+  "weapons": [
+   "minecraft:bow"
+  ],
+  "ranged": [
+   "lotr:iron_crossbow",
+   "lotr:bronze_crossbow",
+   "lotr:orc_bow"
+  ],
+  "armor": {}
+ },
+ "gundabad_uruk": {
+  "legacy": "GundabadUruk",
+  "hp": 25.0,
+  "weapons": [
+   "lotr:gundabad_uruk_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:gundabad_uruk_boots",
+   "LEGS": "lotr:gundabad_uruk_leggings",
+   "CHEST": "lotr:gundabad_uruk_chestplate",
+   "HEAD": "lotr:gundabad_uruk_helmet"
+  }
+ },
+ "dol_guldur_orc": {
+  "legacy": "DolGuldurOrc",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:dol_guldur_battleaxe",
+   "lotr:dol_guldur_dagger",
+   "lotr:dol_guldur_poisoned_dagger",
+   "lotr:dol_guldur_sword",
+   "lotr:dol_guldur_hammer",
+   "lotr:dol_guldur_pickaxe",
+   "lotr:dol_guldur_axe",
+   "lotr:dol_guldur_pike",
+   "lotr:dol_guldur_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dol_guldur_boots",
+   "LEGS": "lotr:dol_guldur_leggings",
+   "CHEST": "lotr:dol_guldur_chestplate",
+   "HEAD": "lotr:dol_guldur_helmet"
+  }
+ },
+ "dol_guldur_orc_archer": {
+  "legacy": "DolGuldurOrcArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:dol_guldur_battleaxe",
+   "lotr:dol_guldur_dagger",
+   "lotr:dol_guldur_poisoned_dagger",
+   "lotr:dol_guldur_sword",
+   "lotr:dol_guldur_hammer",
+   "lotr:dol_guldur_pickaxe",
+   "lotr:dol_guldur_axe",
+   "lotr:dol_guldur_pike",
+   "lotr:dol_guldur_spear"
+  ],
+  "ranged": [
+   "lotr:orc_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:dol_guldur_boots",
+   "LEGS": "lotr:dol_guldur_leggings",
+   "CHEST": "lotr:dol_guldur_chestplate",
+   "HEAD": "lotr:dol_guldur_helmet"
+  }
+ },
+ "dunlending": {
+  "legacy": "Dunlending",
+  "hp": 20.0,
+  "weapons": [
+   "minecraft:wooden_sword",
+   "minecraft:stone_sword",
+   "minecraft:stone_axe",
+   "minecraft:stone_hoe",
+   "lotr:stone_spear"
+  ],
+  "ranged": [],
+  "armor": {}
+ },
+ "dunlending_warrior": {
+  "legacy": "DunlendingWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "minecraft:iron_sword",
+   "lotr:bronze_sword",
+   "lotr:bronze_dagger",
+   "lotr:bronze_battleaxe",
+   "lotr:iron_spear",
+   "lotr:bronze_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:dunlending_boots",
+   "LEGS": "lotr:dunlending_leggings",
+   "CHEST": "lotr:dunlending_chestplate",
+   "HEAD": "lotr:dunlending_helmet"
+  }
+ },
+ "dunlending_berserker": {
+  "legacy": "DunlendingBerserker",
+  "hp": 30.0,
+  "weapons": [
+   "lotr:bronze_battleaxe"
+  ],
+  "ranged": [],
+  "armor": {
+   "CHEST": "lotr:bone_chestplate",
+   "HEAD": "lotr:dunlending_helmet",
+   "FEET": "lotr:dunlending_boots",
+   "LEGS": "lotr:dunlending_leggings"
+  }
+ },
+ "near_haradrim_warrior": {
+  "legacy": "NearHaradrimWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:harad_spear",
+   "lotr:near_harad_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:near_harad_boots",
+   "LEGS": "lotr:near_harad_leggings",
+   "CHEST": "lotr:near_harad_chestplate",
+   "HEAD": "lotr:near_harad_helmet"
+  }
+ },
+ "near_haradrim_archer": {
+  "legacy": "NearHaradrimArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:harad_spear",
+   "lotr:near_harad_spear"
+  ],
+  "ranged": [
+   "lotr:near_harad_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:near_harad_boots",
+   "LEGS": "lotr:near_harad_leggings",
+   "CHEST": "lotr:near_harad_chestplate",
+   "HEAD": "lotr:near_harad_helmet"
+  }
+ },
+ "corsair": {
+  "legacy": "Corsair",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:corsair_spear"
+  ],
+  "ranged": [
+   "lotr:near_harad_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:corsair_boots",
+   "LEGS": "lotr:corsair_leggings",
+   "CHEST": "lotr:corsair_chestplate",
+   "HEAD": "lotr:corsair_helmet"
+  }
+ },
+ "umbar_warrior": {
+  "legacy": "UmbarWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:near_harad_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:umbar_boots",
+   "LEGS": "lotr:umbar_leggings",
+   "CHEST": "lotr:umbar_chestplate",
+   "HEAD": "lotr:umbar_helmet"
+  }
+ },
+ "umbar_archer": {
+  "legacy": "UmbarArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:near_harad_spear"
+  ],
+  "ranged": [
+   "lotr:near_harad_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:umbar_boots",
+   "LEGS": "lotr:umbar_leggings",
+   "CHEST": "lotr:umbar_chestplate",
+   "HEAD": "lotr:umbar_helmet"
+  }
+ },
+ "easterling_warrior": {
+  "legacy": "EasterlingWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:rhun_sword",
+   "lotr:rhun_battleaxe",
+   "lotr:rhun_polearm",
+   "lotr:rhun_dagger",
+   "lotr:rhun_poisoned_dagger",
+   "lotr:rhun_pike",
+   "lotr:rhun_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:rhun_boots",
+   "LEGS": "lotr:rhun_leggings",
+   "CHEST": "lotr:rhun_chestplate",
+   "HEAD": "lotr:rhun_helmet"
+  }
+ },
+ "easterling_archer": {
+  "legacy": "EasterlingArcher",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:rhun_sword",
+   "lotr:rhun_battleaxe",
+   "lotr:rhun_polearm",
+   "lotr:rhun_dagger",
+   "lotr:rhun_poisoned_dagger",
+   "lotr:rhun_pike",
+   "lotr:rhun_spear"
+  ],
+  "ranged": [
+   "lotr:rhun_bow"
+  ],
+  "armor": {
+   "FEET": "lotr:rhun_boots",
+   "LEGS": "lotr:rhun_leggings",
+   "CHEST": "lotr:rhun_chestplate",
+   "HEAD": "lotr:rhun_helmet"
+  }
+ },
+ "easterling_gold_warrior": {
+  "legacy": "EasterlingGoldWarrior",
+  "hp": 25.0,
+  "weapons": [
+   "lotr:rhun_sword",
+   "lotr:rhun_battleaxe",
+   "lotr:rhun_polearm",
+   "lotr:rhun_dagger",
+   "lotr:rhun_poisoned_dagger",
+   "lotr:rhun_pike",
+   "lotr:rhun_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:rhun_gold_boots",
+   "LEGS": "lotr:rhun_gold_leggings",
+   "CHEST": "lotr:rhun_gold_chestplate",
+   "HEAD": "lotr:rhun_gold_helmet"
+  }
+ },
+ "moredain_warrior": {
+  "legacy": "MoredainWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:moredain_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:moredain_boots",
+   "LEGS": "lotr:moredain_leggings",
+   "CHEST": "lotr:moredain_chestplate",
+   "HEAD": "lotr:moredain_helmet"
+  }
+ },
+ "moredain_huntsman": {
+  "legacy": "MoredainHuntsman",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:moredain_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:moredain_boots",
+   "LEGS": "lotr:moredain_leggings",
+   "CHEST": "lotr:moredain_chestplate"
+  }
+ },
+ "tauredain_warrior": {
+  "legacy": "TauredainWarrior",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:tauredain_sword",
+   "lotr:tauredain_dagger",
+   "lotr:tauredain_poisoned_dagger",
+   "lotr:tauredain_hammer",
+   "lotr:tauredain_battleaxe",
+   "lotr:tauredain_pike",
+   "lotr:tauredain_spear"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:tauredain_boots",
+   "LEGS": "lotr:tauredain_leggings",
+   "CHEST": "lotr:tauredain_chestplate",
+   "HEAD": "lotr:tauredain_helmet"
+  }
+ },
+ "tauredain_blowgunner": {
+  "legacy": "TauredainBlowgunner",
+  "hp": 20.0,
+  "weapons": [
+   "lotr:tauredain_dagger"
+  ],
+  "ranged": [
+   "lotr:tauredain_blowgun"
+  ],
+  "armor": {
+   "FEET": "lotr:tauredain_boots",
+   "LEGS": "lotr:tauredain_leggings",
+   "CHEST": "lotr:tauredain_chestplate"
+  }
+ },
+ "half_troll": {
+  "legacy": "HalfTroll",
+  "hp": 35.0,
+  "weapons": [],
+  "ranged": [],
+  "armor": {}
+ },
+ "half_troll_warrior": {
+  "legacy": "HalfTrollWarrior",
+  "hp": 35.0,
+  "weapons": [
+   "lotr:half_troll_battleaxe",
+   "lotr:half_troll_hammer",
+   "lotr:half_troll_mace",
+   "lotr:half_troll_scimitar",
+   "lotr:half_troll_dagger",
+   "lotr:half_troll_poisoned_dagger",
+   "lotr:half_troll_pike"
+  ],
+  "ranged": [],
+  "armor": {
+   "FEET": "lotr:half_troll_boots",
+   "LEGS": "lotr:half_troll_leggings",
+   "CHEST": "lotr:half_troll_chestplate",
+   "HEAD": "lotr:half_troll_helmet"
+  }
+ },
+ "uruk_hai_crossbower": {
+  "legacy": "UrukHaiCrossbower",
+  "hp": 26.0,
+  "weapons": [
+   "lotr:uruk_scimitar",
+   "lotr:uruk_pike",
+   "lotr:uruk_battleaxe",
+   "lotr:uruk_dagger",
+   "lotr:uruk_poisoned_dagger",
+   "lotr:uruk_hammer",
+   "lotr:uruk_spear"
+  ],
+  "ranged": [
+   "lotr:uruk_crossbow"
+  ],
+  "armor": {
+   "FEET": "lotr:uruk_boots",
+   "LEGS": "lotr:uruk_leggings",
+   "CHEST": "lotr:uruk_chestplate",
+   "HEAD": "lotr:uruk_helmet"
+  }
+ }
+}

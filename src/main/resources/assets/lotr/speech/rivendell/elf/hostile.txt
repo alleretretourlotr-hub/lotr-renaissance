@@ -1,19 +1,12 @@
-No evil may set foot in Imladris!
-You may not enter Rivendell.
-#, you may not set foot in Rivendell!
-You breathe so loudly I could have shot you in the dark.
-You are unwelcome in our lands.
-Your presence is unwelcome here.
-You are no Elf-friend, #!
-The Enemy has no hold over Imladris!
-You may not bring evil here, #!
-Your darkness shall not poison the Last Homely House!
-To Udûn with you!
-Go and kiss an Orc!
-Death to the foes of the Elves!
-Who brings to us this token of doom?
-Begone, servant of evil!
-Go back to the shadow whence you came!
-We shall not allow evil to enter our realm. Leave now or face our wrath!
-You bring great evil here, #. You can go no further.
-How dare you poison this fair realm with your foul feet?
+Nul mal ne posera le pied en Imladris !
+Vous n'entrerez pas à Fondcombe, # !
+Vous respirez si fort que j'aurais pu vous abattre dans le noir.
+Vous n'êtes pas un ami des Elfes, # !
+L'Ennemi n'a aucune prise sur Imladris !
+Votre ténèbre n'empoisonnera pas la Dernière Maison Simple !
+À Udûn avec vous !
+Allez donc embrasser un Orque !
+Mort aux ennemis des Elfes !
+Retournez à l'ombre dont vous venez !
+Partez, #, ou affrontez la volée de nos flèches !
+Comment osez-vous souiller ce beau royaume de vos pieds immondes ?

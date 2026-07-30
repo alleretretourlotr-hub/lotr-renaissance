@@ -36,26 +36,31 @@ public class LOTREntityGondorLevyman extends LOTREntityNPC {
 
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return createNPCAttributes()
-                .add(Attributes.MAX_HEALTH, 22)
-                .add(Attributes.ATTACK_DAMAGE, 3.0);
+                .add(Attributes.MAX_HEALTH, 20.0)
+                .add(Attributes.ATTACK_DAMAGE, 2.0);
     }
 
-    private static Item itemOf(String id) {
-        return net.minecraftforge.registries.ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("lotr", id));
+    private static net.minecraft.item.ItemStack stackOf(String id) {
+        net.minecraft.item.Item item = net.minecraftforge.registries.ForgeRegistries.ITEMS
+                .getValue(new net.minecraft.util.ResourceLocation(id));
+        return item == null ? net.minecraft.item.ItemStack.EMPTY
+                : new net.minecraft.item.ItemStack(item);
     }
 
-    @Nullable
+    /** PORT de onSpawnWithEgg (Legacy LOTREntityGondorLevyman) : pool d'armes + armure exacts. */
+    @javax.annotation.Nullable
     @Override
-    public ILivingEntityData finalizeSpawn(IServerWorld world, DifficultyInstance difficulty,
-                                           SpawnReason reason, @Nullable ILivingEntityData data,
-                                           @Nullable CompoundNBT nbt) {
-        String[] weapons = {"gondor_sword", "gondor_hammer", "gondor_pike", "bronze_sword", "bronze_axe", "bronze_battleaxe"};
-        setItemSlot(EquipmentSlotType.MAINHAND,
-                new ItemStack(itemOf(weapons[random.nextInt(weapons.length)])));
-        setItemSlot(EquipmentSlotType.HEAD, new ItemStack(itemOf("gondor_helmet")));
-        setItemSlot(EquipmentSlotType.CHEST, new ItemStack(itemOf("gondor_gambeson_chestplate")));
-        for (EquipmentSlotType slot : EquipmentSlotType.values()) {
+    public net.minecraft.entity.ILivingEntityData finalizeSpawn(
+            net.minecraft.world.IServerWorld world, net.minecraft.world.DifficultyInstance difficulty,
+            net.minecraft.entity.SpawnReason reason,
+            @javax.annotation.Nullable net.minecraft.entity.ILivingEntityData data,
+            @javax.annotation.Nullable net.minecraft.nbt.CompoundNBT nbt) {
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.HEAD, stackOf("lotr:gondor_helmet"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.CHEST, stackOf("lotr:gondor_gambeson_chestplate"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.LEGS, stackOf("minecraft:leather_leggings"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.FEET, stackOf("minecraft:leather_boots"));
+        for (net.minecraft.inventory.EquipmentSlotType slot
+                : net.minecraft.inventory.EquipmentSlotType.values()) {
             setDropChance(slot, 0.05f);
         }
         return super.finalizeSpawn(world, difficulty, reason, data, nbt);

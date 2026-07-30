@@ -28,6 +28,14 @@ public class LOTRContainerTrade extends Container {
     private final List<LOTRTradeTables.Entry> buy;
     private final List<LOTRTradeTables.Entry> sell;
     private final PlayerInventory playerInv;
+    // CORRECTIF : couts et bourse synchronises vers le client (dataSlots),
+    // les listes buy/sell etant vides cote client.
+    private final net.minecraft.util.IntReferenceHolder[] buyCosts =
+            new net.minecraft.util.IntReferenceHolder[9];
+    private final net.minecraft.util.IntReferenceHolder[] sellCosts =
+            new net.minecraft.util.IntReferenceHolder[9];
+    private final net.minecraft.util.IntReferenceHolder purseSync =
+            net.minecraft.util.IntReferenceHolder.standalone();
 
     public LOTRContainerTrade(int id, PlayerInventory playerInv) {
         this(id, playerInv, java.util.Collections.emptyList(), java.util.Collections.emptyList());
@@ -43,7 +51,13 @@ public class LOTRContainerTrade extends Container {
         for (int i = 0; i < 9; i++) {
             buyInv.setItem(i, i < buy.size() ? buy.get(i).stack.copy() : ItemStack.EMPTY);
             sellInv.setItem(i, i < sell.size() ? sell.get(i).stack.copy() : ItemStack.EMPTY);
+            buyCosts[i] = addDataSlot(net.minecraft.util.IntReferenceHolder.standalone());
+            sellCosts[i] = addDataSlot(net.minecraft.util.IntReferenceHolder.standalone());
+            buyCosts[i].set(i < buy.size() ? buy.get(i).cost : 0);
+            sellCosts[i].set(i < sell.size() ? sell.get(i).cost : 0);
         }
+        addDataSlot(purseSync);
+        purseSync.set(countCoins());
         // slots d'achat (lecture seule, clic = acheter) - y=40
         for (int i = 0; i < 9; i++) {
             final int idx = i;
@@ -99,23 +113,23 @@ public class LOTRContainerTrade extends Container {
     }
 
     public int getPurse() {
-        return countCoins();
+        return purseSync.get();
     }
 
     public int buyCount() {
-        return buy.size();
+        return 9;
     }
 
     public int buyCost(int i) {
-        return buy.get(i).cost;
+        return buyCosts[i].get();
     }
 
     public int sellCount() {
-        return sell.size();
+        return 9;
     }
 
     public int sellCost(int i) {
-        return sell.get(i).cost;
+        return sellCosts[i].get();
     }
 
     private void removeCoins(int amount) {
@@ -150,6 +164,7 @@ public class LOTRContainerTrade extends Container {
                     ItemStack result = e.stack.copy();
                     if (player.inventory.add(result)) {
                         removeCoins(e.cost);
+                        purseSync.set(countCoins());
                         broadcastChanges();
                     }
                 }
@@ -167,6 +182,7 @@ public class LOTRContainerTrade extends Container {
                     if (ItemStack.isSame(offered, e.stack) && offered.getCount() >= e.stack.getCount()) {
                         offered.shrink(e.stack.getCount());
                         giveCoins(e.cost);
+                        purseSync.set(countCoins());
                         broadcastChanges();
                         break;
                     }

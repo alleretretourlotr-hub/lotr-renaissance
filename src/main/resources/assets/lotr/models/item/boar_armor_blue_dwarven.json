@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lotr:item/boar_armor_blue_dwarven"
+  }
+}

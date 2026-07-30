@@ -2,22 +2,11 @@ package fr.alleretretour.lotr.entity.npc;
 
 import fr.alleretretour.lotr.fac.LOTRFaction;
 import net.minecraft.entity.EntityType;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.ILivingEntityData;
-import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.ai.attributes.Attributes;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.world.DifficultyInstance;
-import net.minecraft.world.IServerWorld;
 import net.minecraft.world.World;
 
-import javax.annotation.Nullable;
-
-/** GENERE - PNJ WOOD_ELF. */
+/** GENERE PAR L'USINE v2 - recruteur, port de LOTREntityWoodElfCaptain (table WOOD_ELF_CAPTAIN) */
 public class LOTREntityWoodElfCaptain extends LOTREntityNPC {
 
     public LOTREntityWoodElfCaptain(EntityType<? extends LOTREntityWoodElfCaptain> type, World world) {
@@ -29,29 +18,72 @@ public class LOTREntityWoodElfCaptain extends LOTREntityNPC {
         return LOTRFaction.WOOD_ELF;
     }
 
+    @Override
+    protected String getSpeechBank() {
+        return "galadhrim/lord";
+    }
+
+    @Override
+    protected net.minecraft.util.ActionResultType mobInteract(
+            net.minecraft.entity.player.PlayerEntity player, net.minecraft.util.Hand hand) {
+        if (hand == net.minecraft.util.Hand.MAIN_HAND && !player.isShiftKeyDown()) {
+            float alignment = fr.alleretretour.lotr.fac.LOTRPlayerDataProvider
+                    .get(player).getAlignment(getFaction());
+            if (alignment < fr.alleretretour.lotr.hire.LOTRHireRosters.WOODELFCAPTAIN_BASE) {
+                return super.mobInteract(player, hand);
+            }
+            if (!level.isClientSide
+                    && player instanceof net.minecraft.entity.player.ServerPlayerEntity) {
+                final LOTREntityWoodElfCaptain self = this;
+                player.openMenu(new net.minecraft.inventory.container.INamedContainerProvider() {
+                    @Override
+                    public net.minecraft.util.text.ITextComponent getDisplayName() {
+                        return getName();
+                    }
+
+                    @Override
+                    public net.minecraft.inventory.container.Container createMenu(
+                            int id, net.minecraft.entity.player.PlayerInventory inv,
+                            net.minecraft.entity.player.PlayerEntity p) {
+                        return new fr.alleretretour.lotr.inventory.LOTRContainerHire(id, inv,
+                                fr.alleretretour.lotr.hire.LOTRHireRosters.woodElfCaptain(), self);
+                    }
+                });
+            }
+            return net.minecraft.util.ActionResultType.CONSUME;
+        }
+        return super.mobInteract(player, hand);
+    }
+
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return createNPCAttributes()
-                .add(Attributes.MAX_HEALTH, 20.0)
-                .add(Attributes.MOVEMENT_SPEED, 0.25)
-                .add(Attributes.ATTACK_DAMAGE, 2.5);
+                .add(Attributes.MAX_HEALTH, 30.0)
+                .add(Attributes.ATTACK_DAMAGE, 2.0);
     }
 
-    private static Item itemOf(String id) {
-        return net.minecraftforge.registries.ForgeRegistries.ITEMS.getValue(
-                new ResourceLocation("lotr", id));
+    private static net.minecraft.item.ItemStack stackOf(String id) {
+        net.minecraft.item.Item item = net.minecraftforge.registries.ForgeRegistries.ITEMS
+                .getValue(new net.minecraft.util.ResourceLocation(id));
+        return item == null ? net.minecraft.item.ItemStack.EMPTY
+                : new net.minecraft.item.ItemStack(item);
     }
 
-    @Nullable
+    @javax.annotation.Nullable
     @Override
-    public ILivingEntityData finalizeSpawn(IServerWorld world, DifficultyInstance difficulty,
-                                           SpawnReason reason, @Nullable ILivingEntityData data,
-                                           @Nullable CompoundNBT nbt) {
-        setItemSlot(EquipmentSlotType.FEET, new ItemStack(itemOf("wood_elven_boots")));
-        setItemSlot(EquipmentSlotType.LEGS, new ItemStack(itemOf("wood_elven_leggings")));
-        setItemSlot(EquipmentSlotType.CHEST, new ItemStack(itemOf("wood_elven_chestplate")));
-        setItemSlot(EquipmentSlotType.HEAD, new ItemStack(itemOf("wood_elven_helmet")));
-        setItemSlot(EquipmentSlotType.MAINHAND, new ItemStack(itemOf("wood_elven_sword")));
-        for (EquipmentSlotType slot : EquipmentSlotType.values()) {
+    public net.minecraft.entity.ILivingEntityData finalizeSpawn(
+            net.minecraft.world.IServerWorld world, net.minecraft.world.DifficultyInstance difficulty,
+            net.minecraft.entity.SpawnReason reason,
+            @javax.annotation.Nullable net.minecraft.entity.ILivingEntityData data,
+            @javax.annotation.Nullable net.minecraft.nbt.CompoundNBT nbt) {
+        String[] pool = {"lotr:wood_elven_sword"};
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.MAINHAND,
+                stackOf(pool[getRandom().nextInt(pool.length)]));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.HEAD, stackOf("lotr:wood_elven_helmet"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.CHEST, stackOf("lotr:wood_elven_chestplate"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.LEGS, stackOf("lotr:wood_elven_leggings"));
+        setItemSlot(net.minecraft.inventory.EquipmentSlotType.FEET, stackOf("lotr:wood_elven_boots"));
+        for (net.minecraft.inventory.EquipmentSlotType slot
+                : net.minecraft.inventory.EquipmentSlotType.values()) {
             setDropChance(slot, 0.05f);
         }
         return super.finalizeSpawn(world, difficulty, reason, data, nbt);

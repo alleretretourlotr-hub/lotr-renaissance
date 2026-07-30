@@ -27,4 +27,8 @@ public class LOTRContainers {
     public static final RegistryObject<ContainerType<fr.alleretretour.lotr.inventory.LOTRContainerTrade>> TRADE =
             CONTAINERS.register("trade",
                     () -> new ContainerType<>((id, inv) -> new fr.alleretretour.lotr.inventory.LOTRContainerTrade(id, inv)));
+
+    public static final RegistryObject<ContainerType<fr.alleretretour.lotr.inventory.LOTRContainerHire>> HIRE =
+            CONTAINERS.register("hire",
+                    () -> new ContainerType<>((id, inv) -> new fr.alleretretour.lotr.inventory.LOTRContainerHire(id, inv)));
 }

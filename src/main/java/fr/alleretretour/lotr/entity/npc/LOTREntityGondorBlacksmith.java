@@ -40,7 +40,7 @@ public class LOTREntityGondorBlacksmith extends LOTREntityNPC {
 
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return createNPCAttributes()
-                .add(Attributes.MAX_HEALTH, 20.0)
+                .add(Attributes.MAX_HEALTH, 25.0)
                 .add(Attributes.ATTACK_DAMAGE, 2.0);
     }
 

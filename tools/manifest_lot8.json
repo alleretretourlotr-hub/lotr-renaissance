@@ -1,0 +1,21 @@
+{
+  "lot": "lot 8 ombre",
+  "npcs": [
+    {"legacy": "IsengardSnaga", "reg": "isengard_snaga", "faction": "ISENGARD",
+     "skin_src": "orc/orc", "skin_dest": "orc", "speech": "isengard/orc", "model": "orc"},
+    {"legacy": "IsengardSnagaArcher", "reg": "isengard_snaga_archer", "faction": "ISENGARD",
+     "skin_src": "orc/orc", "skin_dest": "orc", "speech": "isengard/orc", "model": "orc"},
+    {"legacy": "UrukHaiSapper", "reg": "uruk_hai_sapper", "faction": "ISENGARD",
+     "skin_src": "orc/urukHai", "skin_dest": "uruk_hai", "speech": "isengard/orc", "model": "orc"},
+    {"legacy": "UrukHaiBerserker", "reg": "uruk_hai_berserker", "faction": "ISENGARD",
+     "skin_src": "orc/urukHai", "skin_dest": "uruk_hai", "speech": "isengard/orc", "model": "orc"},
+    {"legacy": "GundabadUrukArcher", "reg": "gundabad_uruk_archer", "faction": "GUNDABAD",
+     "skin_src": "orc/urukHai", "skin_dest": "uruk_hai", "speech": "gundabad/orc", "model": "orc"},
+    {"legacy": "MordorOrcBombardier", "reg": "mordor_orc_bombardier", "faction": "MORDOR",
+     "skin_src": "orc/orc", "skin_dest": "orc", "speech": "mordor/orc", "model": "orc"},
+    {"legacy": "AngmarOrcBombardier", "reg": "angmar_orc_bombardier", "faction": "ANGMAR",
+     "skin_src": "orc/orc", "skin_dest": "orc", "speech": "angmar/orc", "model": "orc"},
+    {"legacy": "WoodElf", "reg": "wood_elf", "faction": "WOOD_ELF",
+     "skin_src": "elf/woodElf_male", "skin_dest": "wood_elf_male", "speech": "galadhrim/elf"}
+  ]
+}

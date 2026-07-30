@@ -1,0 +1,17 @@
+{
+  "lot": "lot troupes 3",
+  "npcs": [
+    {"legacy": "AngmarHillman", "reg": "angmar_hillman", "faction": "ANGMAR",
+     "skin_src": "hillman/hillman_male", "skin_dest": "hillman_male", "speech": "angmar/orc"},
+    {"legacy": "AngmarHillmanAxeThrower", "reg": "angmar_hillman_axe_thrower", "faction": "ANGMAR",
+     "skin_src": "hillman/hillman_male", "skin_dest": "hillman_male", "speech": "angmar/orc"},
+    {"legacy": "DunlendingArcher", "reg": "dunlending_archer", "faction": "DUNLAND",
+     "skin_src": "dunland/dunlending_male", "skin_dest": "dunlending_male", "speech": "dunland/warrior"},
+    {"legacy": "DunlendingAxeThrower", "reg": "dunlending_axe_thrower", "faction": "DUNLAND",
+     "skin_src": "dunland/dunlending_male", "skin_dest": "dunlending_male", "speech": "dunland/warrior"},
+    {"legacy": "EasterlingLevyman", "reg": "easterling_levyman", "faction": "RHUDEL",
+     "skin_src": "rhun/easterling_male", "skin_dest": "easterling_male", "speech": "rhun/warrior"},
+    {"legacy": "SouthronChampion", "reg": "southron_champion", "faction": "NEAR_HARAD",
+     "skin_src": "nearHarad/haradrim_male", "skin_dest": "haradrim_male", "speech": "near_harad/warrior"}
+  ]
+}

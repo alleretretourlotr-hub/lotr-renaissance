@@ -4,14 +4,16 @@ import fr.alleretretour.lotr.entity.npc.LOTREntityNPC;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.Goal;
 import net.minecraft.item.BowItem;
-import net.minecraft.item.Items;
-import net.minecraft.util.Hand;
 
 import java.util.EnumSet;
 
 /**
  * Copie fidele de RangedBowAttackGoal, mais bornee a LOTREntityNPC
- * (le vanilla exige MonsterEntity ; nos PNJ sont des CreatureEntity).
+ * (le vanilla exige MonsterEntity ; nos PNJ sont des CreatureEntity),
+ * GENERALISEE a toutes les armes a distance (LOTRRangedWeaponKind) :
+ * - BOW : cycle vanilla (bandage via startUsingItem, puissance selon duree) ;
+ * - CROSSBOW / BLOWGUN / THROWN : tir a minuterie simple, car ces items
+ *   n'ont pas de duree d'utilisation compatible avec isUsingItem.
  */
 public class LOTRRangedBowGoal extends Goal {
 
@@ -33,18 +35,22 @@ public class LOTRRangedBowGoal extends Goal {
         setFlags(EnumSet.of(Goal.Flag.MOVE, Goal.Flag.LOOK));
     }
 
-    @Override
-    public boolean canUse() {
-        return mob.getTarget() != null && isHoldingBow();
+    private LOTRRangedWeaponKind weaponKind() {
+        return LOTRRangedWeaponKind.of(mob.getMainHandItem());
     }
 
-    protected boolean isHoldingBow() {
-        return mob.isHolding(item -> item instanceof BowItem);
+    protected boolean isHoldingRangedWeapon() {
+        return weaponKind() != LOTRRangedWeaponKind.NONE;
+    }
+
+    @Override
+    public boolean canUse() {
+        return mob.getTarget() != null && isHoldingRangedWeapon();
     }
 
     @Override
     public boolean canContinueToUse() {
-        return (canUse() || !mob.getNavigation().isDone()) && isHoldingBow();
+        return (canUse() || !mob.getNavigation().isDone()) && isHoldingRangedWeapon();
     }
 
     @Override
@@ -105,19 +111,30 @@ public class LOTRRangedBowGoal extends Goal {
             mob.getLookControl().setLookAt(target, 30.0f, 30.0f);
         }
 
-        if (mob.isUsingItem()) {
-            if (!canSee && seeTime < -60) {
-                mob.stopUsingItem();
-            } else if (canSee) {
-                int useTicks = mob.getTicksUsingItem();
-                if (useTicks >= 20) {
+        if (weaponKind() == LOTRRangedWeaponKind.BOW) {
+            // Cycle vanilla : bander, puis relacher apres 20 ticks.
+            if (mob.isUsingItem()) {
+                if (!canSee && seeTime < -60) {
                     mob.stopUsingItem();
-                    mob.performRangedAttack(target, BowItem.getPowerForTime(useTicks));
-                    attackTime = attackIntervalMin;
+                } else if (canSee) {
+                    int useTicks = mob.getTicksUsingItem();
+                    if (useTicks >= 20) {
+                        mob.stopUsingItem();
+                        mob.performRangedAttack(target, BowItem.getPowerForTime(useTicks));
+                        attackTime = attackIntervalMin;
+                    }
+                }
+            } else if (--attackTime <= 0 && seeTime >= -60) {
+                mob.startUsingItem(net.minecraft.util.Hand.MAIN_HAND);
+            }
+        } else {
+            // Arbalete, sarbacane, arme de jet : tir a minuterie.
+            if (--attackTime <= 0) {
+                if (canSee && distSqr <= attackRadiusSqr) {
+                    mob.performRangedAttack(target, 1.0f);
+                    attackTime = attackIntervalMin + mob.getRandom().nextInt(10);
                 }
             }
-        } else if (--attackTime <= 0 && seeTime >= -60) {
-            mob.startUsingItem(net.minecraft.util.Hand.MAIN_HAND);
         }
     }
 }
