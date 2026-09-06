@@ -48,7 +48,12 @@ public class LOTRFeatureCharred extends Feature<NoFeatureConfig> {
                 || belowBlock == Blocks.GRAVEL
                 || belowBlock == blockOrNull("lotr:mordor_dirt")
                 || belowBlock == blockOrNull("lotr:mordor_gravel")
-                || belowBlock == blockOrNull("lotr:rock")
+                || belowBlock == blockOrNull("lotr:mordor_rock")
+                || belowBlock == blockOrNull("lotr:gondor_rock")
+                || belowBlock == blockOrNull("lotr:rohan_rock")
+                || belowBlock == blockOrNull("lotr:blue_rock")
+                || belowBlock == blockOrNull("lotr:red_rock")
+                || belowBlock == blockOrNull("lotr:chalk_rock")
                 || below.canSustainPlant(world, soil, Direction.UP,
                         (net.minecraftforge.common.IPlantable) Blocks.OAK_SAPLING);
         if (!ok) {

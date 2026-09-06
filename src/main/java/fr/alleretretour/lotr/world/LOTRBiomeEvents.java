@@ -35,6 +35,306 @@ public final class LOTRBiomeEvents {
         }
 
         // structures (frequences du Legacy : 1 chance sur N par chunk)
+        if (name.equals("andrast")) {
+            structure(event, LOTRFeatures.gondorRuins(), 2000);
+        }
+        if (name.equals("dor_en_ernil")) {
+            structure(event, LOTRFeatures.gondorRuins(), 600);
+        }
+        if (name.equals("gondor")) {
+            structure(event, LOTRFeatures.gondorRuins(), 600);
+        }
+        if (name.equals("ithilien")) {
+            structure(event, LOTRFeatures.gondorRuins(), 500);
+        }
+        if (name.equals("tolfalas")) {
+            structure(event, LOTRFeatures.gondorRuins(), 1000);
+        }
+        if (name.equals("angle")) {
+            structure(event, LOTRFeatures.rangerCamp(), 500);
+        }
+        if (name.equals("eriador")) {
+            structure(event, LOTRFeatures.rangerCamp(), 1500);
+        }
+        if (name.equals("lone_lands")) {
+            structure(event, LOTRFeatures.rangerCamp(), 2000);
+        }
+        if (name.equals("tower_hills")) {
+            structure(event, LOTRFeatures.rangerCamp(), 800);
+        }
+        if (name.equals("anduin_hills")) {
+            structure(event, LOTRFeatures.gundabadCamp(), 1500);
+        }
+        if (name.equals("celebrant")) {
+            structure(event, LOTRFeatures.gundabadCamp(), 4000);
+        }
+        if (name.equals("eriador")) {
+            structure(event, LOTRFeatures.gundabadCamp(), 2000);
+        }
+        if (name.equals("lone_lands")) {
+            structure(event, LOTRFeatures.gundabadCamp(), 1500);
+        }
+        if (name.equals("wilderland_north")) {
+            structure(event, LOTRFeatures.gundabadCamp(), 2000);
+        }
+        if (name.equals("adornland")) {
+            structure(event, LOTRFeatures.urukCamp(), 2000);
+        }
+        if (name.equals("nan_curunir")) {
+            structure(event, LOTRFeatures.urukCamp(), 120);
+        }
+        if (name.equals("rohan_uruk_highlands")) {
+            structure(event, LOTRFeatures.urukCamp(), 120);
+        }
+        if (name.equals("gulf_harad")) {
+            structure(event, LOTRFeatures.moredainMercCamp(), 1000);
+        }
+        if (name.equals("harnedor")) {
+            structure(event, LOTRFeatures.moredainMercCamp(), 2000);
+        }
+        if (name.equals("near_harad_fertile")) {
+            structure(event, LOTRFeatures.moredainMercCamp(), 1000);
+        }
+        if (name.equals("near_harad_semi_desert")) {
+            structure(event, LOTRFeatures.moredainMercCamp(), 2000);
+        }
+        if (name.equals("umbar")) {
+            structure(event, LOTRFeatures.moredainMercCamp(), 1500);
+        }
+        if (name.equals("anduin_hills")) {
+            structure(event, LOTRFeatures.burntHouse(), 3000);
+        }
+        if (name.equals("angle")) {
+            structure(event, LOTRFeatures.burntHouse(), 2000);
+        }
+        if (name.equals("celebrant")) {
+            structure(event, LOTRFeatures.burntHouse(), 4000);
+        }
+        if (name.equals("dale")) {
+            structure(event, LOTRFeatures.burntHouse(), 4000);
+        }
+        if (name.equals("east_bight")) {
+            structure(event, LOTRFeatures.burntHouse(), 1000);
+        }
+        if (name.equals("enedwaith")) {
+            structure(event, LOTRFeatures.burntHouse(), 3000);
+        }
+        if (name.equals("eriador")) {
+            structure(event, LOTRFeatures.burntHouse(), 3000);
+        }
+        if (name.equals("lone_lands")) {
+            structure(event, LOTRFeatures.burntHouse(), 1500);
+        }
+        if (name.equals("nan_curunir")) {
+            structure(event, LOTRFeatures.burntHouse(), 800);
+        }
+        if (name.equals("pukel")) {
+            structure(event, LOTRFeatures.burntHouse(), 2000);
+        }
+        if (name.equals("wilderland")) {
+            structure(event, LOTRFeatures.burntHouse(), 3000);
+        }
+        if (name.equals("wilderland_north")) {
+            structure(event, LOTRFeatures.burntHouse(), 3000);
+        }
+        if (name.equals("adornland")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 500);
+        }
+        if (name.equals("anduin_hills")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("angle")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("celebrant")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("dale")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 4000);
+        }
+        if (name.equals("east_bight")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 500);
+        }
+        if (name.equals("enedwaith")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 1500);
+        }
+        if (name.equals("eriador")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("forodwaith")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 4000);
+        }
+        if (name.equals("lone_lands")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 1500);
+        }
+        if (name.equals("nan_curunir")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 800);
+        }
+        if (name.equals("pukel")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("tundra")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 1500);
+        }
+        if (name.equals("wilderland")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("wilderland_north")) {
+            structure(event, LOTRFeatures.ruinedHouse(), 2000);
+        }
+        if (name.equals("anduin_hills")) {
+            structure(event, LOTRFeatures.rottenHouse(), 3000);
+        }
+        if (name.equals("anduin_mouth")) {
+            structure(event, LOTRFeatures.rottenHouse(), 500);
+        }
+        if (name.equals("angle")) {
+            structure(event, LOTRFeatures.rottenHouse(), 4000);
+        }
+        if (name.equals("celebrant")) {
+            structure(event, LOTRFeatures.rottenHouse(), 3000);
+        }
+        if (name.equals("dale")) {
+            structure(event, LOTRFeatures.rottenHouse(), 4000);
+        }
+        if (name.equals("enedwaith")) {
+            structure(event, LOTRFeatures.rottenHouse(), 3000);
+        }
+        if (name.equals("entwash_mouth")) {
+            structure(event, LOTRFeatures.rottenHouse(), 500);
+        }
+        if (name.equals("eriador")) {
+            structure(event, LOTRFeatures.rottenHouse(), 3000);
+        }
+        if (name.equals("gladden_fields")) {
+            structure(event, LOTRFeatures.rottenHouse(), 400);
+        }
+        if (name.equals("lone_lands")) {
+            structure(event, LOTRFeatures.rottenHouse(), 2000);
+        }
+        if (name.equals("long_marshes")) {
+            structure(event, LOTRFeatures.rottenHouse(), 400);
+        }
+        if (name.equals("midgewater")) {
+            structure(event, LOTRFeatures.rottenHouse(), 100);
+        }
+        if (name.equals("nindalf")) {
+            structure(event, LOTRFeatures.rottenHouse(), 500);
+        }
+        if (name.equals("pukel")) {
+            structure(event, LOTRFeatures.rottenHouse(), 2000);
+        }
+        if (name.equals("shire_marshes")) {
+            structure(event, LOTRFeatures.rottenHouse(), 400);
+        }
+        if (name.equals("swanfleet")) {
+            structure(event, LOTRFeatures.rottenHouse(), 400);
+        }
+        if (name.equals("wilderland")) {
+            structure(event, LOTRFeatures.rottenHouse(), 3000);
+        }
+        if (name.equals("wilderland_north")) {
+            structure(event, LOTRFeatures.rottenHouse(), 3000);
+        }
+        if (name.equals("far_harad_coast")) {
+            structure(event, LOTRFeatures.corsairCove(), 10);
+        }
+        if (name.equals("far_harad_coast")) {
+            structure(event, LOTRFeatures.corsairCamp(), 100);
+        }
+        if (name.equals("tolfalas")) {
+            structure(event, LOTRFeatures.corsairCamp(), 100);
+        }
+        if (name.equals("umbar")) {
+            structure(event, LOTRFeatures.corsairCamp(), 800);
+        }
+        if (name.equals("mordor")) {
+            structure(event, LOTRFeatures.blackUrukFort(), 2000);
+        }
+        if (name.equals("adornland")) {
+            structure(event, LOTRFeatures.dunlandHillFort(), 700);
+        }
+        if (name.equals("dunland")) {
+            structure(event, LOTRFeatures.dunlandHillFort(), 150);
+        }
+        if (name.equals("adornland")) {
+            structure(event, LOTRFeatures.dunlendingTavern(), 250);
+        }
+        if (name.equals("dunland")) {
+            structure(event, LOTRFeatures.dunlendingTavern(), 100);
+        }
+        if (name.equals("near_harad")) {
+            structure(event, LOTRFeatures.haradRuinedFort(), 3000);
+        }
+        if (name.equals("near_harad_riverbank")) {
+            structure(event, LOTRFeatures.haradRuinedFort(), 3000);
+        }
+        if (name.equals("near_harad_semi_desert")) {
+            structure(event, LOTRFeatures.haradRuinedFort(), 3000);
+        }
+        if (name.equals("shire")) {
+            structure(event, LOTRFeatures.hobbitBurrow(), 45);
+        }
+        if (name.equals("white_downs")) {
+            structure(event, LOTRFeatures.hobbitBurrow(), 150);
+        }
+        if (name.equals("adornland")) {
+            structure(event, LOTRFeatures.dunlendingHouse(), 150);
+        }
+        if (name.equals("dunland")) {
+            structure(event, LOTRFeatures.dunlendingHouse(), 25);
+        }
+        if (name.equals("harnedor")) {
+            structure(event, LOTRFeatures.harnedorTower(), 800);
+        }
+        if (name.equals("harondor")) {
+            structure(event, LOTRFeatures.harnedorTower(), 2000);
+        }
+        if (name.equals("near_harad")) {
+            structure(event, LOTRFeatures.haradPyramid(), 3000);
+        }
+        if (name.equals("near_harad_semi_desert")) {
+            structure(event, LOTRFeatures.haradPyramid(), 4000);
+        }
+        if (name.equals("gulf_harad")) {
+            structure(event, LOTRFeatures.mumakSkeleton(), 3000);
+        }
+        if (name.equals("harnedor")) {
+            structure(event, LOTRFeatures.mumakSkeleton(), 6000);
+        }
+        if (name.equals("harondor")) {
+            structure(event, LOTRFeatures.mumakSkeleton(), 6000);
+        }
+        if (name.equals("near_harad")) {
+            structure(event, LOTRFeatures.mumakSkeleton(), 1500);
+        }
+        if (name.equals("near_harad_riverbank")) {
+            structure(event, LOTRFeatures.mumakSkeleton(), 2000);
+        }
+        if (name.equals("near_harad_semi_desert")) {
+            structure(event, LOTRFeatures.mumakSkeleton(), 2000);
+        }
+        if (name.equals("andrast")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 2000);
+        }
+        if (name.equals("dor_en_ernil")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 1000);
+        }
+        if (name.equals("enedwaith")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 2000);
+        }
+        if (name.equals("gondor")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 1000);
+        }
+        if (name.equals("harondor")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 1000);
+        }
+        if (name.equals("ithilien")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 800);
+        }
+        if (name.equals("tolfalas")) {
+            structure(event, LOTRFeatures.gondorObelisk(), 1500);
+        }
         if (name.equals("adornland")) {
             structure(event, LOTRFeatures.dunlendingCampfire(), 200);
         }

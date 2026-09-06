@@ -46,6 +46,7 @@ public class LOTRMod {
         fr.alleretretour.lotr.init.LOTRItemsDrinks.init();
         fr.alleretretour.lotr.init.LOTRBlocksDoors.init();
         fr.alleretretour.lotr.init.LOTRBlocksRock.init();
+        fr.alleretretour.lotr.init.LOTRBlocksRuins.init();
         fr.alleretretour.lotr.init.LOTRItemsMinerals.init();
         fr.alleretretour.lotr.init.LOTRBlocksStoneStairs.init();
         fr.alleretretour.lotr.init.LOTRBlocksWalls.init();

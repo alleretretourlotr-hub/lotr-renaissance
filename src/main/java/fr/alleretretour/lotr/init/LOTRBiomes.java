@@ -163,7 +163,7 @@ public final class LOTRBiomes {
             0x447736, GRASS_SURFACE, null);
     public static final RegistryObject<Biome> MORDOR = register("mordor",
             0.5f, 0.25f, 2.0f, 0.0f, Biome.Category.PLAINS,
-            0x11100E, surface("lotr:rock", "minecraft:stone", "lotr:rock", "minecraft:stone"), new int[]{0x5B412B, 0x634F2D, 0x26211D, 0x663E33, 0x302317});
+            0x11100E, surface("lotr:mordor_rock", "minecraft:stone", "lotr:mordor_rock", "minecraft:stone"), new int[]{0x5B412B, 0x634F2D, 0x26211D, 0x663E33, 0x302317});
     public static final RegistryObject<Biome> MORDOR_MOUNTAINS = register("mordor_mountains",
             2.2f, 1.5f, 2.0f, 0.0f, Biome.Category.EXTREME_HILLS,
             0x514D48, GRASS_SURFACE, null);
@@ -364,7 +364,7 @@ public final class LOTRBiomes {
             0x6C7C52, surface("minecraft:dirt", "minecraft:dirt", "minecraft:dirt", "minecraft:dirt"), new int[]{-1, -1, -1, 0x848078, -1});
     public static final RegistryObject<Biome> WHITE_DOWNS = register("white_downs",
             0.8f, 0.3f, 0.6f, 0.7f, Biome.Category.PLAINS,
-            0x9BCE79, surface("lotr:rock", "minecraft:stone", "lotr:rock", "minecraft:stone"), null);
+            0x9BCE79, surface("lotr:chalk_rock", "minecraft:stone", "lotr:chalk_rock", "minecraft:stone"), null);
     public static final RegistryObject<Biome> SWANFLEET = register("swanfleet",
             0.2f, 0.05f, 0.8f, 1.0f, Biome.Category.PLAINS,
             0x5F9C59, GRASS_SURFACE, null);
@@ -478,7 +478,7 @@ public final class LOTRBiomes {
             0x8BA850, surface("minecraft:sand", "minecraft:sand", "minecraft:sand", "minecraft:sand"), null);
     public static final RegistryObject<Biome> DORWINION_HILLS = register("dorwinion_hills",
             1.0f, 0.4f, 0.9f, 0.8f, Biome.Category.PLAINS,
-            0xCBD3A9, surface("lotr:rock", "minecraft:stone", "lotr:rock", "minecraft:stone"), null);
+            0xCBD3A9, surface("lotr:chalk_rock", "minecraft:stone", "lotr:chalk_rock", "minecraft:stone"), null);
     public static final RegistryObject<Biome> TOLFALAS = register("tolfalas",
             0.5f, 0.5f, 0.8f, 0.4f, Biome.Category.PLAINS,
             0x9BA06D, GRASS_SURFACE, null);
@@ -643,7 +643,7 @@ public final class LOTRBiomes {
             0x86B72A, GRASS_SURFACE, null);
     public static final RegistryObject<Biome> RIVENDELL_HILLS = register("rivendell_hills",
             2.2f, 0.25f, 0.7f, 0.8f, Biome.Category.PLAINS,
-            0xD8D5B1, surface("lotr:rock", "minecraft:stone", "lotr:rock", "minecraft:stone"), null);
+            0xD8D5B1, surface("lotr:chalk_rock", "minecraft:stone", "lotr:chalk_rock", "minecraft:stone"), null);
     public static final RegistryObject<Biome> FAR_HARAD_JUNGLE_MOUNTAINS = register("far_harad_jungle_mountains",
             2.0f, 0.75f, 1.0f, 1.0f, Biome.Category.EXTREME_HILLS,
             0x635A46, GRASS_SURFACE, new int[]{-1, -1, -1, 0xA2A89A, 0x959E8B});

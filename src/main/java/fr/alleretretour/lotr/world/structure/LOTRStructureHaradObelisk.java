@@ -131,13 +131,13 @@ public class LOTRStructureHaradObelisk extends LOTRStructureBase {
     /** PORT : une brique sur trois est de la variante rouge du Harad. */
     private void placeHaradBrick(ISeedReader world, Random random, BlockPos pos) {
         world.setBlock(pos, random.nextInt(3) == 0
-                ? modBlock("lotr:red_harad_brick", Blocks.RED_SANDSTONE)
-                : modBlock("lotr:harad_brick", Blocks.SMOOTH_SANDSTONE), 2);
+                ? modBlock("lotr:near_harad_cracked_brick", Blocks.RED_SANDSTONE)
+                : modBlock("lotr:near_harad_brick", Blocks.SMOOTH_SANDSTONE), 2);
     }
 
     private void placeHaradWall(ISeedReader world, Random random, BlockPos pos) {
         world.setBlock(pos, random.nextInt(3) == 0
-                ? modBlock("lotr:red_harad_brick_wall", Blocks.RED_SANDSTONE_WALL)
-                : modBlock("lotr:harad_brick_wall", Blocks.SANDSTONE_WALL), 2);
+                ? modBlock("lotr:near_harad_cracked_brick_wall", Blocks.RED_SANDSTONE_WALL)
+                : modBlock("lotr:near_harad_brick_wall", Blocks.SANDSTONE_WALL), 2);
     }
 }

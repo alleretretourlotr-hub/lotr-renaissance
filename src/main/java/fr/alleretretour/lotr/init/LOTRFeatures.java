@@ -152,7 +152,87 @@ public final class LOTRFeatures {
                     NoFeatureConfig.CODEC,
                     fr.alleretretour.lotr.world.feature.LOTRFeatureConifer.Kind.SHIRE_PINE));
 
+    public static final RegistryObject<Feature<NoFeatureConfig>> GONDOR_OBELISK =
+            FEATURES.register("gondor_obelisk", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureGondorObelisk(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> MUMAK_SKELETON =
+            FEATURES.register("mumak_skeleton", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureMumakSkeleton(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> HARAD_PYRAMID =
+            FEATURES.register("harad_pyramid", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureHaradPyramid(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> HARNEDOR_TOWER =
+            FEATURES.register("harnedor_tower", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureHarnedorTower(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> DUNLENDING_HOUSE =
+            FEATURES.register("dunlending_house", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureDunlendingHouse(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> HOBBIT_BURROW =
+            FEATURES.register("hobbit_burrow", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureHobbitBurrow(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> HARAD_RUINED_FORT =
+            FEATURES.register("harad_ruined_fort", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureHaradRuinedFort(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> DUNLENDING_TAVERN =
+            FEATURES.register("dunlending_tavern", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureDunlendingTavern(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> DUNLAND_HILL_FORT =
+            FEATURES.register("dunland_hill_fort", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureDunlandHillFort(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> BLACK_URUK_FORT =
+            FEATURES.register("black_uruk_fort", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureBlackUrukFort(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> CORSAIR_CAMP =
+            FEATURES.register("corsair_camp", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureCorsairCamp(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> CORSAIR_COVE =
+            FEATURES.register("corsair_cove", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureCorsairCove(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> ROTTEN_HOUSE =
+            FEATURES.register("rotten_house", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureRottenHouse(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> RUINED_HOUSE =
+            FEATURES.register("ruined_house", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureRuinedHouse(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> BURNT_HOUSE =
+            FEATURES.register("burnt_house", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureBurntHouse(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> MOREDAIN_MERC_CAMP =
+            FEATURES.register("moredain_merc_camp", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureMoredainMercCamp(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> URUK_CAMP =
+            FEATURES.register("uruk_camp", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureUrukCamp(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> GUNDABAD_CAMP =
+            FEATURES.register("gundabad_camp", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureGundabadCamp(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> RANGER_CAMP =
+            FEATURES.register("ranger_camp", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureRangerCamp(NoFeatureConfig.CODEC));
+
+    public static final RegistryObject<Feature<NoFeatureConfig>> GONDOR_RUINS =
+            FEATURES.register("gondor_ruins", () -> new fr.alleretretour.lotr.world.structure.LOTRStructureGondorRuins(NoFeatureConfig.CODEC));
+
     private static ConfiguredFeature<?, ?> configuredRoads;
+    private static ConfiguredFeature<?, ?> configuredGondorRuins;
+    private static ConfiguredFeature<?, ?> configuredRangerCamp;
+    private static ConfiguredFeature<?, ?> configuredGundabadCamp;
+    private static ConfiguredFeature<?, ?> configuredUrukCamp;
+    private static ConfiguredFeature<?, ?> configuredMoredainMercCamp;
+    private static ConfiguredFeature<?, ?> configuredBurntHouse;
+    private static ConfiguredFeature<?, ?> configuredRuinedHouse;
+    private static ConfiguredFeature<?, ?> configuredRottenHouse;
+    private static ConfiguredFeature<?, ?> configuredCorsairCove;
+    private static ConfiguredFeature<?, ?> configuredCorsairCamp;
+    private static ConfiguredFeature<?, ?> configuredBlackUrukFort;
+    private static ConfiguredFeature<?, ?> configuredDunlandHillFort;
+    private static ConfiguredFeature<?, ?> configuredDunlendingTavern;
+    private static ConfiguredFeature<?, ?> configuredHaradRuinedFort;
+    private static ConfiguredFeature<?, ?> configuredHobbitBurrow;
+    private static ConfiguredFeature<?, ?> configuredDunlendingHouse;
+    private static ConfiguredFeature<?, ?> configuredHarnedorTower;
+    private static ConfiguredFeature<?, ?> configuredHaradPyramid;
+    private static ConfiguredFeature<?, ?> configuredMumakSkeleton;
+    private static ConfiguredFeature<?, ?> configuredGondorObelisk;
     private static ConfiguredFeature<?, ?> configuredFir;
     private static ConfiguredFeature<?, ?> configuredShirePine;
     private static ConfiguredFeature<?, ?> configuredLarch;
@@ -201,6 +281,66 @@ public final class LOTRFeatures {
                 .decorated(Placement.NOPE.configured(IPlacementConfig.NONE));
         Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
                 new net.minecraft.util.ResourceLocation("lotr", "roads"), configuredRoads);
+        configuredGondorRuins = GONDOR_RUINS.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "gondor_ruins"), configuredGondorRuins);
+        configuredRangerCamp = RANGER_CAMP.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "ranger_camp"), configuredRangerCamp);
+        configuredGundabadCamp = GUNDABAD_CAMP.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "gundabad_camp"), configuredGundabadCamp);
+        configuredUrukCamp = URUK_CAMP.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "uruk_camp"), configuredUrukCamp);
+        configuredMoredainMercCamp = MOREDAIN_MERC_CAMP.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "moredain_merc_camp"), configuredMoredainMercCamp);
+        configuredBurntHouse = BURNT_HOUSE.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "burnt_house"), configuredBurntHouse);
+        configuredRuinedHouse = RUINED_HOUSE.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "ruined_house"), configuredRuinedHouse);
+        configuredRottenHouse = ROTTEN_HOUSE.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "rotten_house"), configuredRottenHouse);
+        configuredCorsairCove = CORSAIR_COVE.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "corsair_cove"), configuredCorsairCove);
+        configuredCorsairCamp = CORSAIR_CAMP.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "corsair_camp"), configuredCorsairCamp);
+        configuredBlackUrukFort = BLACK_URUK_FORT.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "black_uruk_fort"), configuredBlackUrukFort);
+        configuredDunlandHillFort = DUNLAND_HILL_FORT.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "dunland_hill_fort"), configuredDunlandHillFort);
+        configuredDunlendingTavern = DUNLENDING_TAVERN.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "dunlending_tavern"), configuredDunlendingTavern);
+        configuredHaradRuinedFort = HARAD_RUINED_FORT.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "harad_ruined_fort"), configuredHaradRuinedFort);
+        configuredHobbitBurrow = HOBBIT_BURROW.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "hobbit_burrow"), configuredHobbitBurrow);
+        configuredDunlendingHouse = DUNLENDING_HOUSE.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "dunlending_house"), configuredDunlendingHouse);
+        configuredHarnedorTower = HARNEDOR_TOWER.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "harnedor_tower"), configuredHarnedorTower);
+        configuredHaradPyramid = HARAD_PYRAMID.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "harad_pyramid"), configuredHaradPyramid);
+        configuredMumakSkeleton = MUMAK_SKELETON.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "mumak_skeleton"), configuredMumakSkeleton);
+        configuredGondorObelisk = GONDOR_OBELISK.get().configured(IFeatureConfig.NONE);
+        Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
+                new net.minecraft.util.ResourceLocation("lotr", "gondor_obelisk"), configuredGondorObelisk);
 
         configuredFir = FIR.get().configured(IFeatureConfig.NONE);
         Registry.register(WorldGenRegistries.CONFIGURED_FEATURE,
@@ -430,4 +570,84 @@ public final class LOTRFeatures {
         return configuredRedOakLarge;
     }
 
+
+    public static ConfiguredFeature<?, ?> gondorObelisk() {
+        return configuredGondorObelisk;
+    }
+
+    public static ConfiguredFeature<?, ?> mumakSkeleton() {
+        return configuredMumakSkeleton;
+    }
+
+    public static ConfiguredFeature<?, ?> haradPyramid() {
+        return configuredHaradPyramid;
+    }
+
+    public static ConfiguredFeature<?, ?> harnedorTower() {
+        return configuredHarnedorTower;
+    }
+
+    public static ConfiguredFeature<?, ?> dunlendingHouse() {
+        return configuredDunlendingHouse;
+    }
+
+    public static ConfiguredFeature<?, ?> hobbitBurrow() {
+        return configuredHobbitBurrow;
+    }
+
+    public static ConfiguredFeature<?, ?> haradRuinedFort() {
+        return configuredHaradRuinedFort;
+    }
+
+    public static ConfiguredFeature<?, ?> dunlendingTavern() {
+        return configuredDunlendingTavern;
+    }
+
+    public static ConfiguredFeature<?, ?> dunlandHillFort() {
+        return configuredDunlandHillFort;
+    }
+
+    public static ConfiguredFeature<?, ?> blackUrukFort() {
+        return configuredBlackUrukFort;
+    }
+
+    public static ConfiguredFeature<?, ?> corsairCamp() {
+        return configuredCorsairCamp;
+    }
+
+    public static ConfiguredFeature<?, ?> corsairCove() {
+        return configuredCorsairCove;
+    }
+
+    public static ConfiguredFeature<?, ?> rottenHouse() {
+        return configuredRottenHouse;
+    }
+
+    public static ConfiguredFeature<?, ?> ruinedHouse() {
+        return configuredRuinedHouse;
+    }
+
+    public static ConfiguredFeature<?, ?> burntHouse() {
+        return configuredBurntHouse;
+    }
+
+    public static ConfiguredFeature<?, ?> moredainMercCamp() {
+        return configuredMoredainMercCamp;
+    }
+
+    public static ConfiguredFeature<?, ?> urukCamp() {
+        return configuredUrukCamp;
+    }
+
+    public static ConfiguredFeature<?, ?> gundabadCamp() {
+        return configuredGundabadCamp;
+    }
+
+    public static ConfiguredFeature<?, ?> rangerCamp() {
+        return configuredRangerCamp;
+    }
+
+    public static ConfiguredFeature<?, ?> gondorRuins() {
+        return configuredGondorRuins;
+    }
 }

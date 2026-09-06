@@ -14,9 +14,8 @@ import net.minecraftforge.registries.ForgeRegistries;
  * (taille de veine, chance par chunk, altitudes min/max), multipliees par le
  * facteur du biome (biomeOreFactor / biomeGemFactor, defaut 1.0 / 0.5).
  *
- * Les minerais propres au mod (cuivre, etain, soufre, salpetre, sel, argent,
- * gemmes) sont resolus par nom : tant qu'ils ne sont pas portes, ils ne sont
- * simplement pas generes - aucune substitution n'est inventee.
+ * Les minerais du mod sont resolus par nom ; tous sont desormais portes
+ * (cuivre, etain, soufre, salpetre, sel, argent et les huit gemmes).
  */
 public final class LOTRBiomeOres {
 
@@ -61,11 +60,17 @@ public final class LOTRBiomeOres {
         ore(b, "minecraft:gold_ore", 8, 2.0f * oreFactor, 0, 32);
         ore(b, "lotr:silver_ore", 8, 3.0f * oreFactor, 0, 32);
 
-        // gemmes (addGem) x biomeGemFactor - un seul bloc oreGem a metas dans le
-        // Legacy ; en 1.16.5 ce sera un bloc par gemme, a brancher au portage.
-        ore(b, "lotr:gem_ore", 6, 2.0f * gemFactor, 0, 64);
-        ore(b, "lotr:gem_ore", 5, 1.5f * gemFactor, 0, 48);
-        ore(b, "lotr:gem_ore", 4, 1.0f * gemFactor, 0, 32);
+        // gemmes (addGem) x biomeGemFactor - PORT ligne a ligne du Legacy, ou
+        // chaque meta de oreGem avait sa taille de veine, sa frequence et sa
+        // profondeur propres : les gemmes rares descendent plus bas.
+        ore(b, "lotr:amethyst_ore", 6, 2.0f * gemFactor, 0, 64);    // meta 1
+        ore(b, "lotr:topaz_ore", 6, 2.0f * gemFactor, 0, 64);       // meta 0
+        ore(b, "lotr:amber_ore", 5, 1.5f * gemFactor, 0, 48);       // meta 4
+        ore(b, "lotr:opal_ore", 5, 1.5f * gemFactor, 0, 48);        // meta 6
+        ore(b, "lotr:sapphire_ore", 4, 1.0f * gemFactor, 0, 32);    // meta 2
+        ore(b, "lotr:ruby_ore", 4, 1.0f * gemFactor, 0, 32);        // meta 3
+        ore(b, "lotr:lotr_emerald_ore", 4, 0.75f * gemFactor, 0, 24);  // meta 7
+        ore(b, "lotr:lotr_diamond_ore", 4, 0.5f * gemFactor, 0, 16);   // meta 5
     }
 
     /** chancePerChunk du Legacy -> count vanilla (arrondi au superieur, min 1). */

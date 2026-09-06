@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lotr:block/lotr_diamond_ore"
+    }
+  }
+}

@@ -132,7 +132,7 @@ public class LOTRStructureAngmarShrine extends LOTRStructureBase {
     /** PORT : une brique sur quatre est fissuree. */
     private void placeRandomBrick(ISeedReader world, Random random, BlockPos pos) {
         world.setBlock(pos, random.nextInt(4) == 0
-                ? modBlock("lotr:cracked_angmar_brick", Blocks.CRACKED_STONE_BRICKS)
+                ? modBlock("lotr:angmar_cracked_brick", Blocks.CRACKED_STONE_BRICKS)
                 : modBlock("lotr:angmar_brick", Blocks.STONE_BRICKS), 2);
     }
 
@@ -140,7 +140,7 @@ public class LOTRStructureAngmarShrine extends LOTRStructureBase {
     private void placeRandomStairs(ISeedReader world, Random random, BlockPos pos,
                                    Direction facing) {
         BlockState stairs = random.nextInt(4) == 0
-                ? modBlock("lotr:cracked_angmar_brick_stairs", Blocks.STONE_BRICK_STAIRS)
+                ? modBlock("lotr:angmar_cracked_brick_stairs", Blocks.STONE_BRICK_STAIRS)
                 : modBlock("lotr:angmar_brick_stairs", Blocks.STONE_BRICK_STAIRS);
         if (stairs.hasProperty(BlockStateProperties.HORIZONTAL_FACING)) {
             stairs = stairs.setValue(BlockStateProperties.HORIZONTAL_FACING, facing);
